@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Remedial Deal Amount Approval v1</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>120</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>c2c16437-9166-4883-880a-74e4b17d2325</testSuiteGuid>
+   <testCaseLink>
+      <guid>ba02d007-c3a1-4323-b55d-c203567e8146</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Remedial/Input Remedial Deal Amount/Approval/Driven/Remedial Deal Amount Approval - Driven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>71f8310d-0d4d-4d31-93ba-cba8b0f94fc4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Remedial/Data Remedial Deal Amount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>71f8310d-0d4d-4d31-93ba-cba8b0f94fc4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>f4c5b58e-e765-4fea-92bf-3e88c245dbb8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71f8310d-0d4d-4d31-93ba-cba8b0f94fc4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>usernameRS</value>
+         <variableId>70ab6c21-10b5-4edb-853e-a60174a6c25d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71f8310d-0d4d-4d31-93ba-cba8b0f94fc4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>9f1e3c22-f831-4968-80d1-078dcb526d89</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71f8310d-0d4d-4d31-93ba-cba8b0f94fc4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>agreeNo</value>
+         <variableId>6db06d82-dd03-49d3-912b-eed03014796a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71f8310d-0d4d-4d31-93ba-cba8b0f94fc4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>notes</value>
+         <variableId>fc55216a-29a3-44c6-975b-065dd0109320</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

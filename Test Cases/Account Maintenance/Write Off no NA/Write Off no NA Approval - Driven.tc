@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Write Off no NA Approval - Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0595e16-0cce-41f4-a70b-e13b80833491</testCaseGuid>
+   <variable>
+      <defaultValue>'http://confins-uat.taf.co.id/confins/'</defaultValue>
+      <description></description>
+      <id>64e51a09-3247-4945-94c6-2fe4d40cdd5b</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e3306369-b8ae-4e7a-b289-7a2b9e3feeca</id>
+      <masked>false</masked>
+      <name>usernameSDH</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e8a9d43d-8a3d-4a96-9182-327c0a6ab055</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>70578d8a-e0f0-40c0-a279-206f8a83a921</id>
+      <masked>false</masked>
+      <name>agreeNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f1adf4b9-e166-4f42-9ca3-dfebe49e04e9</id>
+      <masked>false</masked>
+      <name>notes</name>
+   </variable>
+</TestCaseEntity>

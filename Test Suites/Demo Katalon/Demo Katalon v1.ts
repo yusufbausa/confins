@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Demo Katalon v1</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>120</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>253264e8-7764-43dd-9260-95041ce63dd8</testSuiteGuid>
+   <testCaseLink>
+      <guid>67d700cd-5c6d-4c16-8f54-e620497abb7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Demo Katalon/Demo Katalon v1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fe96541c-c470-46dc-944c-c31f42e85527</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Demo Katalon/Data for Demo Katalon v1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fe96541c-c470-46dc-944c-c31f42e85527</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>4c0f1847-ea67-4cc7-ab3b-92126af671d1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fe96541c-c470-46dc-944c-c31f42e85527</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>cba8c4a1-968d-42a7-bcd7-785836559874</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fe96541c-c470-46dc-944c-c31f42e85527</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>58248825-7b06-486c-9ada-fffbe1fe6675</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fe96541c-c470-46dc-944c-c31f42e85527</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>9ccc9b1c-92f3-4893-8c2b-6f6d11777717</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
