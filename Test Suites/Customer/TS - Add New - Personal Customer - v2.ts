@@ -21,7 +21,7 @@
          <id>9a318366-6cca-468f-89e2-a4cd074c727a</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>4-5</value>
+            <value>2-5</value>
          </iterationEntity>
          <testDataId>Data Files/Customer/Personal Customer/Data New Customer</testDataId>
       </testDataLink>

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>55abc22c-3090-4421-a72a-5d9fdca1f62b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Collection/Remedial Expense/Case Analysis Form/Remedial Case Analysis Form - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

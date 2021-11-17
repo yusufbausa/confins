@@ -6,12 +6,12 @@
    <elementGuidId>dde4568c-dd81-4b6a-8abb-77d5fdaf0446</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[2]/div/ul/li[5]/div/a[count(. | //*[@ref_element = 'Object Repository/Credit Approval/Credit Approval by Credit Area Head/iframe_Welcome, TENGKU IKA TIARA CHRISDI, T_7c9934']) = count(//*[@ref_element = 'Object Repository/Credit Approval/Credit Approval by Credit Area Head/iframe_Welcome, TENGKU IKA TIARA CHRISDI, T_7c9934'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//a[@onclick='return false'])[5]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Credit Approval with Decision Engine' or . = 'Credit Approval with Decision Engine') and @ref_element = 'Object Repository/Credit Approval/Credit Approval by Credit Area Head/iframe_Welcome, TENGKU IKA TIARA CHRISDI, T_7c9934']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -49,14 +49,14 @@
       <value>LOS/CreditProcess/CreditApvDcsnEngine/CrdApvDcsnEnginePaging.aspx</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Credit Approval with Decision Engine</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

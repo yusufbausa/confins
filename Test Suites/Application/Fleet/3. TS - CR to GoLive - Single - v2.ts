@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>3. TS - CR to GoLive - v2</name>
+   <name>3. TS - CR to GoLive - Single - v2</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>413dd08b-208f-4a0b-aa21-af6f41413a03</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/FLEET/2. Credit Review/Credit Review - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>3a73626a-5ef4-4dfd-b2c6-c6c9754d495a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/FLEET/SMS Approve/SMS Approve Fleet - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -104,7 +104,7 @@
    <testCaseLink>
       <guid>0e2c4b77-9d07-412e-8da3-e09d2c7dce02</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/FLEET/3. Purchase Order/Purchase Order - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -194,7 +194,7 @@
    <testCaseLink>
       <guid>da80d105-f774-46ad-b2ca-0505c0302b23</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/FLEET/5. Delivery Order/Delivery Order Single - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -240,57 +240,6 @@
          <type>DATA_COLUMN</type>
          <value>url</value>
          <variableId>269e86c5-c06a-4cd5-924f-8eada360418f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>94570aa2-5740-4c6c-9c95-5c1ce1f30897</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/App - Go Live/FLEET/5. Delivery Order/Delivery Order Multi - Driven - v2</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>96af83f3-b00e-4247-93ac-dcdd89218172</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Application/Fleet/CR to Go Live</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>96af83f3-b00e-4247-93ac-dcdd89218172</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>usernameDO</value>
-         <variableId>487fd078-3623-4964-ace1-12c21fc73c50</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>96af83f3-b00e-4247-93ac-dcdd89218172</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>45c7d239-707a-4df8-ab86-cd7d176d8d8e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>96af83f3-b00e-4247-93ac-dcdd89218172</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>appNo</value>
-         <variableId>a3ab45c8-6f89-42f0-8776-9a5a2a9772e6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>96af83f3-b00e-4247-93ac-dcdd89218172</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>date</value>
-         <variableId>f024c23f-617a-4b4e-ae6c-70b37a05eba0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>96af83f3-b00e-4247-93ac-dcdd89218172</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>docNo</value>
-         <variableId>e4322da7-aeae-4ed7-8b1a-5116ad28d88a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>96af83f3-b00e-4247-93ac-dcdd89218172</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>url</value>
-         <variableId>690c249e-70fa-43ba-bce8-d0e18c0826d5</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

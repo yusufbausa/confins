@@ -102,7 +102,7 @@ WebUI.waitForElementPresent(findTestObject('Purchase Order Siap Dana/button_calc
 WebUI.verifyElementPresent(findTestObject('Purchase Order Siap Dana/button_calculate'), 30)
 WebUI.verifyElementClickable(findTestObject('Purchase Order Siap Dana/button_calculate'))
 WebUI.click(findTestObject('Purchase Order Siap Dana/button_calculate'))
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('Purchase Order Siap Dana/btn_print _ET_doc_customer'), 30)
 WebUI.verifyElementPresent(findTestObject('Purchase Order Siap Dana/btn_print _ET_doc_customer'), 30)

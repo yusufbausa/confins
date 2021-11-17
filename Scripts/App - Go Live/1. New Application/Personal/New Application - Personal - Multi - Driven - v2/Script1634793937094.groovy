@@ -213,6 +213,7 @@ WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Application Dat
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Application Data/select_wop'))
 WebUI.selectOptionByValue(findTestObject('New Application (NEW)/Application Data/select_wop'),
 	'ADBCA', false)
+WebUI.delay(1)
 
 WebUI.scrollToElement(findTestObject('New Application (NEW)/Application Data/select_address_copy'), 2)
 WebUI.delay(1)
@@ -570,18 +571,18 @@ WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Dat
 WebUI.click(findTestObject('New Application (NEW)/Insurance Data/button_edit_insurance'))
 WebUI.delay(1)
 
-//WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
-//WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
-//WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'))
-//WebUI.selectOptionByValue(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 
-//    insuranceType, false)
-//WebUI.delay(1)
-
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'))
-WebUI.selectOptionByLabel(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 'Insurance Scheme 1', false)
+WebUI.selectOptionByLabel(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 
+    insuranceType, false)
 WebUI.delay(1)
+
+//WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
+//WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
+//WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'))
+//WebUI.selectOptionByLabel(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 'Insurance Scheme 1', false)
+//WebUI.delay(1)
 
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_rate_type'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_rate_type'), 30)
