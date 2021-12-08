@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>e9d183ed-b698-4f89-849c-e0a087abf25b</dataFileGUID>
-   <dataSourceUrl>E:\TAF\PROJECT\Copy Cancel\Copy Cancel Data.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Data Test\Copy Cancel\Copy Cancel Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

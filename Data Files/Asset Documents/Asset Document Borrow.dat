@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>9b9718e7-2d82-4654-a3d5-67958d6b8651</dataFileGUID>
-   <dataSourceUrl>E:\TAF\PROJECT\Asset Documents\Asset Document Borrow.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Data Test\Asset Documents\Asset Document Borrow.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

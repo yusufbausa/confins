@@ -23,7 +23,7 @@
             <iterationType>SPECIFIC</iterationType>
             <value>11</value>
          </iterationEntity>
-         <testDataId>Data Files/Customer/Personal Customer/Data New Customer</testDataId>
+         <testDataId>Data Files/Customer/Data New Customer Personal</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>a3cfc213-d5f7-47ac-b24d-cb72748f38a3</testDataLinkId>
@@ -202,7 +202,7 @@
       <variableLink>
          <testDataLinkId>a3cfc213-d5f7-47ac-b24d-cb72748f38a3</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>accountName</value>
+         <value>custName</value>
          <variableId>3f7e36fc-a2fa-4541-bffc-5592d4771202</variableId>
       </variableLink>
       <variableLink>
@@ -236,7 +236,7 @@
             <iterationType>SPECIFIC</iterationType>
             <value>11</value>
          </iterationEntity>
-         <testDataId>Data Files/Customer/Personal Customer Under Age/Personal Under Age</testDataId>
+         <testDataId>Data Files/Customer/Data New Customer Under Age</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>b3a1f3e0-9eed-4e1a-8703-d7e7f29da3d1</testDataLinkId>
@@ -425,7 +425,7 @@
             <iterationType>SPECIFIC</iterationType>
             <value>11</value>
          </iterationEntity>
-         <testDataId>Data Files/Customer/Corp Customer/New Corporate Customer</testDataId>
+         <testDataId>Data Files/Customer/Data New Customer Company</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>4e898269-da26-457f-bc98-8e7b6a60d0c7</testDataLinkId>

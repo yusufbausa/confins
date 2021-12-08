@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>13f23835-e209-43de-aedf-f034b360edb2</dataFileGUID>
-   <dataSourceUrl>E:\TAF\PROJECT\Amendment\Reschedule\Amendment Data Reschedule.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Data Test\Amendment\Amendment Data Reschedule.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

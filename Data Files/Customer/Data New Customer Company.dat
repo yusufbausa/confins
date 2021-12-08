@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Personal Under Age</name>
+   <name>Data New Customer Company</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>387afaca-464c-4aa9-b18a-678b5ec49dca</dataFileGUID>
-   <dataSourceUrl>E:\TAF\PROJECT\LOS\New Application &amp; Customer\New Customer\Personal Customer\Data New Customer - Under Age.xlsx</dataSourceUrl>
+   <dataFileGUID>1017462a-2cd4-4ee3-bae7-6b2b0d6c7d4f</dataFileGUID>
+   <dataSourceUrl>C:\Data Test\New Customer\Data New Customer - Company.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>QA - Cust UA 3</sheetName>
+   <sheetName>QA - Company 2</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

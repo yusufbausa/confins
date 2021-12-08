@@ -23,7 +23,7 @@
             <iterationType>SPECIFIC</iterationType>
             <value>8</value>
          </iterationEntity>
-         <testDataId>Data Files/Customer/Personal Customer/Data New Customer</testDataId>
+         <testDataId>Data Files/Customer/Data New Customer Personal</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>9a318366-6cca-468f-89e2-a4cd074c727a</testDataLinkId>
