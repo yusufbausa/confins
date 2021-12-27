@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>fe3a7370-9def-43d0-b8e5-b5a8298fc50d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/Credit Review/Credit Review Company/Credit Review Company v2 - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -71,7 +71,7 @@
    <testCaseLink>
       <guid>4304c76a-b282-4ce7-9c20-48885b8a47e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/CA Company/CA Analyst/CA Analyst - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -116,7 +116,7 @@
    <testCaseLink>
       <guid>d68d5a3c-a163-4cf2-986d-18df486caf46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/CA Company/CA Investigator/CA Investigator - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -161,7 +161,7 @@
    <testCaseLink>
       <guid>c19bd65b-3623-4593-87a6-8d8095c444c3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/CA Company/CA CAH/CA Credit Area Head v2 - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -206,7 +206,7 @@
    <testCaseLink>
       <guid>414c6ab8-2296-4312-bdee-f16000f4fbfc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/CA Company/CA Credit Division Head/CA Credit Division Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

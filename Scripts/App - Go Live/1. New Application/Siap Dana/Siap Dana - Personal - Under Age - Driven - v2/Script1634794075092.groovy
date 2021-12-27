@@ -569,20 +569,20 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Co
 WebUI.verifyElementClickable(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl10cbChecked'))
 WebUI.click(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl10cbChecked'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl11cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl11cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl11cbChecked'))
-WebUI.click(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl11cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl12cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl12cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl12cbChecked'))
-WebUI.click(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl12cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl13cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl13cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl13cbChecked'))
-WebUI.click(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl13cbChecked'))
+//WebUI.waitForElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl11cbChecked'), 30)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl11cbChecked'), 30)
+//WebUI.verifyElementClickable(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl11cbChecked'))
+//WebUI.click(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl11cbChecked'))
+//
+//WebUI.waitForElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl12cbChecked'), 30)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl12cbChecked'), 30)
+//WebUI.verifyElementClickable(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl12cbChecked'))
+//WebUI.click(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl12cbChecked'))
+//
+//WebUI.waitForElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl13cbChecked'), 30)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl13cbChecked'), 30)
+//WebUI.verifyElementClickable(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl13cbChecked'))
+//WebUI.click(findTestObject('Object Repository/SIAP DANA/Term n Condition - Siap Dana/input_No_gvTermConditionctl13cbChecked'))
 
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Other Data and Term n Condition/button_save_continue_term_condition'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Other Data and Term n Condition/button_save_continue_term_condition'), 30)

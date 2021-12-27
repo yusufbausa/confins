@@ -43,31 +43,37 @@ WebUI.delay(1)
 
 
 //select_role
-WebUI.waitForElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_role'), 30)
-WebUI.verifyElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_role'), 30)
-WebUI.verifyElementClickable(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_role'))
-WebUI.click(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_role'))
-WebUI.delay(1)
+//WebUI.waitForElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_role'), 30)
+//WebUI.verifyElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_role'), 30)
+//WebUI.verifyElementClickable(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_role'))
+//WebUI.click(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_role'))
+//WebUI.delay(1)
 
 
 //select_menu_WO NA Approval
-WebUI.waitForElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu'), 30)
-WebUI.verifyElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu'), 30)
-WebUI.verifyElementClickable(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu'))
-WebUI.click(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu'))
-WebUI.delay(1)
+//WebUI.waitForElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu'), 30)
+//WebUI.verifyElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu'), 30)
+//WebUI.verifyElementClickable(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu'))
+//WebUI.click(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu'))
+//WebUI.delay(1)
+//
+//WebUI.waitForElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_menu_account_maintenance'), 30)
+//WebUI.verifyElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_menu_account_maintenance'), 30)
+//WebUI.verifyElementClickable(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_menu_account_maintenance'))
+//WebUI.selectOptionByValue(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_menu_account_maintenance'), '80', false)
+//WebUI.delay(1)
+//
+//WebUI.waitForElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu_write_off_approval'), 30)
+//WebUI.verifyElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu_write_off_approval'), 30)
+//WebUI.verifyElementClickable(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu_write_off_approval'))
+//WebUI.click(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu_write_off_approval'))
+//WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_menu_account_maintenance'), 30)
-WebUI.verifyElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_menu_account_maintenance'), 30)
-WebUI.verifyElementClickable(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_menu_account_maintenance'))
-WebUI.selectOptionByValue(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/select_menu_account_maintenance'), '80', false)
-WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu_write_off_approval'), 30)
-WebUI.verifyElementPresent(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu_write_off_approval'), 30)
-WebUI.verifyElementClickable(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu_write_off_approval'))
-WebUI.click(findTestObject('PAYMENT/Write Off/Write Off no NA Approval/button_menu_write_off_approval'))
-WebUI.delay(1)
+WebUI.waitForElementPresent(findTestObject('Object Repository/PAYMENT/Write Off/Write Off no NA Approval/New Folder/a_Write Off Approval'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/PAYMENT/Write Off/Write Off no NA Approval/New Folder/a_Write Off Approval'), 30)
+WebUI.verifyElementClickable(findTestObject('Object Repository/PAYMENT/Write Off/Write Off no NA Approval/New Folder/a_Write Off Approval'))
+WebUI.click(findTestObject('Object Repository/PAYMENT/Write Off/Write Off no NA Approval/New Folder/a_Write Off Approval'))
 
 
 //input cust credential

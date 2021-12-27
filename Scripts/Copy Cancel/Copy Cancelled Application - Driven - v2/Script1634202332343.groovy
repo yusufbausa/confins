@@ -40,14 +40,14 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/Applic
 WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'), 30)
 WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'))
 WebUI.click(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'))
-//WebUI.delay(1)
+WebUI.delay(1)
 //WebUI.click(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/span_Application Inquiry_rtPlus'))
 //WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/a_Copy Cancelled Application'), 30)
 WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/a_Copy Cancelled Application'), 30)
 WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/a_Copy Cancelled Application'))
 WebUI.click(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/a_Copy Cancelled Application'))
-WebUI.delay(1)
+WebUI.delay(3)
 
 
 //INPUT CUST CREDENTIAL & PROCESS================================================================================================================================================================================================================================================================================================================

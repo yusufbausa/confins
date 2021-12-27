@@ -157,7 +157,7 @@ WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/select_approved_by'), 30)
 WebUI.verifyElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/select_approved_by'), 30)
 WebUI.verifyElementClickable(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/select_approved_by'))
-WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/select_approved_by'), '28017', false)
+WebUI.selectOptionByLabel(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/select_approved_by'), 'TWA0223', false)
 
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/field_notes'), 30)
 WebUI.verifyElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/field_notes'), 30)

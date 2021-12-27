@@ -93,7 +93,7 @@ WebUI.selectOptionByValue(findTestObject('Credit Review/Credit Review Company v2
 WebUI.waitForElementPresent(findTestObject('Credit Review/Credit Review Company v2/select_to_be_approved_by'), 30)
 WebUI.verifyElementPresent(findTestObject('Credit Review/Credit Review Company v2/select_to_be_approved_by'), 30)
 WebUI.verifyElementClickable(findTestObject('Credit Review/Credit Review Company v2/select_to_be_approved_by'))
-WebUI.selectOptionByValue(findTestObject('Credit Review/Credit Review Company v2/select_to_be_approved_by'), approvedBy, false)
+WebUI.selectOptionByLabel(findTestObject('Credit Review/Credit Review Company v2/select_to_be_approved_by'), approvedBy, false)
 
 WebUI.waitForElementPresent(findTestObject('Credit Review/Credit Review Company v2/field_notes'), 30)
 WebUI.verifyElementPresent(findTestObject('Credit Review/Credit Review Company v2/field_notes'), 30)

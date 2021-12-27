@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>38cb4b19-9a9f-46f6-b820-bc4e8bbc4a0f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/2. CA Branch Head/Credit Approval Branch Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

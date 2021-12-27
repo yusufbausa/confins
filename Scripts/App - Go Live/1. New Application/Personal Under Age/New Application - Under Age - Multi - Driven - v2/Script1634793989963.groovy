@@ -615,20 +615,20 @@ WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Dat
 WebUI.click(findTestObject('New Application (NEW)/Insurance Data/button_edit_insurance'))
 WebUI.delay(1)
 
-//WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
-//WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
-//WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'))
-//WebUI.selectOptionByValue(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'),
-//	insuranceType, false)
-//WebUI.delay(1)
-
-
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'))
 WebUI.selectOptionByLabel(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'),
-	'Insurance Scheme 1', false)
+	insuranceType, false)
 WebUI.delay(1)
+
+
+//WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
+//WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
+//WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'))
+//WebUI.selectOptionByLabel(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'),
+//	'Insurance Scheme 1', false)
+//WebUI.delay(1)
 
 
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_rate_type'), 30)
@@ -655,7 +655,7 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_next'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/button_next'))
 WebUI.click(findTestObject('New Application (NEW)/Insurance Data/button_next'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_calculate_insurance'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_calculate_insurance'), 30)
@@ -677,18 +677,18 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/New Application (
 WebUI.click(findTestObject('Object Repository/New Application (NEW)/Insurance Data - Multi/input_TOYOTA AVANZA 1.3 E MT_gvEntryInsctl0_08bdfe'))
 WebUI.delay(1)
 
-//WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
-//WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
-//WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'))
-//WebUI.selectOptionByValue(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), insuranceType, false)
-//WebUI.delay(1)
-
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'))
-WebUI.selectOptionByLabel(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'),
-	'Insurance Scheme 1', false)
+WebUI.selectOptionByLabel(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), insuranceType, false)
 WebUI.delay(1)
+
+//WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
+//WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'), 30)
+//WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'))
+//WebUI.selectOptionByLabel(findTestObject('New Application (NEW)/Insurance Data/select_insurance_name'),
+//	'Insurance Scheme 1', false)
+//WebUI.delay(1)
 
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_rate_type'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_rate_type'), 30)
@@ -712,7 +712,7 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_next'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/button_next'))
 WebUI.click(findTestObject('New Application (NEW)/Insurance Data/button_next'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_calculate_insurance'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_calculate_insurance'), 30)
@@ -736,7 +736,7 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_save_continue_insurance'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/button_save_continue_insurance'))
 WebUI.click(findTestObject('New Application (NEW)/Insurance Data/button_save_continue_insurance'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 
 //ADD LIFE INSURANCE DATA---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -744,7 +744,7 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_save_continue_life_insurance'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/button_save_continue_life_insurance'))
 WebUI.click(findTestObject('New Application (NEW)/Insurance Data/button_save_continue_life_insurance'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 }
 
@@ -756,13 +756,13 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Financial Data
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Financial Data/button_calculate_fee'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Financial Data/button_calculate_fee'))
 WebUI.click(findTestObject('New Application (NEW)/Financial Data/button_calculate_fee'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Financial Data/button_calculate'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Financial Data/button_calculate'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Financial Data/button_calculate'))
 WebUI.click(findTestObject('New Application (NEW)/Financial Data/button_calculate'))
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.scrollToElement(findTestObject('New Application (NEW)/Financial Data/button_calculate_installment'), 0)
 WebUI.delay(1)
@@ -771,14 +771,14 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Financial Data
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Financial Data/button_calculate_installment'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Financial Data/button_calculate_installment'))
 WebUI.click(findTestObject('New Application (NEW)/Financial Data/button_calculate_installment'))
-WebUI.delay(3)
+WebUI.delay(6)
 
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Financial Data/button_save_continue_fin_data'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Financial Data/button_save_continue_fin_data'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Financial Data/button_save_continue_fin_data'))
 WebUI.scrollToElement(findTestObject('New Application (NEW)/Financial Data/button_save_continue_fin_data'), 30)
 WebUI.click(findTestObject('New Application (NEW)/Financial Data/button_save_continue_fin_data'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 
 //ADD COMISSION DATA---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -786,7 +786,7 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Financial Data
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Financial Data/button_save_continue_comm_data'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Financial Data/button_save_continue_comm_data'))
 WebUI.click(findTestObject('New Application (NEW)/Financial Data/button_save_continue_comm_data'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 
 //ADD OTHER DATA---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -794,7 +794,7 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Financial Data
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Financial Data/button_save_continue_otherr_data'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Financial Data/button_save_continue_otherr_data'))
 WebUI.click(findTestObject('New Application (NEW)/Financial Data/button_save_continue_otherr_data'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 }
 
@@ -830,7 +830,7 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Other Data and
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Other Data and Term n Condition/button_save_continue_other_info'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Other Data and Term n Condition/button_save_continue_other_info'))
 WebUI.click(findTestObject('New Application (NEW)/Other Data and Term n Condition/button_save_continue_other_info'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 }
 
@@ -902,7 +902,7 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Other Data and
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Other Data and Term n Condition/button_save_continue_term_condition'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Other Data and Term n Condition/button_save_continue_term_condition'))
 WebUI.click(findTestObject('New Application (NEW)/Other Data and Term n Condition/button_save_continue_term_condition'))
-
+WebUI.delay(2)
 }
 
 //SAVE & SUBMIT APPLICATION---------------------------------------------------------------------------------------------------------------------------------------------------------------------------

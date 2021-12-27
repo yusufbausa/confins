@@ -434,7 +434,7 @@ WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Insurance Data/select_Select OneAAB - JKT FLEET OJK 2014TO_1e4367'), 30)
 WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Insurance Data/select_Select OneAAB - JKT FLEET OJK 2014TO_1e4367'), 30)
 WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Insurance Data/select_Select OneAAB - JKT FLEET OJK 2014TO_1e4367'))
-WebUI.selectOptionByLabel(findTestObject('Object Repository/FLEET/Insurance Data/select_Select OneAAB - JKT FLEET OJK 2014TO_1e4367'), 'insco scheme3', false)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/FLEET/Insurance Data/select_Select OneAAB - JKT FLEET OJK 2014TO_1e4367'), 'COMMERCIAL', false)
 
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Insurance Data/select_Select OneGroupNon GroupRepeat Order'), 30)

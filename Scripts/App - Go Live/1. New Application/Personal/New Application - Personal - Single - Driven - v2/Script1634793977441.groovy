@@ -464,7 +464,7 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_calculate_insurance'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/button_calculate_insurance'))
 WebUI.click(findTestObject('New Application (NEW)/Insurance Data/button_calculate_insurance'))
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_save_insurance'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/button_save_insurance'), 30)
@@ -499,7 +499,7 @@ WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/select_life_insurance_name'), 30)
 WebUI.verifyElementClickable(findTestObject('New Application (NEW)/Insurance Data/select_life_insurance_name'))
 WebUI.selectOptionByValue(findTestObject('New Application (NEW)/Insurance Data/select_life_insurance_name'), 
-    '9', false)
+    '6', false)
 
 WebUI.waitForElementPresent(findTestObject('New Application (NEW)/Insurance Data/check_customer_insured'), 30)
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Insurance Data/check_customer_insured'), 30)

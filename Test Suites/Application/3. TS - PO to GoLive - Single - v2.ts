@@ -17,7 +17,7 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/3. Purchase Order/Purchase Order - Driven - v2</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
+         <combinationType>MANY</combinationType>
          <id>78672948-0c4a-4c7f-adc8-d6ae5121b568</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
@@ -56,7 +56,7 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/4. Document Signer/Document Signer - Driven - v2</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
+         <combinationType>MANY</combinationType>
          <id>40db98c0-00e9-4039-9bbe-27d51598fdca</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
@@ -95,7 +95,7 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/5. Delivery Order/Delivery Order Single - Driven - v2</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
+         <combinationType>MANY</combinationType>
          <id>f4de8840-6741-4575-9b80-f1aa5a61356a</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
@@ -134,7 +134,7 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/6. Customer Confirmation/Customer Confirmation - Driven - v2</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
+         <combinationType>MANY</combinationType>
          <id>35178639-8b5c-4646-8a51-267f1058e680</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
@@ -173,7 +173,7 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/7. Document Checklist/Document Checklist - Driven - v2</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
+         <combinationType>MANY</combinationType>
          <id>8ac2462e-38cc-4233-ad92-e3aca50d4129</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
@@ -212,7 +212,7 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/8. Go Live/Go Live - Driven - v2</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
+         <combinationType>MANY</combinationType>
          <id>208d051b-97c6-42d4-890b-44bab79e74b2</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>

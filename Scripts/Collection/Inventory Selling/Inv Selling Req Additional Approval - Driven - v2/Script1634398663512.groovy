@@ -112,8 +112,8 @@ WebUI.scrollToElement(findTestObject('COLLECTION/Inventory Selling/Inventory Sel
 WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/select_reason_description'), 
     '464', false)
 WebUI.delay(1)
-WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/select_approved_by'), 
-    '28017', false)
+WebUI.selectOptionByLabel(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/select_approved_by'), 
+    'TWA0223', false)
 WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/field_notes'), 
     'notes')
 WebUI.click(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Request for Approval/button_submit'))

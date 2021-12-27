@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>c6ceefd0-f485-4085-b903-cda0ba7903c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Field Collection Plan/Field Collection Plan - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -59,7 +59,7 @@
    <testCaseLink>
       <guid>48146906-5a2b-45a3-93c1-5e35ea4d7ded</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/RAL Req by Supervisor/RAL Req by Supervisor - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -110,7 +110,7 @@
    <testCaseLink>
       <guid>715d33f2-555c-491d-a448-57fe30f121fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Repossess Activity by Collector/Repossess Activity by Collector - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -149,7 +149,7 @@
    <testCaseLink>
       <guid>8f3d2a6b-5911-4e60-a0e5-e563249e67e5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Confirm Repossess/Confirm Repossess - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -224,7 +224,7 @@
    <testCaseLink>
       <guid>71771e26-e023-494e-b3dd-8f0dfd3b7b1d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Change Asset Expected Date/Change Asset Inventory Expected Date Request - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -275,7 +275,7 @@
    <testCaseLink>
       <guid>bc93e577-b9fa-4b0d-80b1-714884857460</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Change Asset Expected Date/Change Asset Inventory Expected Date Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -320,7 +320,7 @@
    <testCaseLink>
       <guid>564d8acd-00ff-4fa8-9cd5-b4687da79b4d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Send Asset to Pool/Send Asset to Pool - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -377,7 +377,7 @@
    <testCaseLink>
       <guid>dddcb078-8561-44fa-a5d2-e0ec67edbac4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Asset Inventory Execution/Asset Inventory Execution - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -422,7 +422,7 @@
    <testCaseLink>
       <guid>f5b3d095-e156-469d-9923-576020d30938</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Confirm Asset to Pool/Confirm Asset to Pool - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -479,7 +479,7 @@
    <testCaseLink>
       <guid>d85179bd-46bb-48bf-a0ca-3e2bbaeb373d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Asset Appraisal/Asset Appraisal Req - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -536,7 +536,7 @@
    <testCaseLink>
       <guid>636eb2d9-5f2f-4ec1-99f6-88fdb6019454</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Asset Appraisal/Asset Appraisal Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -581,7 +581,7 @@
    <testCaseLink>
       <guid>8ed45848-40d2-451c-9336-0c1f2953ff2b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Asset Appraisal/Asset Appraisal Approval AR Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

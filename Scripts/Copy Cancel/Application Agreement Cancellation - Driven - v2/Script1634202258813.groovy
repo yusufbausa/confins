@@ -99,7 +99,7 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/Applic
 WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/a_Submit'), 30)
 WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/a_Submit'))
 WebUI.click(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/a_Submit'))
-WebUI.delay(3)
+WebUI.delay(5)
 
 
 //CLOSE BROWSER================================================================================================================================================================================================================================================================================================================

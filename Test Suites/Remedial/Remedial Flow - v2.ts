@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>403f92f5-2d26-463e-bbe3-9284df411452</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/RAL Req by Collector/RAL Request by Collector - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -59,7 +59,7 @@
    <testCaseLink>
       <guid>145cf3d0-7c37-47d5-a054-b681f50a2707</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/RAL Req Approval/RAL Req Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -104,7 +104,7 @@
    <testCaseLink>
       <guid>724eccaa-3341-461f-ba32-30bd57323717</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Remedial Activity/Remedial Activity - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -161,7 +161,7 @@
    <testCaseLink>
       <guid>ef94e324-ad95-4dcb-9e7f-fbe10b7ade09</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Confirm Reposses/Repossession - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -230,7 +230,7 @@
    <testCaseLink>
       <guid>46e45029-644b-454f-a2dd-28d89c6601e2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Change Inventory Expected Date/Request/Change Inventory Expected Date - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -281,7 +281,7 @@
    <testCaseLink>
       <guid>8d908a0f-c715-4f88-a115-d5125b5e9458</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Change Inventory Expected Date/Approval/Change Inventory Expected Date Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -326,7 +326,7 @@
    <testCaseLink>
       <guid>577575d5-cef2-4f5a-af3e-bc15f9672dd1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Asset to Pool/Send Asset to Pool/Send Asset to Pool - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -383,7 +383,7 @@
    <testCaseLink>
       <guid>576cd9b1-e6a5-41ad-a5a5-e0b0c68bce07</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Asset Inventory Execution/Asset Inventory Execution - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -422,7 +422,7 @@
    <testCaseLink>
       <guid>baa9df8b-47c1-4319-93e3-e12073aa0bd4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Asset to Pool/Confirm Asset to Pool/Confirm Asset to Pool - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -479,7 +479,7 @@
    <testCaseLink>
       <guid>391c75bf-ac63-47c4-b53b-1196f625d0bd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Asset Appraisal/Asset Appriaisal Request/Asset Appraisal Request - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -536,7 +536,7 @@
    <testCaseLink>
       <guid>9ef633df-405c-4d8e-bde3-3a93b5fd9de0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Asset Appraisal/Asset Appraisal Approval/Asset Appraisal Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -581,7 +581,7 @@
    <testCaseLink>
       <guid>cd9f964c-41db-4db2-941e-d73ef7b835e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Asset Appraisal/Inventory Head Approval/Inventory Head Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -626,7 +626,7 @@
    <testCaseLink>
       <guid>b66d68b9-3cfa-445d-b3b6-a87f1b092253</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Asset Appraisal/Director Approval/Director Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -671,7 +671,7 @@
    <testCaseLink>
       <guid>fb7683cb-279b-4229-97b1-5f863dc21c4f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Inventory Selling/Inventory Selling Approval/Remedial Inv Selling Req Additional Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -746,7 +746,7 @@
    <testCaseLink>
       <guid>a4a50991-2b45-4cd1-bcae-f124d3ec6c03</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Inventory Selling/Inventory Selling Approval/Remedial Inventory Selling Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

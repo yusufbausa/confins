@@ -6,16 +6,16 @@
    <elementGuidId>b6a412c7-4bd0-4a28-b45d-4ad099a522f7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[3]/div[1]/table/tbody/tr[2]/td[2]/div/div/a[1][count(. | //*[@id = '12_C_uc12_rptApproval_lbApproval0' and @ref_element = 'Object Repository/COLLECTION/Asset Appraisal/Asset Appraisal Approval AR Head/iframe_Welcome, TRI WAHYUDI CCEMPAT, HEAD O_4b77dc']) = count(//*[@id = '12_C_uc12_rptApproval_lbApproval0' and @ref_element = 'Object Repository/COLLECTION/Asset Appraisal/Asset Appraisal Approval AR Head/iframe_Welcome, TRI WAHYUDI CCEMPAT, HEAD O_4b77dc'])]</value>
+         <key>XPATH</key>
+         <value>//a[@id='12_C_uc12_rptApproval_lbApproval0']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#12_C_uc12_rptApproval_lbApproval0</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='12_C_uc12_rptApproval_lbApproval0']</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Asset Appraisal Approval' or . = 'Asset Appraisal Approval') and @ref_element = 'Object Repository/COLLECTION/Asset Appraisal/Asset Appraisal Approval AR Head/iframe_Welcome, TRI WAHYUDI CCEMPAT, HEAD O_4b77dc']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +28,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -49,14 +49,14 @@
       <value>javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;12$C$uc12$rptApproval$lbApproval0&quot;, &quot;&quot;, false, &quot;&quot;, &quot;../RefCommon/Approval/AgrmntRelatedApprovalTasks.aspx?ApvCategory=ASSET_APPR&amp;ApvTitle=Asset Appraisal Approval&quot;, false, true))</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Asset Appraisal Approval</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

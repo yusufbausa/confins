@@ -21,7 +21,7 @@
          <id>c4725f38-2690-4ae6-ba2f-66efebe1dcc2</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>4</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/Application/Personal/New App - Personal Multi</testDataId>
       </testDataLink>
