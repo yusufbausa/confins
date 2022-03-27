@@ -6,16 +6,16 @@
    <elementGuidId>3bfe68d7-423f-47c1-97b3-a5b99a53ef30</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[3]/table/tbody/tr/td/div/input[count(. | //*[@ref_element = 'Object Repository/New Application (NEW)/Financial Data/iframe_Term  Condition_appForm']) = count(//*[@ref_element = 'Object Repository/New Application (NEW)/Financial Data/iframe_Term  Condition_appForm'])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#lb_Form_SaveCont</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='lb_Form_SaveCont']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'lb_Form_SaveCont' and @value = 'Save &amp; Continue' and @id = 'lb_Form_SaveCont' and @ref_element = 'Object Repository/New Application (NEW)/Financial Data/iframe_Term  Condition_appForm']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,14 +35,14 @@
       <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>lb_Form_SaveCont</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
@@ -56,7 +56,7 @@
       <value>javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lb_Form_SaveCont&quot;, &quot;&quot;, true, &quot;vgSave&quot;, &quot;&quot;, false, false))</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -70,7 +70,7 @@
       <value>btnForm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

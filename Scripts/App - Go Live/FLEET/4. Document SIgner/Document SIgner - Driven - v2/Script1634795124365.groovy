@@ -16,143 +16,75 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-
+	
+	
 //OPEN BROWSER================================================================================================================================================================
 WebUI.openBrowser('')
 WebUI.navigateToUrl(url)
 WebUI.maximizeWindow()
-WebUI.delay(1)
-
-
-//INPUT ADMIN CREDENTIAL================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
+//WebUI.delay(1)
+	
+	
+//INPUT ADMIN CREDENTIAL================================================================================================================================================================	
 WebUI.setText(findTestObject('Login/username'), usernameDS)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
-
-
-//SELECT ROLE================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/New Application - Customer/a_Select'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/New Application - Customer/a_Select'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/New Application - Customer/a_Select'))
+//WebUI.delay(1)
+	
+	
+//SELECT ROLE================================================================================================================================================================	
 WebUI.click(findTestObject('Object Repository/FLEET/New Application - Customer/a_Select'))
-WebUI.delay(1)
-
-
-//SELECT MENU DOCUMENT SIGNER================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/img_Welcome, HELEN MELIANA SETIAWAN, FLEET _179df6'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/img_Welcome, HELEN MELIANA SETIAWAN, FLEET _179df6'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/img_Welcome, HELEN MELIANA SETIAWAN, FLEET _179df6'))
+//WebUI.delay(1)
+	
+	
+//SELECT MENU DOCUMENT SIGNER================================================================================================================================================================	
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/img_Welcome, HELEN MELIANA SETIAWAN, FLEET _179df6'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_Document Signer'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_Document Signer'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/a_Document Signer'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/a_Document Signer'))
-WebUI.delay(1)
-
-
-//INPUT CUST CREDENTIAL================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'))
+//WebUI.delay(1)
+	
+	
+//INPUT CUST CREDENTIAL================================================================================================================================================================	
 WebUI.setText(findTestObject('Object Repository/FLEET/Document Signer/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), appNo)
-
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/input_Task Claim By_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_FLEET BUSINESS VEHICLE NONPAKET_gvAgr_116f48'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_FLEET BUSINESS VEHICLE NONPAKET_gvAgr_116f48'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/input_FLEET BUSINESS VEHICLE NONPAKET_gvAgr_116f48'))
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/input_FLEET BUSINESS VEHICLE NONPAKET_gvAgr_116f48'))
 WebUI.delay(1)
-
-
+	
+	
 //DOCUMENT SIGNER PROCESS================================================================================================================================================================
-//company signer================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Company Officer Name 2_uclOfficeEmp2u_cad8a5'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Company Officer Name 2_uclOfficeEmp2u_cad8a5'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/input_Company Officer Name 2_uclOfficeEmp2u_cad8a5'))
+//company signer================================================================================================================================================================	
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/input_Company Officer Name 2_uclOfficeEmp2u_cad8a5'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Employee Name_uclOfficeEmp2uclOfficeE_0e9c0b'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Employee Name_uclOfficeEmp2uclOfficeE_0e9c0b'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/input_Employee Name_uclOfficeEmp2uclOfficeE_0e9c0b'))
+//WebUI.delay(1)
 WebUI.setText(findTestObject('Object Repository/FLEET/Document Signer/input_Employee Name_uclOfficeEmp2uclOfficeE_0e9c0b'), '%')
-
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/a_SEARCH'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_Select (1)'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_Select (1)'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/a_Select (1)'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/a_Select (1)'))
 WebUI.delay(3)
-
-//management shareholder================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Management  Shareholder_uclCoyCommiss_b6c733'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Management  Shareholder_uclCoyCommiss_b6c733'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/input_Management  Shareholder_uclCoyCommiss_b6c733'))
+	
+//management shareholder================================================================================================================================================================	
 WebUI.scrollToElement(findTestObject('Object Repository/FLEET/Document Signer/input_Management  Shareholder_uclCoyCommiss_b6c733'), 10)
+
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/input_Management  Shareholder_uclCoyCommiss_b6c733'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Commisioner Name_uclCoyCommissioneruc_d9ee8b'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Commisioner Name_uclCoyCommissioneruc_d9ee8b'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/input_Commisioner Name_uclCoyCommissioneruc_d9ee8b'))
+//WebUI.delay(1)
 WebUI.setText(findTestObject('Object Repository/FLEET/Document Signer/input_Commisioner Name_uclCoyCommissioneruc_d9ee8b'), '%')
-
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/a_SEARCH_1'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_Select_1'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_Select_1'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/a_Select_1'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/a_Select_1'))
-
-
-//approver signer================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Customer Commisioner Approver 1_uclCo_f26358'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Customer Commisioner Approver 1_uclCo_f26358'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/input_Customer Commisioner Approver 1_uclCo_f26358'))
+	
+	
+//approver signer================================================================================================================================================================	
 WebUI.scrollToElement(findTestObject('Object Repository/FLEET/Document Signer/input_Customer Commisioner Approver 1_uclCo_f26358'), 0)
+
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/input_Customer Commisioner Approver 1_uclCo_f26358'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Commisioner Name_uclCoyApprover1uclCu_7067ad'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/input_Commisioner Name_uclCoyApprover1uclCu_7067ad'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/input_Commisioner Name_uclCoyApprover1uclCu_7067ad'))
 WebUI.setText(findTestObject('Object Repository/FLEET/Document Signer/input_Commisioner Name_uclCoyApprover1uclCu_7067ad'), '%')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_SEARCH_1_2'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_SEARCH_1_2'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/a_SEARCH_1_2'))
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/a_SEARCH_1_2'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_Select_1_2'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_Select_1_2'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/a_Select_1_2'))
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/a_Select_1_2'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Signer/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Signer/a_Submit'))
 WebUI.click(findTestObject('Object Repository/FLEET/Document Signer/a_Submit'))
 WebUI.delay(3)
-
-
+	
+	
 //CLOSE BROWSER================================================================================================================================================================
 WebUI.closeBrowser()
+	
 

@@ -6,16 +6,16 @@
    <elementGuidId>94c482b0-e385-43ae-b3ec-81d2dd83f840</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Change Inventory Expected Date' or . = 'Change Inventory Expected Date') and @ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//a[@onclick='return false'])[13]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.rtMid.rtHover > a.rtIn</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/ul/li[3]/div/a[count(. | //*[@ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,14 +49,14 @@
       <value>Coll/Repossession/Repossess/ChangeInvExpDt.aspx?param=coll</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Change Inventory Expected Date</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

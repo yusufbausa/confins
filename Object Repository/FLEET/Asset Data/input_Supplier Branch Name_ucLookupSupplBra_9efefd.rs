@@ -6,16 +6,16 @@
    <elementGuidId>5cbd9818-d5dd-4ef9-b8ce-d3bfffa2652a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ucLookupSupplBranchSchm_uclSupplBranchSchm_imb']</value>
+         <key>BASIC</key>
+         <value>/html/body/form/div[6]/div/div[2]/table[1]/tbody/tr[1]/td[2]/ul/li[1]/input[2][count(. | //*[@ref_element = 'Object Repository/FLEET/Asset Data/iframe_Term  Condition_appForm']) = count(//*[@ref_element = 'Object Repository/FLEET/Asset Data/iframe_Term  Condition_appForm'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#ucLookupSupplBranchSchm_uclSupplBranchSchm_imb</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[6]/div/div[2]/table[1]/tbody/tr[1]/td[2]/ul/li[1]/input[2][count(. | //*[@ref_element = 'Object Repository/FLEET/Asset Data/iframe_Term  Condition_appForm']) = count(//*[@ref_element = 'Object Repository/FLEET/Asset Data/iframe_Term  Condition_appForm'])]</value>
+         <key>XPATH</key>
+         <value>//input[@id='ucLookupSupplBranchSchm_uclSupplBranchSchm_imb']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -6,16 +6,15 @@
    <elementGuidId>0b9280cc-6626-48ab-8588-9575337483ae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='rtvMenuTree']/ul/li[4]/div/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2][count(. | //*[@ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
+         <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/div/span[2][count(. | //*[@ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rtvMenuTree']/ul/li[4]/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -39,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2]</value>
+      <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/div/span[2]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -17,28 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//open browser
-WebUI.openBrowser('')
-WebUI.navigateToUrl(url)
-WebUI.maximizeWindow()
 
 
-//input credential
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
-WebUI.setText(findTestObject('Login/username'), usernameSDH)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
-WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
-WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
 
 
 //select profile

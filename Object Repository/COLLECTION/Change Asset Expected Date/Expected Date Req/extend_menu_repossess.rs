@@ -6,16 +6,16 @@
    <elementGuidId>43d1117d-149c-48f5-bc83-6cddc55eeeea</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/div/span[2][count(. | //*[@ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='rtvMenuTree']/ul/li[2]/div/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.rtPlus</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2][count(. | //*[@ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -39,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2]</value>
+      <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/div/span[2]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

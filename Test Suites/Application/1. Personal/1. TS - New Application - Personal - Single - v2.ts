@@ -21,7 +21,7 @@
          <id>b6ffec8f-0ea8-4cf0-a495-da0128c1609f</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>15</value>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Application/Personal/New App - Personal Single</testDataId>
       </testDataLink>

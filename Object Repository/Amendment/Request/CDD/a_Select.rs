@@ -6,12 +6,12 @@
    <elementGuidId>b33a469d-5e06-4c32-9274-cfdedcabaf3e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_38</value>
+         <key>BASIC</key>
+         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[4]/td[4]/a[count(. | //*[(text() = 'Select' or . = 'Select')]) = count(//*[(text() = 'Select' or . = 'Select')])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[8]/td[4]/a</value>
+         <key>CSS</key>
+         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_38</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <value>javascript:__doPostBack('uModDRole$ctl00$gvRoles$ctl40$lbSelectRole','')</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[8]/td[4]/a</value>
+      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[4]/td[4]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -117,7 +117,7 @@ WebUI.selectOptionByValue(findTestObject('REMEDIAL/Change Asset Expected Date Re
 WebUI.waitForElementPresent(findTestObject('REMEDIAL/Change Asset Expected Date Req/select_approved_by'), 30)
 WebUI.verifyElementPresent(findTestObject('REMEDIAL/Change Asset Expected Date Req/select_approved_by'), 30)
 WebUI.verifyElementClickable(findTestObject('REMEDIAL/Change Asset Expected Date Req/select_approved_by'))
-WebUI.selectOptionByValue(findTestObject('REMEDIAL/Change Asset Expected Date Req/select_approved_by'), '290665', false)
+WebUI.selectOptionByLabel(findTestObject('REMEDIAL/Change Asset Expected Date Req/select_approved_by'), approvedBy, false)
 
 WebUI.waitForElementPresent(findTestObject('REMEDIAL/Change Asset Expected Date Req/field_approval_notes'), 30)
 WebUI.verifyElementPresent(findTestObject('REMEDIAL/Change Asset Expected Date Req/field_approval_notes'), 30)

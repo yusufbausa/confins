@@ -6,16 +6,16 @@
    <elementGuidId>1d9947c7-4f1a-49bf-a08f-c8bdfa47e14d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[3]/table/tbody/tr/td/div/input[count(. | //*[@ref_element = 'Object Repository/New Application (NEW)/Insurance Data/iframe_Term  Condition_appForm']) = count(//*[@ref_element = 'Object Repository/New Application (NEW)/Insurance Data/iframe_Term  Condition_appForm'])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#lb_Form_SaveCont</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='lb_Form_SaveCont']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'lb_Form_SaveCont' and @value = 'Save &amp; Continue' and @id = 'lb_Form_SaveCont' and @ref_element = 'Object Repository/New Application (NEW)/Insurance Data/iframe_Term  Condition_appForm']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,21 +35,21 @@
       <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>lb_Form_SaveCont</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Save &amp; Continue</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -63,7 +63,7 @@
       <value>btnForm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

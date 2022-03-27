@@ -6,16 +6,16 @@
    <elementGuidId>9ecfc19a-07e6-44d6-9ff1-39bed8854c6b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#lb_Form_SaveCont_LegalDocument</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>/html/body/form/div[3]/div/div[1]/input[count(. | //*[@ref_element = 'Object Repository/Corporate Customer/Legal Document/iframe_Other Attribute_custForm_1']) = count(//*[@ref_element = 'Object Repository/Corporate Customer/Legal Document/iframe_Other Attribute_custForm_1'])]</value>
+         <value>//*[@name = 'lb_Form_SaveCont_LegalDocument' and @value = 'Save &amp; Continue' and @id = 'lb_Form_SaveCont_LegalDocument' and @ref_element = 'Object Repository/Corporate Customer/Legal Document/iframe_Other Attribute_custForm_1']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='lb_Form_SaveCont_LegalDocument']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#lb_Form_SaveCont_LegalDocument</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,14 +35,14 @@
       <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>lb_Form_SaveCont_LegalDocument</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
@@ -56,7 +56,7 @@
       <value>javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lb_Form_SaveCont_LegalDocument&quot;, &quot;&quot;, true, &quot;vgLegalDocument&quot;, &quot;&quot;, false, false))</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -70,7 +70,7 @@
       <value>btnForm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -21,7 +21,7 @@
          <id>b759e217-052e-4a61-90da-32c00f500d13</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>23</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Application/Fleet/New Application for Fleet</testDataId>
       </testDataLink>
@@ -168,6 +168,12 @@
          <type>DATA_COLUMN</type>
          <value>effRate</value>
          <variableId>0ff5f0b4-f7cc-4d85-b76e-6daea6a17f9f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b759e217-052e-4a61-90da-32c00f500d13</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>insuranceType</value>
+         <variableId>d6e56bf0-9ab9-48e4-aed2-1f3716a91b90</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

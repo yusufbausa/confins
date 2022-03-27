@@ -41,6 +41,14 @@ WebUI.click(findTestObject('Login/btn_login'))
 WebUI.delay(1)
 
 
+//select role
+WebUI.waitForElementPresent(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_role'), 30)
+WebUI.verifyElementPresent(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_role'), 30)
+WebUI.verifyElementClickable(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_role'))
+WebUI.click(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_role'))
+WebUI.delay(1)
+
+
 //select expected date approval (homepage)
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Approval/button_menu_expected_date_approval'), 30)
 WebUI.verifyElementPresent(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Approval/button_menu_expected_date_approval'), 30)

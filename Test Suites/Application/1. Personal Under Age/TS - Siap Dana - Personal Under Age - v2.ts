@@ -21,7 +21,7 @@
          <id>e39cce63-028b-430c-a774-06893ac6d9b8</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>7</value>
+            <value>6</value>
          </iterationEntity>
          <testDataId>Data Files/Application/Personal Under Age/Siap Dana - Personal Under Age</testDataId>
       </testDataLink>

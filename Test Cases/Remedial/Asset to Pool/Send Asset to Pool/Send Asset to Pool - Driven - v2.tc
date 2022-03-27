@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>7b16a1d0-d42e-4c37-9627-c60250d08c20</testCaseGuid>
    <variable>
-      <defaultValue>'http://confins-uat.taf.co.id/confins/'</defaultValue>
+      <defaultValue>'http://confins-qa.taf.co.id/confins/'</defaultValue>
       <description></description>
       <id>5c8467f1-842b-47fe-bb75-4ecc87177680</id>
       <masked>false</masked>
       <name>url</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'PAB0656'</defaultValue>
       <description></description>
       <id>3931bb36-6eb2-4662-8f48-8a69f85e25cb</id>
       <masked>false</masked>
@@ -27,28 +27,28 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'1813049052'</defaultValue>
       <description></description>
       <id>48be16e5-a672-498b-9916-234b84f0838e</id>
       <masked>false</masked>
       <name>agreeNo</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Prianto'</defaultValue>
       <description></description>
       <id>7a087821-7dea-491f-83e1-e255c5f363c6</id>
       <masked>false</masked>
       <name>sendBy</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'02/12/2021'</defaultValue>
       <description></description>
       <id>ec274662-9565-40e5-b649-e09eda031462</id>
       <masked>false</masked>
       <name>date</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'notes'</defaultValue>
       <description></description>
       <id>5d0c9502-135e-4f29-a306-a1cc04787eae</id>
       <masked>false</masked>

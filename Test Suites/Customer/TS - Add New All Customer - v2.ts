@@ -14,14 +14,14 @@
    <testCaseLink>
       <guid>6a5ec376-cc38-43d8-9719-617d8e612355</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Customer/Personal Customer/Add New Customer - Personal - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a3cfc213-d5f7-47ac-b24d-cb72748f38a3</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>11</value>
+            <value>21</value>
          </iterationEntity>
          <testDataId>Data Files/Customer/Data New Customer Personal</testDataId>
       </testDataLink>
@@ -227,14 +227,14 @@
    <testCaseLink>
       <guid>d69b65f5-94e1-442a-b05e-e6357755408c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Customer/Personal Customer/Add New Customer - Under Age - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b3a1f3e0-9eed-4e1a-8703-d7e7f29da3d1</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>11</value>
+            <value>21</value>
          </iterationEntity>
          <testDataId>Data Files/Customer/Data New Customer Under Age</testDataId>
       </testDataLink>
@@ -423,7 +423,7 @@
          <id>4e898269-da26-457f-bc98-8e7b6a60d0c7</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>11</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/Customer/Data New Customer Company</testDataId>
       </testDataLink>

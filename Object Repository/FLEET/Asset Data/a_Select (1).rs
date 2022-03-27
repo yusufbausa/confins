@@ -6,16 +6,16 @@
    <elementGuidId>56c83801-a868-4dbc-838b-e095ae3d26ad</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/form/div[6]/div/div[2]/table[1]/tbody/tr[1]/td[2]/div/div/div/div/div[2]/div/div[1]/table/tbody/tr[2]/td[6]/a[count(. | //*[@ref_element = 'Object Repository/FLEET/Asset Data/iframe_Term  Condition_appForm']) = count(//*[@ref_element = 'Object Repository/FLEET/Asset Data/iframe_Term  Condition_appForm'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='ucLookupSupplBranchSchm_uclSupplBranchSchm_umd_ctl00_gvL_hpSelect_0']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#ucLookupSupplBranchSchm_uclSupplBranchSchm_umd_ctl00_gvL_hpSelect_0</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[6]/div/div[2]/table[1]/tbody/tr[1]/td[2]/div/div/div/div/div[2]/div/div[1]/table/tbody/tr[2]/td[4]/a[count(. | //*[@ref_element = 'Object Repository/FLEET/Asset Data/iframe_Term  Condition_appForm']) = count(//*[@ref_element = 'Object Repository/FLEET/Asset Data/iframe_Term  Condition_appForm'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -54,7 +54,7 @@ KEL. BATUCEPER KEC. BATUCEPER KOTA TANGERANG');;overlay('mdnucLookupSupplBranchS
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[6]/div/div[2]/table[1]/tbody/tr[1]/td[2]/div/div/div/div/div[2]/div/div[1]/table/tbody/tr[2]/td[4]/a</value>
+      <value>/html/body/form/div[6]/div/div[2]/table[1]/tbody/tr[1]/td[2]/div/div/div/div/div[2]/div/div[1]/table/tbody/tr[2]/td[6]/a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -21,7 +21,7 @@
          <id>bd203e00-d1f8-4070-b57d-6ed3267b81c4</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>17</value>
+            <value>16</value>
          </iterationEntity>
          <testDataId>Data Files/Application/Personal/Siap Dana - Personal</testDataId>
       </testDataLink>

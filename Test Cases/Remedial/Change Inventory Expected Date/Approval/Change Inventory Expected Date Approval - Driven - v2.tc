@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>796dc3cc-c1d8-4cdb-abb5-db26513d7c29</testCaseGuid>
    <variable>
-      <defaultValue>'http://confins-uat.taf.co.id/confins/'</defaultValue>
+      <defaultValue>'http://confins-qa.taf.co.id/confins/'</defaultValue>
       <description></description>
       <id>a40ff6d1-e4df-4d0e-bbca-23b28b35e85c</id>
       <masked>false</masked>
       <name>url</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'SSI0618'</defaultValue>
       <description></description>
       <id>ff33f453-2048-4e66-a721-98f58553f185</id>
       <masked>false</masked>
@@ -27,14 +27,14 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'1813049052'</defaultValue>
       <description></description>
       <id>35010cbe-9643-4ea3-8364-3a24ba4a705f</id>
       <masked>false</masked>
       <name>agreeNo</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'notes'</defaultValue>
       <description></description>
       <id>82472a95-af42-41fb-aa75-46d12a95f7bc</id>
       <masked>false</masked>

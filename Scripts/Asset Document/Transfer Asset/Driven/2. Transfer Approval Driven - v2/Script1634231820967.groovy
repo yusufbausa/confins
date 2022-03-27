@@ -24,92 +24,46 @@ WebUI.maximizeWindow()
 
 
 //input credential
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), username)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select role
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Approval/a_Select'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Approval/a_Select'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/Release Approval/a_Select'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/Release Approval/a_Select'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select menu asset transfer approval
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/img_Welcome, SUGIHARTINI, TANGERANG, Servic_90353b'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/img_Welcome, SUGIHARTINI, TANGERANG, Servic_90353b'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Approval/img_Welcome, SUGIHARTINI, TANGERANG, Servic_90353b'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Approval/img_Welcome, SUGIHARTINI, TANGERANG, Servic_90353b'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/select_LOAN ORIGINATIONACCOUNT'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/select_LOAN ORIGINATIONACCOUNT'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Approval/select_LOAN ORIGINATIONACCOUNT'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Approval/select_LOAN ORIGINATIONACCOUNT'), 
-    '121', false)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/span_Borrow_rtPlus'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/span_Borrow_rtPlus'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Approval/span_Borrow_rtPlus'))
+//WebUI.delay(1)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Approval/select_LOAN ORIGINATIONACCOUNT'),
+	'121', false)
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Approval/span_Borrow_rtPlus'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/a_Approval'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/a_Approval'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Approval/a_Approval'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Approval/a_Approval'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //input cust credential
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/input_Transaction No_ucSearchtxtTrxNo_ltlApvReqTrxNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/input_Transaction No_ucSearchtxtTrxNo_ltlApvReqTrxNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Approval/input_Transaction No_ucSearchtxtTrxNo_ltlApvReqTrxNo'))
 WebUI.setText(findTestObject('Object Repository/Asset Document/Transfer/Approval/input_Transaction No_ucSearchtxtTrxNo_ltlApvReqTrxNo'), reqNo)
-
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Approval/input_Value must be Date Format_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/input_SUG0793_gvTaskctl02ibProcess'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/input_SUG0793_gvTaskctl02ibProcess'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Approval/input_SUG0793_gvTaskctl02ibProcess'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Approval/input_SUG0793_gvTaskctl02ibProcess'))
 WebUI.delay(1)
 
 
 //transfer approval process
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/select_Select OneApproveReject'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/select_Select OneApproveReject'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Approval/select_Select OneApproveReject'))
 WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Approval/select_Select OneApproveReject'), 'Approve', false)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/textarea_Notes_txtNotes'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/textarea_Notes_txtNotes'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Approval/textarea_Notes_txtNotes'))
 WebUI.setText(findTestObject('Object Repository/Asset Document/Transfer/Approval/textarea_Notes_txtNotes'), notes)
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Approval/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Approval/a_Submit'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Approval/a_Submit'))
-WebUI.delay(5)
+WebUI.delay(3)
 
 
 //close browser
 WebUI.closeBrowser()
+
 

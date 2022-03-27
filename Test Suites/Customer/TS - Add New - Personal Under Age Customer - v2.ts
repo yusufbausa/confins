@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>d75833d4-f18c-4a6b-9df5-a195958a1209</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <iterationType>RANGE</iterationType>
+            <value>1-5</value>
          </iterationEntity>
          <testDataId>Data Files/Customer/Data New Customer Under Age</testDataId>
       </testDataLink>

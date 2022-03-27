@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>d40f45e1-f428-4570-af82-facdb088c173</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'TAB1616'</defaultValue>
       <description></description>
       <id>34818f24-33df-493b-b15d-0b9097c4fb3a</id>
       <masked>false</masked>
@@ -146,14 +146,14 @@
       <name>url</name>
    </variable>
    <variable>
-      <defaultValue>'83'</defaultValue>
+      <defaultValue>'COMMERCIAL'</defaultValue>
       <description></description>
       <id>9f126b73-238d-4bc0-8c83-2c1b20568836</id>
       <masked>false</masked>
       <name>insuranceType</name>
    </variable>
    <variable>
-      <defaultValue>'6'</defaultValue>
+      <defaultValue>'ASURANSI ASTRA SYARIAH, ASURANSI ASTRA SYARIAH'</defaultValue>
       <description></description>
       <id>98b97196-2a51-4a4d-8b90-ef109e1a436f</id>
       <masked>false</masked>

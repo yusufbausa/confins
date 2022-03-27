@@ -24,259 +24,92 @@ WebUI.maximizeWindow()
 
 
 //INPUT CREDENTIAL
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), usernameDO)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select role
-WebUI.waitForElementPresent(findTestObject('Delivery Order/select_role'), 30)
-WebUI.verifyElementPresent(findTestObject('Delivery Order/select_role'), 30)
-WebUI.verifyElementClickable(findTestObject('Delivery Order/select_role'))
 WebUI.click(findTestObject('Delivery Order/select_role'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //ACCESSING MENU DELIVERY ORDER
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/img_Welcome, AMAN ASTARI, TANGERANG, Sales _473e4a'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/img_Welcome, AMAN ASTARI, TANGERANG, Sales _473e4a'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/img_Welcome, AMAN ASTARI, TANGERANG, Sales _473e4a'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/img_Welcome, AMAN ASTARI, TANGERANG, Sales _473e4a'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/a_Delivery Order'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/a_Delivery Order'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/a_Delivery Order'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Delivery Order/a_Delivery Order'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //INPUT CUSTOMER CREDENTIAL
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), appNumber)
-
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_Task Claim By_ucSearchbtnSearch'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_MULTIGUNA NON PAKET_gvAgrmntctl02ibDelOrd'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_MULTIGUNA NON PAKET_gvAgrmntctl02ibDelOrd'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_MULTIGUNA NON PAKET_gvAgrmntctl02ibDelOrd'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_MULTIGUNA NON PAKET_gvAgrmntctl02ibDelOrd'))
 WebUI.delay(1)
 
 
 //DELIVERY ORDER PROCESS ASSET 1
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd'))
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'))
 WebUI.scrollToElement(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 10)
+
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_CYLINDER_rptAssetAttrctl02txtAttrName'), '4')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 'A')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_COLOR_rptAssetAttrctl04txtAttrName'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_COLOR_rptAssetAttrctl04txtAttrName'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_COLOR_rptAssetAttrctl04txtAttrName'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_COLOR_rptAssetAttrctl04txtAttrName'), 'BLACK')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Temporary Registration Letter Date_uc_ce763e'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Temporary Registration Letter Date_uc_ce763e'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Temporary Registration Letter Date_uc_ce763e'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_Temporary Registration Letter Date_uc_ce763e'), '01/01/2021')
-WebUI.sendKeys(findTestObject('Object Repository/Delivery Order/input_Temporary Registration Letter Date_uc_ce763e'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02cbChecked'))
 WebUI.scrollToElement(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02cbChecked'), 10)
+
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02cbChecked'))
-
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02txtDocNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02txtDocNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02txtDocNo'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02txtDocNo'), '123456789')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03txtDocNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03txtDocNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03txtDocNo'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03txtDocNo'), '123456789')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl04cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl04cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl04cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl04cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl05cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl05cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl05cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl05cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl06cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl06cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl06cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl06cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl07cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl07cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl07cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl07cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl08cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl08cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl08cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl08cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl09cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl09cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl09cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl09cbChecked'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/a_Save'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/a_Save'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/a_Save'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/a_Save'))
 WebUI.delay(1)
 
 
 //DELIVERY ORDER PROCESS ASSET 2
-//WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd2'),30)
-//WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd2'), 30)
-//WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd2'))
-//WebUI.scrollToElement(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd2'), 0)
-//WebUI.delay(1)
-//WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd2'), 30)
-//WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd2'), 2)
-//WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd2'))
-//WebUI.click(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd2'))
-//WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Delivery Order/DO Multi Additional/button_edit_asset_2'), 30)
-WebUI.verifyElementPresent(findTestObject('Delivery Order/DO Multi Additional/button_edit_asset_2'), 30)
-WebUI.verifyElementClickable(findTestObject('Delivery Order/DO Multi Additional/button_edit_asset_2'))
 WebUI.scrollToElement(findTestObject('Delivery Order/DO Multi Additional/button_edit_asset_2'), 10)
-WebUI.delay(6)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Delivery Order/DO Multi Additional/button_edit_asset_2'))
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'))
 WebUI.scrollToElement(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 10)
+
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_CYLINDER_rptAssetAttrctl02txtAttrName'), '4')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_TRANSMITION_rptAssetAttrctl03txtAttrName'), 'A')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_COLOR_rptAssetAttrctl04txtAttrName'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_COLOR_rptAssetAttrctl04txtAttrName'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_COLOR_rptAssetAttrctl04txtAttrName'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_COLOR_rptAssetAttrctl04txtAttrName'), 'BLACK')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Temporary Registration Letter Date_uc_ce763e'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Temporary Registration Letter Date_uc_ce763e'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Temporary Registration Letter Date_uc_ce763e'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_Temporary Registration Letter Date_uc_ce763e'), '01/01/2021')
-WebUI.sendKeys(findTestObject('Object Repository/Delivery Order/input_Temporary Registration Letter Date_uc_ce763e'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02cbChecked'))
 WebUI.scrollToElement(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02cbChecked'), 10)
+
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02txtDocNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02txtDocNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02txtDocNo'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl02txtDocNo'), '123456789')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03txtDocNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03txtDocNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03txtDocNo'))
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl03txtDocNo'), '123456789')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl04cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl04cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl04cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl04cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl05cbChecked'), 20)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl05cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl05cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_Yes_gvAssetDocctl05cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl06cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl06cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl06cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl06cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl07cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl07cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl07cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl07cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl08cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl08cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl08cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl08cbChecked'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl09cbChecked'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl09cbChecked'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl09cbChecked'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_No_gvAssetDocctl09cbChecked'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/a_Save'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/a_Save'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/a_Save'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/a_Save'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Delivery Order/a_Next'))
 WebUI.delay(3)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/a_Next'), 30)
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/a_Next'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/a_Next'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/a_Next'))
-WebUI.click(findTestObject('Object Repository/Delivery Order/a_Next'))
-WebUI.delay(5)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delivery Order/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Delivery Order/a_Submit'))
 WebUI.click(findTestObject('Object Repository/Delivery Order/a_Submit'))
 WebUI.delay(3)
 

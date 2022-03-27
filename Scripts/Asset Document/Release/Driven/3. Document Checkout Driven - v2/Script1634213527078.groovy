@@ -24,76 +24,36 @@ WebUI.maximizeWindow()
 
 
 //input credential
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), usernameBpkb)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select menu document checkout
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/img_Welcome, FANNY HUMAIRAH, TANGERANG, BPK_67220f'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/img_Welcome, FANNY HUMAIRAH, TANGERANG, BPK_67220f'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/img_Welcome, FANNY HUMAIRAH, TANGERANG, BPK_67220f'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/img_Welcome, FANNY HUMAIRAH, TANGERANG, BPK_67220f'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTMARKETINGAPPLICATION FOUNDATION'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTMARKETINGAPPLICATION FOUNDATION'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTMARKETINGAPPLICATION FOUNDATION'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTMARKETINGAPPLICATION FOUNDATION'), 
-    '121', false)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Filing Management'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Filing Management'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Filing Management'))
+//WebUI.delay(1)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTMARKETINGAPPLICATION FOUNDATION'),
+	'121', false)
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Filing Management'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Document Check Out'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Document Check Out'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Document Check Out'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Document Check Out'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //input cust credential
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'))
 WebUI.setText(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), agreeNo)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/select_Select OneAsset DocumentAddColl Document'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/select_Select OneAsset DocumentAddColl Document'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/select_Select OneAsset DocumentAddColl Document'))
 WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/select_Select OneAsset DocumentAddColl Document'), 'ASD', false)
-
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/input_Task Claim By_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/input_Release_gvRequestListctl02imbEdit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/input_Release_gvRequestListctl02imbEdit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/input_Release_gvRequestListctl02imbEdit'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/input_Release_gvRequestListctl02imbEdit'))
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Submit'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/Release Doc Checkout/a_Submit'))
-WebUI.delay(5)
+WebUI.delay(3)
 
 
 //close browser
 WebUI.closeBrowser()
+
 

@@ -24,63 +24,35 @@ WebUI.maximizeWindow()
 
 
 //INPUT ADMIN CREDENTIAL================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), username)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(3)
+//WebUI.delay(1)
 
 
 //SELECT ADMIN ROLE================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Login/btn_select_profile'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_select_profile'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_select_profile'))
 WebUI.click(findTestObject('Login/btn_select_profile'))
 WebUI.delay(1)
 
 
 //SELECT MENU APP INQUIRY================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/App Inquiry/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/App Inquiry/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/App Inquiry/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'))
 WebUI.click(findTestObject('Object Repository/COPY CANCEL/App Inquiry/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/App Inquiry/span_Edit Application By SO_rtPlus'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/App Inquiry/span_Edit Application By SO_rtPlus'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/App Inquiry/span_Edit Application By SO_rtPlus'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/COPY CANCEL/App Inquiry/span_Edit Application By SO_rtPlus'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/App Inquiry/a_Application Inquiry'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/App Inquiry/a_Application Inquiry'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/App Inquiry/a_Application Inquiry'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/COPY CANCEL/App Inquiry/a_Application Inquiry'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //INPUT CUST CREDENTIAL================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/App Inquiry/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/App Inquiry/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/App Inquiry/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'))
 WebUI.setText(findTestObject('Object Repository/COPY CANCEL/App Inquiry/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), appNo)
-
 WebUI.click(findTestObject('Object Repository/COPY CANCEL/App Inquiry/input_Application Step_ucSearchbtnSearch'))
-WebUI.delay(3)
-
+//WebUI.delay(3)
 WebUI.takeFullPageScreenshot()
 WebUI.delay(3)
 
 
 //CLOSE BROWSER================================================================================================================================================================================================================================================================================================================
 WebUI.closeBrowser()
+
+

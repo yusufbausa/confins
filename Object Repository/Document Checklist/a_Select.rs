@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[9]/td[4]/a</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_7']</value>
+         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[5]/td[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#uModDRole_ctl00_gvRoles_lbSelectRole_7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_7']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[9]/td[4]/a</value>
+      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[5]/td[4]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

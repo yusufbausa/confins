@@ -271,6 +271,12 @@
          <value>notes</value>
          <variableId>1dfd3637-f105-4984-bc54-363d7dc40572</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>578db02f-f894-4717-b483-2c796c67bf90</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>usernameHO</value>
+         <variableId>aec7923d-6f24-4615-bf00-11f713a8f76b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>bc93e577-b9fa-4b0d-80b1-714884857460</guid>
@@ -536,7 +542,7 @@
    <testCaseLink>
       <guid>636eb2d9-5f2f-4ec1-99f6-88fdb6019454</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Collection/Asset Appraisal/Asset Appraisal Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -581,7 +587,7 @@
    <testCaseLink>
       <guid>8ed45848-40d2-451c-9336-0c1f2953ff2b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Collection/Asset Appraisal/Asset Appraisal Approval AR Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -626,7 +632,7 @@
    <testCaseLink>
       <guid>f8d34702-6514-4a93-a3d3-8aa7f01a6c47</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Inventory Selling/Inv Selling Req Additional Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -701,7 +707,7 @@
    <testCaseLink>
       <guid>5ed479bb-5f54-4676-938f-ddaecd982fc3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Inventory Selling/Inventory Selling Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -746,7 +752,7 @@
    <testCaseLink>
       <guid>3982c284-4f56-4d6d-a56a-21d19c2f9422</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Inventory Selling/Inventory Selling Receive - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

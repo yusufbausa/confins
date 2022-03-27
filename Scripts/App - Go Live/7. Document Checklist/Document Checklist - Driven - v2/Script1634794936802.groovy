@@ -24,66 +24,33 @@ WebUI.maximizeWindow()
 
 
 //INPUT CREDENTIAL
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), usernameDC)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //SELECT PROFILE
-WebUI.waitForElementPresent(findTestObject('Object Repository/Document Checklist/a_Select'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Document Checklist/a_Select'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Document Checklist/a_Select'))
 WebUI.click(findTestObject('Object Repository/Document Checklist/a_Select'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //ACCESS MENU DOCUMENT CHECKLIST
-WebUI.waitForElementPresent(findTestObject('Object Repository/Document Checklist/img_Welcome, SUGIHARTINI, TANGERANG, Servic_90353b'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Document Checklist/img_Welcome, SUGIHARTINI, TANGERANG, Servic_90353b'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Document Checklist/img_Welcome, SUGIHARTINI, TANGERANG, Servic_90353b'))
 WebUI.click(findTestObject('Object Repository/Document Checklist/img_Welcome, SUGIHARTINI, TANGERANG, Servic_90353b'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Document Checklist/a_Document Checklist'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Document Checklist/a_Document Checklist'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Document Checklist/a_Document Checklist'))
 WebUI.click(findTestObject('Object Repository/Document Checklist/a_Document Checklist'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //INPUT CUSTOMER APP NUMBER
-WebUI.waitForElementPresent(findTestObject('Object Repository/Document Checklist/input_Application No_ucSearchtxtAppNo_ltlAgrmntAppNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Document Checklist/input_Application No_ucSearchtxtAppNo_ltlAgrmntAppNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Document Checklist/input_Application No_ucSearchtxtAppNo_ltlAgrmntAppNo'))
 WebUI.setText(findTestObject('Object Repository/Document Checklist/input_Application No_ucSearchtxtAppNo_ltlAgrmntAppNo'), appNumber)
-
 WebUI.click(findTestObject('Object Repository/Document Checklist/input_Task Claim By_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Document Checklist/input_MULTIGUNA NON PAKET_gvDocChklstctl02imbEdit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Document Checklist/input_MULTIGUNA NON PAKET_gvDocChklstctl02imbEdit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Document Checklist/input_MULTIGUNA NON PAKET_gvDocChklstctl02imbEdit'))
 WebUI.click(findTestObject('Object Repository/Document Checklist/input_MULTIGUNA NON PAKET_gvDocChklstctl02imbEdit'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //DOCUMENT CHECKLIST PROCESS
-WebUI.waitForElementPresent(findTestObject('Object Repository/Document Checklist/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Document Checklist/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Document Checklist/a_Submit'))
 WebUI.click(findTestObject('Object Repository/Document Checklist/a_Submit'))
-WebUI.delay(1)
+WebUI.delay(3)
 
 
 //CLOSING BROWSER

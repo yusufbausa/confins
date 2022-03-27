@@ -21,7 +21,7 @@
          <id>a96d9a44-2ee2-4c0d-b61d-f24a106ac5e3</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>7</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/Application/Fleet/New Application Fleet Multi</testDataId>
       </testDataLink>
@@ -198,6 +198,12 @@
          <type>DATA_COLUMN</type>
          <value>noRangka2</value>
          <variableId>1b0b4ae0-c919-453e-96d4-1789f5da1807</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a96d9a44-2ee2-4c0d-b61d-f24a106ac5e3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>insuranceType</value>
+         <variableId>a67bf468-5d36-45db-a8b2-28df704d28fe</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

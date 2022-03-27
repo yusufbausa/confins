@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'ucSalesPerson$ddlReference' and @id = 'ucSalesPerson_ddlReference' and @ref_element = 'Object Repository/New Application (NEW)/Asset Data/iframe_Term  Condition_appForm']</value>
+         <value>/html/body/form/div[6]/div/div[2]/table[1]/tbody/tr[2]/td[2]/select[count(. | //*[@ref_element = 'Object Repository/New Application (NEW)/Asset Data/iframe_Term  Condition_appForm']) = count(//*[@ref_element = 'Object Repository/New Application (NEW)/Asset Data/iframe_Term  Condition_appForm'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,7 +28,7 @@
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <value>javascript:setTimeout('__doPostBack(\'ucSalesPerson$ddlReference\',\'\')', 0)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -63,7 +63,7 @@
 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

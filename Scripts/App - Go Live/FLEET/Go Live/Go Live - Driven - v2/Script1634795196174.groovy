@@ -16,84 +16,48 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-
+	
+	
 //OPEN BROWSER================================================================================================================================================================
 WebUI.openBrowser('')
 WebUI.navigateToUrl(url)
 WebUI.maximizeWindow()
-WebUI.delay(1)
-
-
+//WebUI.delay(1)
+	
+	
 //INPUT ADMIN CREDENTIAL================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), usernameGL)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
-
-
+//WebUI.delay(1)
+	
+	
 //SELECT ROLE================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Document Checklist/a_Select'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Document Checklist/a_Select'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Document Checklist/a_Select'))
 WebUI.click(findTestObject('Object Repository/FLEET/Document Checklist/a_Select'))
-WebUI.delay(1)
-
-
+//WebUI.delay(1)
+	
+	
 //SELECT MENU GO LIVE================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Go Live/img_Welcome, NATASHA KUSNADI, FLEET JAKARTA_d68adc'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Go Live/img_Welcome, NATASHA KUSNADI, FLEET JAKARTA_d68adc'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Go Live/img_Welcome, NATASHA KUSNADI, FLEET JAKARTA_d68adc'))
 WebUI.click(findTestObject('Object Repository/FLEET/Go Live/img_Welcome, NATASHA KUSNADI, FLEET JAKARTA_d68adc'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Go Live/a_Go Live'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Go Live/a_Go Live'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Go Live/a_Go Live'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/FLEET/Go Live/a_Go Live'))
-WebUI.delay(1)
-
-
+//WebUI.delay(1)
+	
+	
 //INPUT CUST CREDENTIAL================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Go Live/input_Application No._ucSearchtxtAppNo_ltlAppAppNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Go Live/input_Application No._ucSearchtxtAppNo_ltlAppAppNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Go Live/input_Application No._ucSearchtxtAppNo_ltlAppAppNo'))
 WebUI.setText(findTestObject('Object Repository/FLEET/Go Live/input_Application No._ucSearchtxtAppNo_ltlAppAppNo'), appNo)
-
 WebUI.click(findTestObject('Object Repository/FLEET/Go Live/input_Task Claim By_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Go Live/input_FLEET BUSINESS VEHICLE NONPAKET_gvGoL_22a002'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Go Live/input_FLEET BUSINESS VEHICLE NONPAKET_gvGoL_22a002'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Go Live/input_FLEET BUSINESS VEHICLE NONPAKET_gvGoL_22a002'))
 WebUI.click(findTestObject('Object Repository/FLEET/Go Live/input_FLEET BUSINESS VEHICLE NONPAKET_gvGoL_22a002'))
 WebUI.delay(1)
-
-
+	
+	
 //GO LIVE PROCESS================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Go Live/textarea_Notes_txtNotes'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Go Live/textarea_Notes_txtNotes'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Go Live/textarea_Notes_txtNotes'))
 WebUI.setText(findTestObject('Object Repository/FLEET/Go Live/textarea_Notes_txtNotes'), notes)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/FLEET/Go Live/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/Go Live/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/FLEET/Go Live/a_Submit'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/FLEET/Go Live/a_Submit'))
 WebUI.delay(3)
-
-
+	
+	
 //CLOSE BROWSER================================================================================================================================================================
 WebUI.closeBrowser()
 

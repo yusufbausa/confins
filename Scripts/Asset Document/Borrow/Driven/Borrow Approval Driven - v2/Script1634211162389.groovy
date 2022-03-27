@@ -24,92 +24,47 @@ WebUI.maximizeWindow()
 
 
 //input credential
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), username)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select role
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Select'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Select'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Select'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Select'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select menu borrow approval
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/img_Welcome, DAIRINA MANIK, JAKARTA NORTH, _c8ab9b'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/img_Welcome, DAIRINA MANIK, JAKARTA NORTH, _c8ab9b'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Borrow/Approval/img_Welcome, DAIRINA MANIK, JAKARTA NORTH, _c8ab9b'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Borrow/Approval/img_Welcome, DAIRINA MANIK, JAKARTA NORTH, _c8ab9b'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/select_LOAN ORIGINATIONACCOUNT'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/select_LOAN ORIGINATIONACCOUNT'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Borrow/Approval/select_LOAN ORIGINATIONACCOUNT'))
+//WebUI.delay(1)
 WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Borrow/Approval/select_LOAN ORIGINATIONACCOUNT'), '121', false)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/span_Receive_rtPlus'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/span_Receive_rtPlus'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Borrow/Approval/span_Receive_rtPlus'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Borrow/Approval/span_Receive_rtPlus'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Approval'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Approval'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Approval'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Approval'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //input cust credential
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Borrow/Approval/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'))
 WebUI.setText(findTestObject('Object Repository/Asset Document/Borrow/Approval/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), agreeNo)
-
 WebUI.click(findTestObject('Object Repository/Asset Document/Borrow/Approval/input_Value must be Date Format_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/input_DMN1556_gvTaskctl02ibProcess'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/input_DMN1556_gvTaskctl02ibProcess'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Borrow/Approval/input_DMN1556_gvTaskctl02ibProcess'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Borrow/Approval/input_DMN1556_gvTaskctl02ibProcess'))
 WebUI.delay(1)
 
 
 //borrow approval process
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/select_Select OneApproveReject'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/select_Select OneApproveReject'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Borrow/Approval/select_Select OneApproveReject'))
 WebUI.scrollToElement(findTestObject('Object Repository/Asset Document/Borrow/Approval/select_Select OneApproveReject'), 10)
-WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Borrow/Approval/select_Select OneApproveReject'), 'Approve', false)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/textarea_Notes_txtNotes'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/textarea_Notes_txtNotes'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Borrow/Approval/textarea_Notes_txtNotes'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Borrow/Approval/select_Select OneApproveReject'), 'Approve', false)
 WebUI.setText(findTestObject('Object Repository/Asset Document/Borrow/Approval/textarea_Notes_txtNotes'), notes)
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Submit'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Borrow/Approval/a_Submit'))
-WebUI.delay(5)
+WebUI.delay(3)
 
 
 //close browser
 WebUI.closeBrowser()
+
 

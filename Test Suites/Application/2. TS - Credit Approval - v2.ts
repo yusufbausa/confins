@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>83791946-a284-4c71-ae97-32c96288fd15</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/1. CA Credit Area Head/Credit Approval by Credit Area Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -63,6 +63,51 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>cd5feb31-d765-42e1-ae83-b66110b5eec3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/App - Go Live/2. Credit Approval/3. CA Credit Division Head/Credit Approval by Credit Division Head - Driven - v2</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>02c38657-5ac0-4870-bd7f-6fdf3d221c78</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Application/Credit Approval/Credit Approval Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>02c38657-5ac0-4870-bd7f-6fdf3d221c78</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>1cc55caf-6bec-42fe-9fde-77fb3df473f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>02c38657-5ac0-4870-bd7f-6fdf3d221c78</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>usernameCDH</value>
+         <variableId>1af5a541-45ac-478a-b31b-86aa5c5a7b5e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>02c38657-5ac0-4870-bd7f-6fdf3d221c78</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>1bbfe168-649d-427a-8bd6-5e48abe48135</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>02c38657-5ac0-4870-bd7f-6fdf3d221c78</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>appNumber</value>
+         <variableId>9aaddca2-fad0-4daf-ae1d-0078d1f06765</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>02c38657-5ac0-4870-bd7f-6fdf3d221c78</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>notes</value>
+         <variableId>6b3ca1e5-627f-4efe-8a19-91a741fe4d7e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>38cb4b19-9a9f-46f6-b820-bc4e8bbc4a0f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -105,51 +150,6 @@
          <type>DATA_COLUMN</type>
          <value>notes</value>
          <variableId>3680948c-aea0-45ea-88d2-0241d5603bda</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cd5feb31-d765-42e1-ae83-b66110b5eec3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/App - Go Live/2. Credit Approval/3. CA Credit Division Head/Credit Approval by Credit Division Head - Driven - v2</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>02c38657-5ac0-4870-bd7f-6fdf3d221c78</id>
-         <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
-         </iterationEntity>
-         <testDataId>Data Files/Application/Credit Approval/Credit Approval Data</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>02c38657-5ac0-4870-bd7f-6fdf3d221c78</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>url</value>
-         <variableId>1cc55caf-6bec-42fe-9fde-77fb3df473f7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>02c38657-5ac0-4870-bd7f-6fdf3d221c78</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>usernameCDH</value>
-         <variableId>1af5a541-45ac-478a-b31b-86aa5c5a7b5e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>02c38657-5ac0-4870-bd7f-6fdf3d221c78</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>1bbfe168-649d-427a-8bd6-5e48abe48135</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>02c38657-5ac0-4870-bd7f-6fdf3d221c78</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>appNumber</value>
-         <variableId>9aaddca2-fad0-4daf-ae1d-0078d1f06765</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>02c38657-5ac0-4870-bd7f-6fdf3d221c78</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>notes</value>
-         <variableId>6b3ca1e5-627f-4efe-8a19-91a741fe4d7e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

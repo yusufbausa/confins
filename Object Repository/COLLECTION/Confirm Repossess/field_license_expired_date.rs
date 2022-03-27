@@ -6,16 +6,16 @@
    <elementGuidId>c244ab35-3406-4447-a95d-4e3de56981a9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ucdpLicenseExpDate_txtDatePicker']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ucdpLicenseExpDate_txtDatePicker</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/form/div[3]/div[3]/div[4]/div/div[2]/table/tbody/tr[5]/td[4]/input[1][count(. | //*[@ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_c7b2a3']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_c7b2a3'])]</value>
+         <value>/html/body/form/div[3]/div[3]/div[4]/div/div[2]/table/tbody/tr[6]/td[2]/input[1][count(. | //*[@ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_c7b2a3']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_c7b2a3'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='ucdpLicenseExpDate_txtDatePicker']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -67,7 +67,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[3]/div[3]/div[4]/div/div[2]/table/tbody/tr[5]/td[4]/input[1]</value>
+      <value>/html/body/form/div[3]/div[3]/div[4]/div/div[2]/table/tbody/tr[6]/td[2]/input[1]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

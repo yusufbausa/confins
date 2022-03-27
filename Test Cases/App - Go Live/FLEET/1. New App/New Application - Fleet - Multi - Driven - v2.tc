@@ -208,4 +208,11 @@
       <masked>false</masked>
       <name>noRangka2</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a67bf468-5d36-45db-a8b2-28df704d28fe</id>
+      <masked>false</masked>
+      <name>insuranceType</name>
+   </variable>
 </TestCaseEntity>

@@ -6,15 +6,15 @@
    <elementGuidId>129631e3-393b-4367-9e8c-ec1554d07f22</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2][count(. | //*[@ref_element = 'Object Repository/REMEDIAL/Repossession/iframe_Welcome, PRIANTO ARI BASUKI, REMEDIA_e8328a']) = count(//*[@ref_element = 'Object Repository/REMEDIAL/Repossession/iframe_Welcome, PRIANTO ARI BASUKI, REMEDIA_e8328a'])]</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='rtvMenuTree']/ul/li[5]/div/span[2]</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/div/span[2][count(. | //*[@ref_element = 'Object Repository/REMEDIAL/Repossession/iframe_Welcome, PRIANTO ARI BASUKI, REMEDIA_e8328a']) = count(//*[@ref_element = 'Object Repository/REMEDIAL/Repossession/iframe_Welcome, PRIANTO ARI BASUKI, REMEDIA_e8328a'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2]</value>
+      <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/div/span[2]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

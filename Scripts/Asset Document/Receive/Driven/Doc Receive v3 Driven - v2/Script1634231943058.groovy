@@ -25,94 +25,40 @@ WebUI.maximizeWindow()
 
 
 //input credential
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), usernameDestination)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select menu asset document transfer
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/button_menu'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/button_menu'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/button_menu'))
 WebUI.click(findTestObject('Asset Document/Transfer/Doc Receive v3/button_menu'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/select_menu_asset_document'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/select_menu_asset_document'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/select_menu_asset_document'))
+//WebUI.delay(1)
 WebUI.selectOptionByValue(findTestObject('Asset Document/Transfer/Doc Receive v3/select_menu_asset_document'), '121', false)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/expand_menu_receive'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/expand_menu_receive'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/expand_menu_receive'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Asset Document/Transfer/Doc Receive v3/expand_menu_receive'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/button_menu_receive'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/button_menu_receive'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/button_menu_receive'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Asset Document/Transfer/Doc Receive v3/button_menu_receive'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //input cust credential (agreement number)
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/select_branch_agreement'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/select_branch_agreement'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/select_branch_agreement'))
 WebUI.selectOptionByValue(findTestObject('Asset Document/Transfer/Doc Receive v3/select_branch_agreement'), '252', false)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/field_agreement_number'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/field_agreement_number'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/field_agreement_number'))
+//WebUI.delay(1)
 WebUI.setText(findTestObject('Asset Document/Transfer/Doc Receive v3/field_agreement_number'), agreeNo)
-
 WebUI.click(findTestObject('Asset Document/Transfer/Doc Receive v3/button_search'))
-
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/button_receive'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/button_receive'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/button_receive'))
 WebUI.click(findTestObject('Asset Document/Transfer/Doc Receive v3/button_receive'))
 WebUI.delay(1)
 
 
 //doc receive process
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/field_asset_tax_date'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/field_asset_tax_date'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/field_asset_tax_date'))
 WebUI.setText(findTestObject('Asset Document/Transfer/Doc Receive v3/field_asset_tax_date'), taxDate)
 WebUI.sendKeys(findTestObject('Asset Document/Transfer/Doc Receive v3/field_asset_tax_date'), Keys.chord(Keys.ENTER))
-
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/field_received_from'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/field_received_from'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/field_received_from'))
 WebUI.setText(findTestObject('Asset Document/Transfer/Doc Receive v3/field_received_from'), receivedFrom)
-
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/check_receive_all'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/check_receive_all'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/check_receive_all'))
 WebUI.click(findTestObject('Asset Document/Transfer/Doc Receive v3/check_receive_all'))
-
-WebUI.waitForElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/button_submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Asset Document/Transfer/Doc Receive v3/button_submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Asset Document/Transfer/Doc Receive v3/button_submit'))
 WebUI.click(findTestObject('Asset Document/Transfer/Doc Receive v3/button_submit'))
-WebUI.delay(5)
+WebUI.delay(3)
 
 
 //close browser
 WebUI.closeBrowser()
-

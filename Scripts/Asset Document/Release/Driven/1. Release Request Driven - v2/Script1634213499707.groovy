@@ -24,99 +24,50 @@ WebUI.maximizeWindow()
 
 
 //input credential
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), username)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select role
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/a_Select'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/a_Select'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/a_Select'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/a_Select'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select menu asset document release
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/img_Welcome, SUGIHARTINI, TANGERANG, CUSTOM_4127e5'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/img_Welcome, SUGIHARTINI, TANGERANG, CUSTOM_4127e5'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/img_Welcome, SUGIHARTINI, TANGERANG, CUSTOM_4127e5'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/img_Welcome, SUGIHARTINI, TANGERANG, CUSTOM_4127e5'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Release/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 
-    '121', false)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/span_Transfer_rtPlus'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/span_Transfer_rtPlus'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/span_Transfer_rtPlus'))
+//WebUI.delay(1)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Release/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'),
+	'121', false)
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/span_Transfer_rtPlus'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/a_Request'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/a_Request'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/a_Request'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/a_Request'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //input cust credential
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'))
 WebUI.setText(findTestObject('Object Repository/Asset Document/Release/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), agreeNo)
-
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/input_Main Document Status_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/input_On Hand_gvAssetListctl02imbRelease'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/input_On Hand_gvAssetListctl02imbRelease'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/input_On Hand_gvAssetListctl02imbRelease'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/input_On Hand_gvAssetListctl02imbRelease'))
 WebUI.delay(1)
 
 
 //release request process
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/select_Select OneCUSTOMER LUNAS PENJUALAN L_fc8e73'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/select_Select OneCUSTOMER LUNAS PENJUALAN L_fc8e73'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/select_Select OneCUSTOMER LUNAS PENJUALAN L_fc8e73'))
 WebUI.scrollToElement(findTestObject('Object Repository/Asset Document/Release/select_Select OneCUSTOMER LUNAS PENJUALAN L_fc8e73'), 10)
-WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Release/select_Select OneCUSTOMER LUNAS PENJUALAN L_fc8e73'), '256', false)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/select_Select OneSUG0793'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/select_Select OneSUG0793'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/select_Select OneSUG0793'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Release/select_Select OneCUSTOMER LUNAS PENJUALAN L_fc8e73'), '256', false)
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Release/select_Select OneSUG0793'), approvedBy, false)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Asset Document/Release/select_Select OneSUG0793'), approvedBy, false)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/textarea_Notes_ucApprovaltxtNotes'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/textarea_Notes_ucApprovaltxtNotes'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/textarea_Notes_ucApprovaltxtNotes'))
 WebUI.setText(findTestObject('Object Repository/Asset Document/Release/textarea_Notes_ucApprovaltxtNotes'), notes)
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/a_Submit'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/a_Submit'))
 WebUI.delay(3)
 
 
 //close browser
 WebUI.closeBrowser()
+
 

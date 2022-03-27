@@ -10,12 +10,12 @@
          <value>#12_C_uc12_rptApproval_lbApproval0</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@id = '12_C_uc12_rptApproval_lbApproval0' and @class = 'linkToDo' and (text() = 'Remedial Change Inventory Expected Date Approval' or . = 'Remedial Change Inventory Expected Date Approval') and @ref_element = 'Object Repository/REMEDIAL/Change Asset Expected Date Approval/iframe_Welcome, SARITUA SINURAT, REMEDIAL A_b897b4']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='12_C_uc12_rptApproval_lbApproval0']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'linkToDo' and (text() = 'Remedial Change Inventory Expected Date Approval' or . = 'Remedial Change Inventory Expected Date Approval') and @ref_element = 'Object Repository/REMEDIAL/Change Asset Expected Date Approval/iframe_Welcome, SARITUA SINURAT, REMEDIAL A_b897b4']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +28,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

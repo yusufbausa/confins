@@ -277,6 +277,12 @@
          <value>notes</value>
          <variableId>e844f85b-36e4-4ae9-acf7-4777ce7fd49d</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>581d529e-6956-409c-b2cd-15546c95481c</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>8d908a0f-c715-4f88-a115-d5125b5e9458</guid>

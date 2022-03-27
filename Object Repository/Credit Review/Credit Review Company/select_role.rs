@@ -6,12 +6,12 @@
    <elementGuidId>950d87a0-4e8a-49d6-ae4b-e295e0ac7ed4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_13']</value>
+         <key>BASIC</key>
+         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[16]/td[4]/a[count(. | //*[(text() = 'Select' or . = 'Select')]) = count(//*[(text() = 'Select' or . = 'Select')])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[15]/td[4]/a[count(. | //*[(text() = 'Select' or . = 'Select')]) = count(//*[(text() = 'Select' or . = 'Select')])]</value>
+         <key>XPATH</key>
+         <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_13']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[15]/td[4]/a</value>
+      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[16]/td[4]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

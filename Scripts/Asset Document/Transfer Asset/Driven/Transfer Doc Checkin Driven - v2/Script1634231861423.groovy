@@ -25,76 +25,35 @@ WebUI.maximizeWindow()
 
 
 //input credential
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), usernameDestination)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select menu document checkin
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/img_Welcome, DEWI SURYANI UTAMI, JAKARTA NO_9393cb'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/img_Welcome, DEWI SURYANI UTAMI, JAKARTA NO_9393cb'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/img_Welcome, DEWI SURYANI UTAMI, JAKARTA NO_9393cb'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/img_Welcome, DEWI SURYANI UTAMI, JAKARTA NO_9393cb'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTMARKETINGAPPLICATION FOUNDATION'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTMARKETINGAPPLICATION FOUNDATION'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTMARKETINGAPPLICATION FOUNDATION'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTMARKETINGAPPLICATION FOUNDATION'), 
-    '121', false)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Filing Management'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Filing Management'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Filing Management'))
+//WebUI.delay(1)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTMARKETINGAPPLICATION FOUNDATION'),
+	'121', false)
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Filing Management'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Document Check In'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Document Check In'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Document Check In'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Document Check In'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //input cust credential
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'))
 WebUI.setText(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), agreeNo)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/select_Select OneAddColl DocumentAgreement _f120a2'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/select_Select OneAddColl DocumentAgreement _f120a2'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/select_Select OneAddColl DocumentAgreement _f120a2'))
 WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/select_Select OneAddColl DocumentAgreement _f120a2'), 'ASD', false)
-
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/input__ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/input_Asset Document_gvRequestListctl02imbCheckIn'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/input_Asset Document_gvRequestListctl02imbCheckIn'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/input_Asset Document_gvRequestListctl02imbCheckIn'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/input_Asset Document_gvRequestListctl02imbCheckIn'))
 WebUI.delay(1)
 
 
 //document checkin process
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Submit'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Doc Receive/a_Submit'))
-WebUI.delay(5)
+WebUI.delay(3)
 
 //close browser
 WebUI.closeBrowser()

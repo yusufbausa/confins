@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>4731922f-e3c1-4d39-a986-33c2e6284144</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/CA Analyst Siap Dana/Credit Approval Analyst Siap Dana - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>c71b2d12-0691-4994-93b1-d38f22abda4f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/1. CA Credit Area Head/Credit Approval by Credit Area Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -116,7 +116,7 @@
    <testCaseLink>
       <guid>49cba996-78aa-4324-b48c-b9ee40435a04</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/3. CA Credit Division Head/Credit Approval by Credit Division Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

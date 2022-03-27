@@ -24,156 +24,75 @@ WebUI.maximizeWindow()
 
 
 //INPUT ADMIN CREDENTIAL================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), usernameReq)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //SELECT ADMIN ROLE================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/a_Select'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/a_Select'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/CDD/a_Select'))
 WebUI.scrollToElement(findTestObject('Amendment/Request/CDD/a_Select'), 10)
 WebUI.click(findTestObject('Object Repository/Amendment/Request/CDD/a_Select'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //SELECT MENU AMENDMENT REQUEST================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/img_Welcome, ANDI WIBAWA, TANGERANG, CUSTOM_635c3d'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/img_Welcome, ANDI WIBAWA, TANGERANG, CUSTOM_635c3d'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/CDD/img_Welcome, ANDI WIBAWA, TANGERANG, CUSTOM_635c3d'))
 WebUI.click(findTestObject('Object Repository/Amendment/Request/CDD/img_Welcome, ANDI WIBAWA, TANGERANG, CUSTOM_635c3d'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/CDD/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/CDD/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 
-    '156', false)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/a_Amendment Request'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/a_Amendment Request'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/CDD/a_Amendment Request'))
+//WebUI.delay(1)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/CDD/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'),
+	'156', false)
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Amendment/Request/CDD/a_Amendment Request'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //INPUT CUST CREDENTIAL================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneChange Due DatePrepaymentPartial Asset PaymentReschedullingAgreement TransferAsset ReplacementFloating Adjustment'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneChange Due DatePrepaymentPartial Asset PaymentReschedullingAgreement TransferAsset ReplacementFloating Adjustment'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneChange Due DatePrepaymentPartial Asset PaymentReschedullingAgreement TransferAsset ReplacementFloating Adjustment'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneChange Due DatePrepaymentPartial Asset PaymentReschedullingAgreement TransferAsset ReplacementFloating Adjustment'), 
-    'RSC', false)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Agreement No_ucSearchtxtAgrmntNo_ltlA_96f6b8'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Agreement No_ucSearchtxtAgrmntNo_ltlA_96f6b8'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Agreement No_ucSearchtxtAgrmntNo_ltlA_96f6b8'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneChange Due DatePrepaymentPartial Asset PaymentReschedullingAgreement TransferAsset ReplacementFloating Adjustment'),
+	'RSC', false)
 WebUI.setText(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Agreement No_ucSearchtxtAgrmntNo_ltlA_96f6b8'), agreeNo)
-
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Address_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/input_No_gvAgrmntctl02imbEdit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/input_No_gvAgrmntctl02imbEdit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/input_No_gvAgrmntctl02imbEdit'))
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/input_No_gvAgrmntctl02imbEdit'))
 WebUI.delay(1)
 
 
 //REQUEST RESCHEDULE PROCESS================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/a_'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/a_'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/a_'))
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/a_'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Effective Date_ucEffectiveDttxtDatePicker'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Effective Date_ucEffectiveDttxtDatePicker'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Effective Date_ucEffectiveDttxtDatePicker'))
 WebUI.setText(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Effective Date_ucEffectiveDttxtDatePicker'), effDate)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneExisting Due DateEffective Date'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneExisting Due DateEffective Date'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneExisting Due DateEffective Date'))
 WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneExisting Due DateEffective Date'), 'EFF_DT', false)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/a__1'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/a__1'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/a__1'))
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/a__1'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'))
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'))
 WebUI.sendKeys(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'), Keys.chord(Keys.CONTROL + "a"))
 WebUI.sendKeys(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'), Keys.chord(Keys.DELETE))
 WebUI.setText(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'), tenor)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneMONTHLYBIMONTHLYQuarterlyT_7ac454'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneMONTHLYBIMONTHLYQuarterlyT_7ac454'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneMONTHLYBIMONTHLYQuarterlyT_7ac454'))
 WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneMONTHLYBIMONTHLYQuarterlyT_7ac454'), '1', false)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneBalloonEven PrincipleRegul_ef1d4f'), 10)
-WebUI.delay(1)
+//WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneBalloonEven PrincipleRegul_ef1d4f'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneBalloonEven PrincipleRegul_ef1d4f'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneBalloonEven PrincipleRegul_ef1d4f'))
 WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneBalloonEven PrincipleRegul_ef1d4f'), 'RF', false)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Next'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Next'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Next'))
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Next'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Calculate Installment'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Calculate Installment'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Calculate Installment'))
 WebUI.scrollToElement(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Calculate Installment'), 10)
-WebUI.delay(1)
+//WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Calculate Installment'))
 WebUI.delay(3)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneKONDISI KEUANGAN (TEMPORAR_46a91b'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneKONDISI KEUANGAN (TEMPORAR_46a91b'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneKONDISI KEUANGAN (TEMPORAR_46a91b'))
 WebUI.scrollToElement(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneKONDISI KEUANGAN (TEMPORAR_46a91b'), 10)
-WebUI.delay(1)
-WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneKONDISI KEUANGAN (TEMPORAR_46a91b'), '284', false)
+//WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneAJW1423ALFC2023SUG0793'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneAJW1423ALFC2023SUG0793'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneAJW1423ALFC2023SUG0793'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneKONDISI KEUANGAN (TEMPORAR_46a91b'), '284', false)
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneAJW1423ALFC2023SUG0793'), approvedBy, false)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneAJW1423ALFC2023SUG0793'), approvedBy, false)
 
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/textarea_Notes_ucApvtxtNotes'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/textarea_Notes_ucApvtxtNotes'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/textarea_Notes_ucApvtxtNotes'))
 WebUI.setText(findTestObject('Object Repository/Amendment/Request/Reschedule/textarea_Notes_ucApvtxtNotes'), notes)
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Submit'))
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Submit'))
-WebUI.delay(5)
+WebUI.delay(3)
 
 
 //CLOSE BROWSER================================================================================================================================================================================================================================================================================================================
 WebUI.closeBrowser()
+
 

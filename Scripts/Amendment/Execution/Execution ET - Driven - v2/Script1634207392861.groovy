@@ -24,80 +24,40 @@ WebUI.maximizeWindow()
 
 
 //INPUT ADMIN CREDENTIAL================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), usernameExe)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //SELECT ADMIN ROLE================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/a_Select'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/a_Select'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/CDD/a_Select'))
 WebUI.scrollToElement(findTestObject('Amendment/Request/CDD/a_Select'), 10)
 WebUI.click(findTestObject('Object Repository/Amendment/Request/CDD/a_Select'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //SELECT MENU AMENDMENT EXECUTION================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/img_Welcome, ANDI WIBAWA, TANGERANG, CUSTOM_635c3d'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/img_Welcome, ANDI WIBAWA, TANGERANG, CUSTOM_635c3d'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/CDD/img_Welcome, ANDI WIBAWA, TANGERANG, CUSTOM_635c3d'))
 WebUI.click(findTestObject('Object Repository/Amendment/Request/CDD/img_Welcome, ANDI WIBAWA, TANGERANG, CUSTOM_635c3d'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Request/CDD/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/CDD/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 
-    '156', false)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Execution/CDD/a_Amendment Execution'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Execution/CDD/a_Amendment Execution'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Execution/CDD/a_Amendment Execution'))
+//WebUI.delay(1)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/CDD/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'),
+	'156', false)
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Amendment/Execution/CDD/a_Amendment Execution'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //INPUT CUST CREDENTIAL================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Execution/CDD/select_Select OneChange Due DatePrepaymentPartial Asset PaymentReschedullingAgreement TransferAsset Replacement'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Execution/CDD/select_Select OneChange Due DatePrepaymentPartial Asset PaymentReschedullingAgreement TransferAsset Replacement'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Execution/CDD/select_Select OneChange Due DatePrepaymentPartial Asset PaymentReschedullingAgreement TransferAsset Replacement'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Execution/CDD/select_Select OneChange Due DatePrepaymentPartial Asset PaymentReschedullingAgreement TransferAsset Replacement'), 
-    'PRP', false)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Execution/CDD/input_Agreement No_ucSearchtxtAgrmntNo_ltlA_96f6b8'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Execution/CDD/input_Agreement No_ucSearchtxtAgrmntNo_ltlA_96f6b8'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Execution/CDD/input_Agreement No_ucSearchtxtAgrmntNo_ltlA_96f6b8'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Execution/CDD/select_Select OneChange Due DatePrepaymentPartial Asset PaymentReschedullingAgreement TransferAsset Replacement'),
+	'PRP', false)
 WebUI.setText(findTestObject('Object Repository/Amendment/Execution/CDD/input_Agreement No_ucSearchtxtAgrmntNo_ltlA_96f6b8'), agreeNo)
-
 WebUI.click(findTestObject('Object Repository/Amendment/Execution/CDD/input_Task Claim By_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Execution/CDD/input_APV_gvAgrmntctl02imbEdit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Execution/CDD/input_APV_gvAgrmntctl02imbEdit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Execution/CDD/input_APV_gvAgrmntctl02imbEdit'))
 WebUI.click(findTestObject('Object Repository/Amendment/Execution/CDD/input_APV_gvAgrmntctl02imbEdit'))
 WebUI.delay(3)
 
 
 //EXECUTION CDD PROCESS================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Execution/ET/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amendment/Execution/ET/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Amendment/Execution/ET/a_Submit'))
 WebUI.click(findTestObject('Object Repository/Amendment/Execution/ET/a_Submit'))
-WebUI.delay(5)
+WebUI.delay(3)
 
 
 //CLOSE BROWSER================================================================================================================================================================================================================================================================================================================

@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>46e87b87-748b-4b43-9e11-7a7fab549fb2</testCaseGuid>
    <variable>
-      <defaultValue>'http://confins-uat.taf.co.id/confins/'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>28978d57-42da-43a2-89f8-d80a16654415</id>
       <masked>false</masked>
@@ -46,5 +46,12 @@
       <id>1dfd3637-f105-4984-bc54-363d7dc40572</id>
       <masked>false</masked>
       <name>notes</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aec7923d-6f24-4615-bf00-11f713a8f76b</id>
+      <masked>false</masked>
+      <name>approvedBy</name>
    </variable>
 </TestCaseEntity>

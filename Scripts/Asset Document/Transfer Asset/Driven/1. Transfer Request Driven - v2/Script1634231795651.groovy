@@ -25,118 +25,54 @@ WebUI.maximizeWindow()
 
 
 //input credential
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), username)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select role
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Release/a_Select'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Release/a_Select'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Release/a_Select'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Release/a_Select'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select menu asset transfer
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/img_Welcome, SUGIHARTINI, TANGERANG, CUSTOM_4127e5'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/img_Welcome, SUGIHARTINI, TANGERANG, CUSTOM_4127e5'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/img_Welcome, SUGIHARTINI, TANGERANG, CUSTOM_4127e5'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Request/img_Welcome, SUGIHARTINI, TANGERANG, CUSTOM_4127e5'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Request/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'), 
-    '121', false)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/span_Borrow_rtPlus'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/span_Borrow_rtPlus'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/span_Borrow_rtPlus'))
+//WebUI.delay(1)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Request/select_LOAN ORIGINATIONACCOUNT MAINTENANCEASSET DOCUMENT MANAGEMENTDISBURSEMENTAMENDMENTINSURANCEMARKETINGAPPLICATION FOUNDATIONLIFE INSURANCECOLLECTIONSMS'),
+	'121', false)
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Request/span_Borrow_rtPlus'))
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Request'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Request'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Request'))
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Request'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //input cust credential
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'))
 WebUI.setText(findTestObject('Object Repository/Asset Document/Transfer/Request/input_Agreement No_ucSearchtxtAgrmntNo_ltlAgrmntAgrmntNo'), agreeNo)
-
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Request/input_Main Document Status_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/input_MAIN DOCUMENT STATUS_gvAssetListctl02_484916'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/input_MAIN DOCUMENT STATUS_gvAssetListctl02_484916'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/input_MAIN DOCUMENT STATUS_gvAssetListctl02_484916'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Request/input_MAIN DOCUMENT STATUS_gvAssetListctl02_484916'))
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Add to Temp'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Add to Temp'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Add to Temp'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Add to Temp'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Next'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Next'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Next'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Next'))
 WebUI.delay(1)
 
 
 //asset transfer process
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneBALIKPAPANBANDUNGBANJARMAS_cfef0d'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneBALIKPAPANBANDUNGBANJARMAS_cfef0d'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneBALIKPAPANBANDUNGBANJARMAS_cfef0d'))
 WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneBALIKPAPANBANDUNGBANJARMAS_cfef0d'), '219', false)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OnePEMEKARAN WILAYAH CABANG P_d94ccf'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OnePEMEKARAN WILAYAH CABANG P_d94ccf'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OnePEMEKARAN WILAYAH CABANG P_d94ccf'))
 WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OnePEMEKARAN WILAYAH CABANG P_d94ccf'), '329', false)
-
-
-//WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneSUG0793'))
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneSUG0793'), 
-//    '314507', false)
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneSUG0793'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneSUG0793'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneSUG0793'))
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneSUG0793'), approvedBy, false)
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneSUG0793'),
+//    '314507', false)//WebUI.selectOptionByValue(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneSUG0793'), approvedBy, false)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Asset Document/Transfer/Request/select_Select OneSUG0793'), approvedBy, false)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/textarea_Notes_ucApprovaltxtNotes'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/textarea_Notes_ucApprovaltxtNotes'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/textarea_Notes_ucApprovaltxtNotes'))
 WebUI.setText(findTestObject('Object Repository/Asset Document/Transfer/Request/textarea_Notes_ucApprovaltxtNotes'), notes)
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Submit'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Submit'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Submit'))
 WebUI.click(findTestObject('Object Repository/Asset Document/Transfer/Request/a_Submit'))
-WebUI.delay(5)
+WebUI.delay(3)
 
 
 //close browser
 WebUI.closeBrowser()
+
 

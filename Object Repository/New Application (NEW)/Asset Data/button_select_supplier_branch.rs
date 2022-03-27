@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'ucLookupSupplBranchSchm_uclSupplBranchSchm_umd_ctl00_gvL_hpSelect_0' and @href = concat('javascript:SupplBranchSchmLookup(' , &quot;'&quot; , 'ucLookupSupplBranchSchm_uclSupplBranchSchm_txt' , &quot;'&quot; , ',' , &quot;'&quot; , 'ucLookupSupplBranchSchm_uclSupplBranchSchm_hd1' , &quot;'&quot; , ',' , &quot;'&quot; , 'ARMADA AUTO TARA - TGR CIKOKOL 1' , &quot;'&quot; , ',' , &quot;'&quot; , 'ucLookupSupplBranchSchm_uclSupplBranchSchm_hd2' , &quot;'&quot; , ',' , &quot;'&quot; , '252' , &quot;'&quot; , ',' , &quot;'&quot; , 'ucLookupSupplBranchSchm_uclSupplBranchSchm_hd3' , &quot;'&quot; , ',' , &quot;'&quot; , '2774' , &quot;'&quot; , ',' , &quot;'&quot; , 'ucLookupSupplBranchSchm_uclSupplBranchSchm_hd4' , &quot;'&quot; , ',' , &quot;'&quot; , 'ARMADA AUTO TARA' , &quot;'&quot; , ',' , &quot;'&quot; , 'ucLookupSupplBranchSchm_uclSupplBranchSchm_hd5' , &quot;'&quot; , ',' , &quot;'&quot; , 'Jl. M.H. Thamrin No. 9, Kebon Nanas, Cikokol, Tangerang' , &quot;'&quot; , ');;overlay(' , &quot;'&quot; , 'mdnucLookupSupplBranchSchm_uclSupplBranchSchm' , &quot;'&quot; , ');__doPostBack(' , &quot;'&quot; , 'mdnucLookupSupplBranchSchm_uclSupplBranchSchm' , &quot;'&quot; , ', ' , &quot;'&quot; , '' , &quot;'&quot; , ')') and (text() = 'Select' or . = 'Select') and @ref_element = 'Object Repository/New Application (NEW)/Asset Data/iframe_Term  Condition_appForm']</value>
+         <value>/html/body/form/div[6]/div/div[2]/table[1]/tbody/tr[1]/td[2]/div/div/div/div/div[2]/div/div[1]/table/tbody/tr[2]/td[6]/a[count(. | //*[(text() = 'Select' or . = 'Select') and @ref_element = 'Object Repository/New Application (NEW)/Asset Data/iframe_Term  Condition_appForm']) = count(//*[(text() = 'Select' or . = 'Select') and @ref_element = 'Object Repository/New Application (NEW)/Asset Data/iframe_Term  Condition_appForm'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,14 +28,14 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>ucLookupSupplBranchSchm_uclSupplBranchSchm_umd_ctl00_gvL_hpSelect_0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -49,11 +49,11 @@
       <value>Select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[6]/div/div[2]/table[1]/tbody/tr[1]/td[2]/div/div/div/div/div[2]/div/div[1]/table/tbody/tr[2]/td[4]/a</value>
+      <value>/html/body/form/div[6]/div/div[2]/table[1]/tbody/tr[1]/td[2]/div/div/div/div/div[2]/div/div[1]/table/tbody/tr[2]/td[6]/a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

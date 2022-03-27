@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>e9b9789b-389c-41c7-b4c1-f033be3d8a7a</testCaseGuid>
    <variable>
-      <defaultValue>'http://confins-uat.taf.co.id/confins/'</defaultValue>
+      <defaultValue>'http://confins-qa.taf.co.id/confins/'</defaultValue>
       <description></description>
       <id>18b9c1a2-6c63-44df-a9e3-5dcf5d525fdc</id>
       <masked>false</masked>
       <name>url</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'PAB0656'</defaultValue>
       <description></description>
       <id>48f23359-06c3-433a-b463-53e961bc088a</id>
       <masked>false</masked>
@@ -27,24 +27,31 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'1813049052'</defaultValue>
       <description></description>
       <id>2b45507f-d309-4e3d-8b58-582484ee3e25</id>
       <masked>false</masked>
       <name>agreeNo</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'02/12/2021'</defaultValue>
       <description></description>
       <id>457223be-5e7c-4a54-a3ff-b228400b9c83</id>
       <masked>false</masked>
       <name>newExpectedDate</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'notes'</defaultValue>
       <description></description>
       <id>e844f85b-36e4-4ae9-acf7-4777ce7fd49d</id>
       <masked>false</masked>
       <name>notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'SSI0618'</defaultValue>
+      <description></description>
+      <id>581d529e-6956-409c-b2cd-15546c95481c</id>
+      <masked>false</masked>
+      <name>approvedBy</name>
    </variable>
 </TestCaseEntity>

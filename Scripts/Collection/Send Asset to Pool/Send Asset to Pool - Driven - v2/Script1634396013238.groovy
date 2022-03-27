@@ -72,7 +72,7 @@ WebUI.waitForElementPresent(findTestObject('COLLECTION/Send Asset to Pool/button
 WebUI.verifyElementPresent(findTestObject('COLLECTION/Send Asset to Pool/button_menu_send_asset_to_pool'), 30)
 WebUI.verifyElementClickable(findTestObject('COLLECTION/Send Asset to Pool/button_menu_send_asset_to_pool'))
 WebUI.click(findTestObject('COLLECTION/Send Asset to Pool/button_menu_send_asset_to_pool'))
-WebUI.delay(1)
+WebUI.delay(60)
 
 
 //input cust credential

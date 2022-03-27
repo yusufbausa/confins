@@ -173,4 +173,11 @@
       <masked>false</masked>
       <name>effRate</name>
    </variable>
+   <variable>
+      <defaultValue>'COMMERCIAL'</defaultValue>
+      <description></description>
+      <id>d6e56bf0-9ab9-48e4-aed2-1f3716a91b90</id>
+      <masked>false</masked>
+      <name>insuranceType</name>
+   </variable>
 </TestCaseEntity>

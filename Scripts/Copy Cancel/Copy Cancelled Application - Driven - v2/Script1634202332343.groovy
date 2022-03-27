@@ -36,36 +36,24 @@ import org.openqa.selenium.Keys as Keys
 
 
 //SELECT MENU COPY CANCEL================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'))
 WebUI.click(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/img_Welcome, ANGGO BAGUS WICAKSONO, TANGERA_797734'))
-WebUI.delay(1)
+//WebUI.delay(1)
 //WebUI.click(findTestObject('Object Repository/COPY CANCEL/Application Agreement Cancellation/span_Application Inquiry_rtPlus'))
 //WebUI.delay(1)
-WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/a_Copy Cancelled Application'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/a_Copy Cancelled Application'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/a_Copy Cancelled Application'))
+
 WebUI.click(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/a_Copy Cancelled Application'))
-WebUI.delay(3)
 
 
 //INPUT CUST CREDENTIAL & PROCESS================================================================================================================================================================================================================================================================================================================
-WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'))
 WebUI.setText(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), appNo)
-
 WebUI.click(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/input_Product Offering Name_ucSearchbtnSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/input_MULTIGUNA NON PAKET_gvCopyFromCancell_5a16d8'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/input_MULTIGUNA NON PAKET_gvCopyFromCancell_5a16d8'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/input_MULTIGUNA NON PAKET_gvCopyFromCancell_5a16d8'))
-WebUI.click(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/input_MULTIGUNA NON PAKET_gvCopyFromCancell_5a16d8'))
 WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/COPY CANCEL/Copy Cancelled Application/input_MULTIGUNA NON PAKET_gvCopyFromCancell_5a16d8'))
+//WebUI.delay(1)
+
+WebUI.verifyAlertPresent(0)
 WebUI.acceptAlert()
-WebUI.delay(5)
+WebUI.delay(3)
 
 //CLOSE BROWSER================================================================================================================================================================================================================================================================================================================
 WebUI.closeBrowser()
-

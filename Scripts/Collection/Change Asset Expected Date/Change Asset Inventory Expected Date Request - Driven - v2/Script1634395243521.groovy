@@ -106,12 +106,12 @@ WebUI.setText(findTestObject('COLLECTION/Change Asset Expected Date/Expected Dat
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_reason_description'), 30)
 WebUI.verifyElementPresent(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_reason_description'), 30)
 WebUI.verifyElementClickable(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_reason_description'))
-WebUI.selectOptionByValue(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_reason_description'), '211', false)
+WebUI.selectOptionByLabel(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_reason_description'), 'LELANG', false)
 
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_approved_by'), 30)
 WebUI.verifyElementPresent(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_approved_by'), 30)
 WebUI.verifyElementClickable(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_approved_by'))
-WebUI.selectOptionByValue(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_approved_by'), '50479', false)
+WebUI.selectOptionByLabel(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/select_approved_by'), approvedBy, false)
 
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/field_approval_notes'), 30)
 WebUI.verifyElementPresent(findTestObject('COLLECTION/Change Asset Expected Date/Expected Date Req/field_approval_notes'), 30)
