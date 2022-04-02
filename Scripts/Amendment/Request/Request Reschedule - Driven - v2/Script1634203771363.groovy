@@ -51,6 +51,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Re
 	'RSC', false)
 WebUI.setText(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Agreement No_ucSearchtxtAgrmntNo_ltlA_96f6b8'), agreeNo)
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Address_ucSearchbtnSearch'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/Reschedule/input_No_gvAgrmntctl02imbEdit'), 30)
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/input_No_gvAgrmntctl02imbEdit'))
 WebUI.delay(1)
 
@@ -59,27 +60,30 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/a_'))
 WebUI.setText(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Effective Date_ucEffectiveDttxtDatePicker'), effDate)
 WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneExisting Due DateEffective Date'), 'EFF_DT', false)
+
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/a__1'))
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'))
 WebUI.sendKeys(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'), Keys.chord(Keys.CONTROL + "a"))
 WebUI.sendKeys(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'), Keys.chord(Keys.DELETE))
 WebUI.setText(findTestObject('Object Repository/Amendment/Request/Reschedule/input_Tenor Include Existing_txtFinStrucTen_5ea355'), tenor)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneMONTHLYBIMONTHLYQuarterlyT_7ac454'), '1', false)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneBalloonEven PrincipleRegul_ef1d4f'), 10)
-//WebUI.delay(1)
+WebUI.delay(1)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneBalloonEven PrincipleRegul_ef1d4f'), 'RF', false)
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Next'))
+WebUI.delay(1)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Calculate Installment'), 10)
-//WebUI.delay(1)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Calculate Installment'))
 WebUI.delay(3)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneKONDISI KEUANGAN (TEMPORAR_46a91b'), 10)
-//WebUI.delay(1)
+WebUI.delay(1)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneKONDISI KEUANGAN (TEMPORAR_46a91b'), '284', false)
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/Reschedule/select_Select OneAJW1423ALFC2023SUG0793'), approvedBy, false)
@@ -89,7 +93,7 @@ WebUI.setText(findTestObject('Object Repository/Amendment/Request/Reschedule/tex
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Amendment/Request/Reschedule/a_Submit'))
-WebUI.delay(3)
+WebUI.delay(5)
 
 
 //CLOSE BROWSER================================================================================================================================================================================================================================================================================================================

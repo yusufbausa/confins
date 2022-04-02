@@ -44,14 +44,14 @@ WebUI.click(findTestObject('REMEDIAL/Repossession/menu_repossession'))
 WebUI.click(findTestObject('REMEDIAL/Repossession/expand_menu_repossess'))
 //WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Request/btn_menu_asset_inv_req'))
-WebUI.delay(5)
+WebUI.delay(60)
 
 
 //input cust credential (agree no)
 WebUI.setText(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Request/field_agreement_number'),
 	agreeNo)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Request/btn_search'))
-//WebUI.delay(1)
+WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Request/btn_execute'))
 WebUI.delay(1)
 
@@ -63,7 +63,7 @@ WebUI.setText(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Request/btn_submit'))
-WebUI.delay(3)
+WebUI.delay(5)
 
 
 //close browser

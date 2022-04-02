@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Login/btn_select_profile'))
 WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/button_menu'))
 //WebUI.delay(1)
 WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/menu_new_application'))
-//WebUI.delay(1)
+WebUI.delay(1)
 	
 	
 //ADD NEW APPLICATION-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -53,7 +53,8 @@ WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/ima
 WebUI.setText(findTestObject('New Application (NEW)/New Application - Customer/field_product_name'), productOffer)
 WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/button_search_product'))
 WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/button_select_product'))
-	
+WebUI.delay(1)
+
 WebUI.sendKeys(findTestObject('New Application (NEW)/New Application - Customer/field_asset_number'), Keys.chord(Keys.CONTROL + 'a'))
 WebUI.sendKeys(findTestObject('New Application (NEW)/New Application - Customer/field_asset_number'), Keys.chord(Keys.DELETE))
 WebUI.sendKeys(findTestObject('New Application (NEW)/New Application - Customer/field_asset_number'), assetAmount)
@@ -76,10 +77,11 @@ WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/but
 WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/button_select_customer'))
 	
 WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/button_save_continue_customer'))
-WebUI.delay(1)
-	
+WebUI.delay(2)
+
+
 WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/button_save_continue_guarantor'))
-WebUI.delay(1)
+WebUI.delay(2)
 	
 }
 	
@@ -110,7 +112,8 @@ WebUI.scrollToElement(findTestObject('New Application (NEW)/Application Data/sel
 
 WebUI.selectOptionByValue(findTestObject('New Application (NEW)/Application Data/select_address_copy'), '1', false)
 WebUI.click(findTestObject('New Application (NEW)/Application Data/button_copy_address'))
-	
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('New Application (NEW)/Application Data/field_phone_area'), phoneArea)
 WebUI.setText(findTestObject('New Application (NEW)/Application Data/field_phone__number'), phoneNumber)
 WebUI.setText(findTestObject('New Application (NEW)/Application Data/field_phone_ext'), phoneExt)
@@ -118,7 +121,7 @@ WebUI.setText(findTestObject('New Application (NEW)/Application Data/field_phone
 WebUI.scrollToElement(findTestObject('New Application (NEW)/Application Data/button_save_continue_app_data'), 10)
 
 WebUI.click(findTestObject('New Application (NEW)/Application Data/button_save_continue_app_data'))
-WebUI.delay(1)
+WebUI.delay(2)
 	
 }
 	
@@ -127,19 +130,22 @@ WebUI.delay(1)
 void part_4() {
 	
 WebUI.click(findTestObject('New Application (NEW)/Asset Data/button_add_asset'))
+WebUI.delay(1)
 
 WebUI.click(findTestObject('New Application (NEW)/Asset Data/image_select_supplier_branch'))
 WebUI.setText(findTestObject('New Application (NEW)/Asset Data/field_supplier_branch_address'), suppBranchAddress)
 WebUI.click(findTestObject('New Application (NEW)/Asset Data/button_search_supplier_branch'))
 WebUI.click(findTestObject('Object Repository/SIAP DANA/Asset Data - Siap Dana/New Folder (1)/a_Select (1)'))
 //WebUI.click(findTestObject('New Application (NEW)/Asset Data/button_select_supplier_branch'))
-	
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/SIAP DANA/Asset Data - Siap Dana/input_Top Up Agreement No_ucLookupTopUpAgrm_f80e6d'))
 	
 WebUI.setText(findTestObject('Object Repository/SIAP DANA/Asset Data - Siap Dana/input_Customer Name_ucLookupTopUpAgrmntuclT_c68dd5'), custName)
 WebUI.click(findTestObject('Object Repository/SIAP DANA/Asset Data - Siap Dana/a_SEARCH_1'))
 WebUI.click(findTestObject('Object Repository/SIAP DANA/Asset Data - Siap Dana/a_Select_1'))
-	
+WebUI.delay(1)
+
 WebUI.sendKeys(findTestObject('New Application (NEW)/Asset Data/input_Asset Price_ucAssetPricetxtInput - Siap Dana'), Keys.chord(Keys.CONTROL + 'a'))
 WebUI.sendKeys(findTestObject('New Application (NEW)/Asset Data/input_Asset Price_ucAssetPricetxtInput - Siap Dana'), Keys.chord(Keys.DELETE))
 WebUI.sendKeys(findTestObject('New Application (NEW)/Asset Data/input_Asset Price_ucAssetPricetxtInput - Siap Dana'), assetPrice)
@@ -149,7 +155,8 @@ WebUI.sendKeys(findTestObject('New Application (NEW)/Asset Data/input_Down Payme
 WebUI.sendKeys(findTestObject('New Application (NEW)/Asset Data/input_Down Payment_ucDownPaymentPrcnttxtInput - Siap Dana'), assetDP)
 	
 WebUI.click(findTestObject('Object Repository/SIAP DANA/Asset Data - Siap Dana/a_Get Market Price  Calc  Upping'))
-	
+WebUI.delay(1)
+
 WebUI.scrollToElement(findTestObject('Object Repository/SIAP DANA/Asset Data - Siap Dana/New Folder/input_Bekas_rblAssetCondition'), 10)
 WebUI.click(findTestObject('Object Repository/SIAP DANA/Asset Data - Siap Dana/New Folder/input_Bekas_rblAssetCondition'))
 	
@@ -158,12 +165,13 @@ WebUI.selectOptionByValue(findTestObject('New Application (NEW)/Asset Data/selec
 WebUI.scrollToElement(findTestObject('New Application (NEW)/Asset Data/button_save_asset'), 0)
 	
 WebUI.click(findTestObject('New Application (NEW)/Asset Data/button_save_asset'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 
 //asset registration	
 WebUI.click(findTestObject('New Application (NEW)/Asset Data/button_asset_registration'))
-	
+WebUI.delay(1)
+
 WebUI.click(findTestObject('New Application (NEW)/Asset Data/option_self_usage'))
 	
 WebUI.scrollToElement(findTestObject('New Application (NEW)/Asset Data/select_address_copy_source'), 10)
@@ -174,10 +182,10 @@ WebUI.click(findTestObject('New Application (NEW)/Asset Data/button_copy_address
 WebUI.scrollToElement(findTestObject('New Application (NEW)/Asset Data/button_save_asset_registration'), 2)
 	
 WebUI.click(findTestObject('New Application (NEW)/Asset Data/button_save_asset_registration'))
-//WebUI.delay(1)
+WebUI.delay(1)
 	
 WebUI.click(findTestObject('New Application (NEW)/Asset Data/button_save_continue_asset_data'))
-WebUI.delay(1)
+WebUI.delay(2)
 	
 }
 	

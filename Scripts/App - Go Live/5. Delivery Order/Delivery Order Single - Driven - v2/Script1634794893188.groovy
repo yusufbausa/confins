@@ -40,16 +40,17 @@ WebUI.click(findTestObject('Object Repository/Delivery Order/img_Welcome, AMAN A
 //WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Delivery Order/a_Delivery Order'))
-//WebUI.delay(1)
+WebUI.delay(1)
 	
 	
 //INPUT CUSTOMER CREDENTIAL====================================================================================================================================================================================
 WebUI.setText(findTestObject('Object Repository/Delivery Order/input_Application No._ucSearchtxtAppNo_ltlAppAppNoSearch'), appNumber)
-	
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_Task Claim By_ucSearchbtnSearch'))
+WebUI.delay(1)
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Delivery Order/input_MULTIGUNA NON PAKET_gvAgrmntctl02ibDelOrd'), 30)
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_MULTIGUNA NON PAKET_gvAgrmntctl02ibDelOrd'))
-	
+WebUI.delay(1)
 	
 //DELIVERY ORDER PROCESS====================================================================================================================================================================================
 WebUI.click(findTestObject('Object Repository/Delivery Order/input_Olaf One_gvAssetListctl02ibDelOrd'))

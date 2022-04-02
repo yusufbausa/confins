@@ -6,12 +6,16 @@
    <elementGuidId>f89cc6f7-ab6d-44c3-a565-5138630adb09</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.rtBot > span.rtPlus</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='rtvMenuTree']/ul/li[3]/div/span[2]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.rtBot > span.rtPlus</value>
+         <key>BASIC</key>
+         <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/div/span[2][count(. | //*[@class = 'rtPlus' and @ref_element = 'Object Repository/EKYC/Master/New Office/iframe_Welcome, usersatu, HEAD OFFICE, Supe_8ca3c5']) = count(//*[@class = 'rtPlus' and @ref_element = 'Object Repository/EKYC/Master/New Office/iframe_Welcome, usersatu, HEAD OFFICE, Supe_8ca3c5'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +28,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

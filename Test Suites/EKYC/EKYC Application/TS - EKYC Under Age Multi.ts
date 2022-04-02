@@ -21,7 +21,7 @@
          <id>b5f13907-25c9-4fe6-a584-739433f1989c</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>3</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Under Age/Multi/Credit Simulation Under Age Multi</testDataId>
       </testDataLink>
@@ -144,7 +144,7 @@
          <id>1e758624-6d6f-419b-b9e0-497f1b2e6030</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>3</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Under Age/Multi/CDE Under Age Multi</testDataId>
       </testDataLink>
@@ -201,7 +201,7 @@
          <id>2bda9947-6acd-4a4c-ac96-d78fd8e94897</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>3</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Under Age/Multi/CDE Completion Under Age Multi</testDataId>
       </testDataLink>
@@ -330,7 +330,7 @@
          <id>1d43ab28-6c39-4741-8e04-89d2684cca9b</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>3</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Under Age/Multi/NAP DE Under Age Multi</testDataId>
       </testDataLink>

@@ -38,14 +38,17 @@ WebUI.click(findTestObject('Object Repository/Document Checklist/a_Select'))
 //ACCESS MENU DOCUMENT CHECKLIST
 WebUI.click(findTestObject('Object Repository/Document Checklist/img_Welcome, SUGIHARTINI, TANGERANG, Servic_90353b'))
 WebUI.click(findTestObject('Object Repository/Document Checklist/a_Document Checklist'))
-//WebUI.delay(1)
+WebUI.delay(1)
 
 
 //INPUT CUSTOMER APP NUMBER
 WebUI.setText(findTestObject('Object Repository/Document Checklist/input_Application No_ucSearchtxtAppNo_ltlAgrmntAppNo'), appNumber)
 WebUI.click(findTestObject('Object Repository/Document Checklist/input_Task Claim By_ucSearchbtnSearch'))
+WebUI.delay(1)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Document Checklist/input_MULTIGUNA NON PAKET_gvDocChklstctl02imbEdit'), 30)
 WebUI.click(findTestObject('Object Repository/Document Checklist/input_MULTIGUNA NON PAKET_gvDocChklstctl02imbEdit'))
-//WebUI.delay(1)
+WebUI.delay(1)
 
 
 //DOCUMENT CHECKLIST PROCESS

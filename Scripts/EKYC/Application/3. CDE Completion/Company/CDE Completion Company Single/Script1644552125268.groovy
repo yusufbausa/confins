@@ -58,8 +58,8 @@ WebUI.click(findTestObject('Object Repository/EKYC/Application/CDE Completion Pe
 WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Completion Personal/select_menu_marketing'), 30)
 WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Completion Personal/select_menu_marketing'), 30)
 WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Completion Personal/select_menu_marketing'))
-WebUI.selectOptionByLabel(findTestObject('Object Repository/EKYC/Application/CDE Completion Personal/select_menu_marketing'), 
-    'MARKETING', false)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/EKYC/Application/CDE Completion Personal/select_menu_marketing'),
+	'MARKETING', false)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Completion Personal/menu_centralized_data_entry_completion'), 30)
 WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Completion Personal/menu_centralized_data_entry_completion'), 30)
@@ -525,4 +525,3 @@ WebUI.delay(5)
 
 //CLOSE BROWSER
 WebUI.closeBrowser()
-

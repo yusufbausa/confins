@@ -46,8 +46,11 @@ WebUI.click(findTestObject('Object Repository/Go Live/a_Go Live'))
 //INPUT CUSTOMER APP NUMBER
 WebUI.setText(findTestObject('Object Repository/Go Live/input_Application No._ucSearchtxtAppNo_ltlAppAppNo'), appNumber)
 WebUI.click(findTestObject('Object Repository/Go Live/input_Task Claim By_ucSearchbtnSearch'))
+WebUI.delay(1)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Go Live/input_MULTIGUNA NON PAKET_gvGoLivectl02ibGoLive'), 30)
 WebUI.click(findTestObject('Object Repository/Go Live/input_MULTIGUNA NON PAKET_gvGoLivectl02ibGoLive'))
-//WebUI.delay(1)
+WebUI.delay(1)
 
 
 //GO LIVE PROCESS

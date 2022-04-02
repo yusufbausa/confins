@@ -39,12 +39,13 @@ WebUI.click(findTestObject('Object Repository/Document Checklist/a_Select'))
 WebUI.click(findTestObject('Go Live/Go Live Siap Dana/button_menu'))
 //WebUI.delay(1)
 WebUI.click(findTestObject('Go Live/Go Live Siap Dana/btn_menu_go_live'))
-//WebUI.delay(1)
+WebUI.delay(1)
 	
 	
 //input cust credential
 WebUI.setText(findTestObject('Go Live/Go Live Siap Dana/field_app_number'), appNo)
 WebUI.click(findTestObject('Go Live/Go Live Siap Dana/button_search'))
+WebUI.delay(1)
 WebUI.click(findTestObject('Go Live/Go Live Siap Dana/button_entry'))
 WebUI.delay(1)
 	

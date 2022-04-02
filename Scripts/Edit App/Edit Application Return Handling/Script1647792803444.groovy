@@ -279,7 +279,7 @@ WebUI.click(findTestObject('Object Repository/Edit Application/Edit App Return H
 
 WebUI.verifyElementPresent(findTestObject('New Application (NEW)/Other Data and Term n Condition/button_submit_app'), 30)
 WebUI.click(findTestObject('New Application (NEW)/Other Data and Term n Condition/button_submit_app'))
-WebUI.verifyAlertPresent(1)
+WebUI.verifyAlertPresent(0)
 WebUI.acceptAlert()
 WebUI.delay(3)
 

@@ -51,6 +51,7 @@ WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/ima
 WebUI.setText(findTestObject('New Application (NEW)/New Application - Customer/field_product_name'), productOffer)
 WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/button_search_product'))
 WebUI.click(findTestObject('New Application (NEW)/New Application - Customer/button_select_product'))
+WebUI.delay(1)
 
 WebUI.sendKeys(findTestObject('New Application (NEW)/New Application - Customer/field_asset_number'), Keys.chord(Keys.CONTROL + 'a'))
 WebUI.sendKeys(findTestObject('New Application (NEW)/New Application - Customer/field_asset_number'), Keys.chord(Keys.DELETE))

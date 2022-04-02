@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>31a8daef-bfad-4bd1-a0f1-ecb4f8d8c1f8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Collection Expense/Collection Expense Request/Collection Expense Request Advance - v3</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

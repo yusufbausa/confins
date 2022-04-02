@@ -47,6 +47,8 @@ WebUI.click(findTestObject('Object Repository/Purchase Order/a_Purchase Order Ag
 //INPUTING CUSTOMER CREDENTIAL
 WebUI.setText(findTestObject('Object Repository/Purchase Order/input_Application No._ucSearchtxtAppNo_ltlA_0ac7d2'), appNumber)
 WebUI.click(findTestObject('Object Repository/Purchase Order/input_Task Claim By_ucSearchbtnSearch'))
+WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Purchase Order/input_MULTIGUNA NON PAKET_gvAgrmntctl02imbEdit'), 30)
 WebUI.click(findTestObject('Object Repository/Purchase Order/input_MULTIGUNA NON PAKET_gvAgrmntctl02imbEdit'))
 WebUI.delay(1)
 	

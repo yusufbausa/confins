@@ -6,16 +6,16 @@
    <elementGuidId>759321bf-d8ae-405d-aa82-b6b82395f856</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_1']</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_1</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[37]/td[4]/a[count(. | //*[(text() = 'Select' or . = 'Select')]) = count(//*[(text() = 'Select' or . = 'Select')])]</value>
+         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[2]/td[4]/a[count(. | //*[(text() = 'Select' or . = 'Select')]) = count(//*[(text() = 'Select' or . = 'Select')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[37]/td[4]/a</value>
+      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[2]/td[4]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

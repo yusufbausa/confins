@@ -31,18 +31,19 @@ WebUI.click(findTestObject('Login/btn_login'))
 
 
 //select role
-//WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval/select_role_for_remedial'))
-//WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval/select_role_for_remedial'))
+WebUI.delay(1)
 
 
 //select menu inventory expected date approval
 WebUI.click(findTestObject('REMEDIAL/Change Asset Expected Date Approval/things_ToDo_change_inv_expected_date_approval'))  //located on things to do
-//WebUI.delay(1)
+WebUI.delay(1)
 
 
 //input cust credential (agreement number)
 WebUI.setText(findTestObject('REMEDIAL/Change Asset Expected Date Approval/field_agreement_number'), agreeNo)
 WebUI.click(findTestObject('REMEDIAL/Change Asset Expected Date Approval/button_search'))
+WebUI.delay(1)
 WebUI.click(findTestObject('REMEDIAL/Change Asset Expected Date Approval/button_process'))
 WebUI.delay(1)
 

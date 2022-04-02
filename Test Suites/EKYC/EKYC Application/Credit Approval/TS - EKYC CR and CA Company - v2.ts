@@ -116,7 +116,7 @@
    <testCaseLink>
       <guid>d68d5a3c-a163-4cf2-986d-18df486caf46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/CA Company/CA Investigator/CA Investigator - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -206,7 +206,7 @@
    <testCaseLink>
       <guid>414c6ab8-2296-4312-bdee-f16000f4fbfc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/CA Company/CA Credit Division Head/CA Credit Division Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

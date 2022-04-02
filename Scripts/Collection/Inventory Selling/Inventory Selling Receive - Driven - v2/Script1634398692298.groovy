@@ -28,27 +28,27 @@ WebUI.maximizeWindow()
 WebUI.setText(findTestObject('Login/username'), usernameFH)
 WebUI.setText(findTestObject('Login/password'), password)
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select menu inventory selling receive
-WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/button_menu'), 20)
+//WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/button_menu'), 20)
 WebUI.click(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/button_menu'))
-WebUI.delay(1)
-WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/select_menu_collection'), 20)
+//WebUI.delay(1)
+//WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/select_menu_collection'), 20)
 WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/select_menu_collection'), 
     '270', false)
-WebUI.delay(1)
-WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/button_menu_inventory_selling_receive'), 20)
+//WebUI.delay(1)
+//WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/button_menu_inventory_selling_receive'), 20)
 WebUI.click(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/button_menu_inventory_selling_receive'))
 WebUI.delay(1)
 
 
 //input cust credential
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_agreement_number'), 20)
-WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_agreement_number'), 
-    agreeNo)
+WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_agreement_number'),  agreeNo)
 WebUI.click(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/button_search'))
+
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/button_edit_data'), 20)
 WebUI.click(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/button_edit_data'))
 WebUI.delay(1)
@@ -57,22 +57,20 @@ WebUI.delay(1)
 //inventory selling receive process
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_receive_from'), 20)
 WebUI.scrollToElement(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_receive_from'), 0)
-WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_receive_from'), 
-    receiveFrom)
-WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_reference_no'), 
-    refNo)
-WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/select_way_of_payment'), 
-    'BANK', false)
+
+WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_receive_from'),  receiveFrom)
+WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_reference_no'),  refNo)
+WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/select_way_of_payment'), 'BANK', false)
 WebUI.delay(1)
-WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/select_bank_account'), 
-    '10', false)
+
+WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/select_bank_account'), '10', false)
 WebUI.delay(1)
-WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_value_date'), 
-    date)
-WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_notes'), 
-    notes)
+
+WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_value_date'), date)
+WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/field_notes'), notes)
+
 WebUI.click(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Receive/button_submit'))
-WebUI.delay(3)
+WebUI.delay(5)
 
 
 //close browser

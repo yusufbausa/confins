@@ -10,12 +10,12 @@
          <value>div.rtMid.rtHover > a.rtIn</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@onclick='return false'])[6]</value>
+         <key>BASIC</key>
+         <value>//a[@class = 'rtIn' and (text() = 'Change Inventory Expected Date' or . = 'Change Inventory Expected Date') and @ref_element = 'Object Repository/REMEDIAL/Change Asset Expected Date Req/iframe_Welcome, PRIANTO ARI BASUKI, REMEDIA_e8328a']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@class = 'rtIn' and @href = 'Coll/Repossession/Repossess/ChangeInvExpDt.aspx?param=rem' and (text() = 'Change Inventory Expected Date' or . = 'Change Inventory Expected Date') and @ref_element = 'Object Repository/REMEDIAL/Change Asset Expected Date Req/iframe_Welcome, PRIANTO ARI BASUKI, REMEDIA_e8328a']</value>
+         <key>XPATH</key>
+         <value>(//a[@onclick='return false'])[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +42,7 @@
       <value>return false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

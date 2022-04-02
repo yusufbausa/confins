@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a3643a75-1d07-43a7-bf4b-1220d4170bc4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/1. CA Credit Area Head/Credit Approval by Credit Area Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -116,7 +116,7 @@
    <testCaseLink>
       <guid>7cd12be5-60e2-4615-be2a-5550d929aed3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/3. CA Credit Division Head/Credit Approval by Credit Division Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

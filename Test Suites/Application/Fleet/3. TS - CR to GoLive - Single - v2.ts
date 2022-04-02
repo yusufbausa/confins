@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>413dd08b-208f-4a0b-aa21-af6f41413a03</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/FLEET/2. Credit Review/Credit Review - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>3a73626a-5ef4-4dfd-b2c6-c6c9754d495a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/FLEET/SMS Approve/SMS Approve Fleet - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -104,7 +104,7 @@
    <testCaseLink>
       <guid>0e2c4b77-9d07-412e-8da3-e09d2c7dce02</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/App - Go Live/FLEET/3. Purchase Order/Purchase Order - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

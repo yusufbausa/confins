@@ -75,4 +75,11 @@
       <masked>false</masked>
       <name>url</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4d592332-d4f6-44ec-b26a-7c211a9befc6</id>
+      <masked>false</masked>
+      <name>approvedBy</name>
+   </variable>
 </TestCaseEntity>

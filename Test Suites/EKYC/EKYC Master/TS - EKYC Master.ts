@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>9d16cbc6-3206-4ffd-b62c-4f109ae32bc5</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/EKYC Master - Office</testDataId>
       </testDataLink>
@@ -179,8 +179,8 @@
          <combinationType>ONE</combinationType>
          <id>d8c77920-90ad-4389-af7d-8ea3bc8f6280</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/EKYC Master - Supplier</testDataId>
       </testDataLink>
@@ -386,8 +386,8 @@
          <combinationType>ONE</combinationType>
          <id>1eebce75-cfc1-4aa5-b03d-cdeb6db80017</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/EKYC Master - Supplier Branch</testDataId>
       </testDataLink>
@@ -563,8 +563,8 @@
          <combinationType>ONE</combinationType>
          <id>f9e86682-3f7a-47ae-b54b-8d7245aa123a</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/EKYC Master - Supplier Scheme</testDataId>
       </testDataLink>

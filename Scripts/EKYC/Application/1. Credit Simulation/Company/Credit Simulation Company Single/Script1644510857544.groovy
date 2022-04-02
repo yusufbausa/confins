@@ -339,12 +339,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Credit Simulation/
 WebUI.verifyElementPresent(findTestObject('Object Repository/Credit Simulation/Company Single/btn_submit'), 30)
 WebUI.verifyElementClickable(findTestObject('Object Repository/Credit Simulation/Company Single/btn_submit'))
 WebUI.click(findTestObject('Object Repository/Credit Simulation/Company Single/btn_submit'))
-WebUI.delay(1)
-
+//WebUI.delay(1)
+WebUI.verifyAlertPresent(0)
 WebUI.acceptAlert()
 WebUI.delay(5)
 
 
 //close browser
 WebUI.closeBrowser()
-
