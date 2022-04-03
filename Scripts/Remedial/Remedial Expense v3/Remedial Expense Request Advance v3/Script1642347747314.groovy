@@ -101,6 +101,7 @@ WebUI.selectOptionByLabel(findTestObject('REMEDIAL/Remedial Expense v3/Remedial 
 WebUI.setText(findTestObject('REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/field_notes_action'), notes)
 
 WebUI.click(findTestObject('Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Request Advance v3/check_advance_settlement'))
+//WebUI.selectOptionByIndex(findTestObject('Object Repository/REMEDIAL/Remedial Expense v3/Additional Disburse To/select_disburse_to'), '1', false)
 WebUI.setText(findTestObject('REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/field_notes_remedial_expense'), notes)
 
 WebUI.selectOptionByLabel(findTestObject('REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/select_reason'), 'BIAYA PENYELESAIAN', false)

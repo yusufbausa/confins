@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_role</name>
+   <name>a_Select</name>
    <tag></tag>
-   <elementGuidId>94de6a2f-a845-4c2e-bdec-aacb2fed6628</elementGuidId>
+   <elementGuidId>ef7d6186-75b2-4750-bd2a-e4514c109e54</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[6]/td[4]/a[count(. | //*[(text() = 'Select' or . = 'Select')]) = count(//*[(text() = 'Select' or . = 'Select')])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_2</value>
+         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_7</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_2']</value>
+         <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_7']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,18 +31,18 @@
       <value>overlay('roleOverlay');</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>uModDRole_ctl00_gvRoles_lbSelectRole_2</value>
+      <value>uModDRole_ctl00_gvRoles_lbSelectRole_7</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>javascript:__doPostBack('uModDRole$ctl00$gvRoles$ctl04$lbSelectRole','')</value>
+      <value>javascript:__doPostBack('uModDRole$ctl00$gvRoles$ctl09$lbSelectRole','')</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,73 +52,80 @@
       <value>Select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[6]/td[4]/a</value>
+      <value>id(&quot;uModDRole_ctl00_gvRoles_lbSelectRole_7&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_2']</value>
+      <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_7']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='uModDRole_ctl00_gvRoles']/tbody/tr[4]/td[4]/a</value>
+      <value>//table[@id='uModDRole_ctl00_gvRoles']/tbody/tr[9]/td[4]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'Select')])[3]</value>
+      <value>(//a[contains(text(),'Select')])[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AR MANAGEMENT HEAD'])[5]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RECOVERY AND SOLUTION OFFICER 5'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AR MANAGEMENT SUPERVISOR'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REMEDIAL HEAD'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='KARAWANG'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REMEDIAL AREA 2'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AR MANAGEMENT HEAD'])[6]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REMEDIAL HEAD'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, &quot;javascript:__doPostBack('uModDRole$ctl00$gvRoles$ctl04$lbSelectRole','')&quot;)]</value>
+      <value>//a[contains(@href, &quot;javascript:__doPostBack('uModDRole$ctl00$gvRoles$ctl09$lbSelectRole','')&quot;)]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[4]/td[4]/a</value>
+      <value>//tr[9]/td[4]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'uModDRole_ctl00_gvRoles_lbSelectRole_7' and @href = concat(&quot;javascript:__doPostBack(&quot; , &quot;'&quot; , &quot;uModDRole$ctl00$gvRoles$ctl09$lbSelectRole&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Select' or . = 'Select')]</value>
    </webElementXpaths>
 </WebElementEntity>

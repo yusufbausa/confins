@@ -1,64 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>extend_menu_repossess</name>
+   <name>img_Welcome, TYAS UNTORO, REMEDIAL AREA 1, _516a29</name>
    <tag></tag>
-   <elementGuidId>0b9280cc-6626-48ab-8588-9575337483ae</elementGuidId>
+   <elementGuidId>a949b8c5-195f-46ca-a584-65cee954ad7d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2][count(. | //*[@ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
+         <value>#imgMenu</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='rtvMenuTree']/ul/li[4]/div/span[2]</value>
+         <value>//img[@id='imgMenu']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>imgMenu</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>Images/menu.png</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>rtPlus</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c</value>
+      <value>id(&quot;imgMenu&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//img[@id='imgMenu']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='rtvMenuTree']/ul/li[4]/div/span[2]</value>
+      <value>//div[@id='dMenuPadding']/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/div/span[2]</value>
+      <value>//div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@id = 'imgMenu' and @src = 'Images/menu.png']</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_role</name>
+   <name>select_disburse_to</name>
    <tag></tag>
-   <elementGuidId>94de6a2f-a845-4c2e-bdec-aacb2fed6628</elementGuidId>
+   <elementGuidId>8fab395d-2e55-479b-a289-4ca4f5cc1584</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[6]/td[4]/a[count(. | //*[(text() = 'Select' or . = 'Select')]) = count(//*[(text() = 'Select' or . = 'Select')])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_2</value>
+         <value>#ucRefDisburseTo_ddlReference</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_2']</value>
+         <value>//select[@id='ucRefDisburseTo_ddlReference']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,104 +21,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>name</name>
       <type>Main</type>
-      <value>overlay('roleOverlay');</value>
+      <value>ucRefDisburseTo$ddlReference</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>javascript:setTimeout('__doPostBack(\'ucRefDisburseTo$ddlReference\',\'\')', 0)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>uModDRole_ctl00_gvRoles_lbSelectRole_2</value>
+      <value>ucRefDisburseTo_ddlReference</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>javascript:__doPostBack('uModDRole$ctl00$gvRoles$ctl04$lbSelectRole','')</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Select</value>
+      <value>
+	Select One
+	2078-PT. TOYOTA ASTRA FINANCIAL SERVICES-IDR-1240009737173
+	2078-PT. TOYOTA ASTRA FINANCIAL SERVICES-IDR-1240009758195
+
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[6]/td[4]/a</value>
+      <value>/html/body/form/div[5]/div[3]/div[7]/div[2]/table/tbody/tr[2]/td[2]/select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/REMEDIAL/Remedial Expense v3/Additional Disburse To/iframe_Welcome, TYAS UNTORO, REMEDIAL AREA _3cba35</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_2']</value>
+      <value>//select[@id='ucRefDisburseTo_ddlReference']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='uModDRole_ctl00_gvRoles']/tbody/tr[4]/td[4]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>(//a[contains(text(),'Select')])[3]</value>
+      <value>//div[@id='dExpense']/table/tbody/tr[2]/td[2]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AR MANAGEMENT HEAD'])[5]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disburse To'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AR MANAGEMENT SUPERVISOR'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Advance Settlement'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='KARAWANG'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This field is required'])[13]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AR MANAGEMENT HEAD'])[6]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, &quot;javascript:__doPostBack('uModDRole$ctl00$gvRoles$ctl04$lbSelectRole','')&quot;)]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[20]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[4]/td[4]/a</value>
+      <value>//div[7]/div[2]/table/tbody/tr[2]/td[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ucRefDisburseTo$ddlReference' and @id = 'ucRefDisburseTo_ddlReference' and (text() = '
+	Select One
+	2078-PT. TOYOTA ASTRA FINANCIAL SERVICES-IDR-1240009737173
+	2078-PT. TOYOTA ASTRA FINANCIAL SERVICES-IDR-1240009758195
+
+' or . = '
+	Select One
+	2078-PT. TOYOTA ASTRA FINANCIAL SERVICES-IDR-1240009737173
+	2078-PT. TOYOTA ASTRA FINANCIAL SERVICES-IDR-1240009758195
+
+')]</value>
    </webElementXpaths>
 </WebElementEntity>

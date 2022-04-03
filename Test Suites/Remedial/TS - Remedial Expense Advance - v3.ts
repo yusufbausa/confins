@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>ad9a431a-2f8a-4a0d-bfb5-55d5644ff963</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Remedial Expense v3/Remedial Expense Request Advance v3</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -113,7 +113,7 @@
    <testCaseLink>
       <guid>511743c3-8b4a-49c4-bcef-a2cbf80204fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Remedial/Remedial Expense v3/Remedial Expense Approval v3</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -158,7 +158,7 @@
    <testCaseLink>
       <guid>769200e0-a216-4eeb-a63f-89fa7db8628a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Disbursement/Disbursement Selection/Disbursement Selection v1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -227,7 +227,7 @@
    <testCaseLink>
       <guid>23a43705-b3a8-42fc-98d4-978d94845bd1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Disbursement/Disbursement Approval/Disbursement Approval v1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -284,7 +284,7 @@
    <testCaseLink>
       <guid>8fb99559-9fdd-4e01-9a3b-100464614d2e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Disbursement/Disbursement Execution/Disbursement Execution v1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

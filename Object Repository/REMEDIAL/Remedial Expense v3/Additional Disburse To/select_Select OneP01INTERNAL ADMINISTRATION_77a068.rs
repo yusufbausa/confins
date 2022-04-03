@@ -1,135 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_menu_repossess</name>
+   <name>select_Select OneP01INTERNAL ADMINISTRATION_77a068</name>
    <tag></tag>
-   <elementGuidId>0d0f83fe-53c4-479e-9b48-c4ecb7a95333</elementGuidId>
+   <elementGuidId>f89ea0d1-595a-47fd-9db7-d47dd85dc96c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/ul/li[1]/div/a[count(. | //*[(text() = 'Repossess' or . = 'Repossess') and @ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[(text() = 'Repossess' or . = 'Repossess') and @ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>div.rtTop.rtHover > a.rtIn</value>
+         <value>#ucAnalysis_ucRefProblemType_ddlReference</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@onclick='return false'])[2]</value>
+         <value>//select[@id='ucAnalysis_ucRefProblemType_ddlReference']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ucAnalysis$ucRefProblemType$ddlReference</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>onchange</name>
       <type>Main</type>
-      <value>rtIn</value>
+      <value>javascript:setTimeout('__doPostBack(\'ucAnalysis$ucRefProblemType$ddlReference\',\'\')', 0)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>id</name>
       <type>Main</type>
-      <value>return false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>Coll/Repossession/Repossess/Repossess.aspx?param=coll</value>
+      <value>ucAnalysis_ucRefProblemType_ddlReference</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Repossess</value>
+      <value>
+		Select One
+		P01:INTERNAL ADMINISTRATION
+		P02:EXTERNAL ADMINISTRATION
+		P03:DISPUTE
+		P04:TEMPORARY CASH FLOW
+		P05:INSURANCE CLAIM
+		P06:PERMANENT CASH FLOW
+		P07:SPECIAL PROFESSION
+		P08:UNIT DI PIHAK KETIGA
+		P10:FRAUD
+		P09:BAD CHARACTER 
+
+	</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/ul/li[1]/div/a</value>
+      <value>id(&quot;ucAnalysis_ucRefProblemType_ddlReference&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c</value>
+      <value>Object Repository/REMEDIAL/Remedial Expense v3/Additional Disburse To/iframe_Welcome, TYAS UNTORO, REMEDIAL AREA _3cba35</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//a[@onclick='return false'])[2]</value>
+      <value>//select[@id='ucAnalysis_ucRefProblemType_ddlReference']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='rtvMenuTree']/ul/li[4]/ul/li/div/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Repossess')]</value>
+      <value>//div[@id='dAnalysis']/table/tbody/tr/td[2]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repossess'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Problem Type'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Asset Release'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ANALYSIS'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Asset Inventory Execution'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This field is required'])[8]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Inventory Expected Date'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'Coll/Repossession/Repossess/Repossess.aspx?param=coll')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[15]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/ul/li/div/a</value>
+      <value>//select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ucAnalysis$ucRefProblemType$ddlReference' and @id = 'ucAnalysis_ucRefProblemType_ddlReference' and (text() = '
+		Select One
+		P01:INTERNAL ADMINISTRATION
+		P02:EXTERNAL ADMINISTRATION
+		P03:DISPUTE
+		P04:TEMPORARY CASH FLOW
+		P05:INSURANCE CLAIM
+		P06:PERMANENT CASH FLOW
+		P07:SPECIAL PROFESSION
+		P08:UNIT DI PIHAK KETIGA
+		P10:FRAUD
+		P09:BAD CHARACTER 
+
+	' or . = '
+		Select One
+		P01:INTERNAL ADMINISTRATION
+		P02:EXTERNAL ADMINISTRATION
+		P03:DISPUTE
+		P04:TEMPORARY CASH FLOW
+		P05:INSURANCE CLAIM
+		P06:PERMANENT CASH FLOW
+		P07:SPECIAL PROFESSION
+		P08:UNIT DI PIHAK KETIGA
+		P10:FRAUD
+		P09:BAD CHARACTER 
+
+	')]</value>
    </webElementXpaths>
 </WebElementEntity>

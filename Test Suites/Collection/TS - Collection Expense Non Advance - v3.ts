@@ -164,7 +164,7 @@
    <testCaseLink>
       <guid>4acec125-5e14-4bd0-ac72-bfa9de233be8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Collection Expense/Collection Expense Approval/Collection Expense Approval - v3</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

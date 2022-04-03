@@ -59,6 +59,8 @@ WebUI.selectOptionByLabel(findTestObject('Disbursement/DIsbursement Selection/se
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Disbursement/DIsbursement Selection/btn_request_for_approval'))
+WebUI.verifyAlertPresent(0)
+WebUI.acceptAlert()
 WebUI.delay(3)
 	
 	
