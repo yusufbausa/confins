@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Login/btn_login'))
 	
 	
 //select role
-WebUI.click(findTestObject('COLLECTION/RAL Req by Supervisor/select_role'))
+//WebUI.click(findTestObject('COLLECTION/RAL Req by Supervisor/select_role'))
 //WebUI.delay(1)
 	
 	
@@ -47,6 +47,7 @@ WebUI.delay(40)
 WebUI.setText(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Request/field_agreement_number'),
 	agreeNo)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Request/btn_search'))
+WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Request/btn_execute'))
 WebUI.delay(1)
 	

@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/ul/li[3]/div/a</value>
+      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/ul/li[2]/div/a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

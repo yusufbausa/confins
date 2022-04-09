@@ -6,12 +6,12 @@
    <elementGuidId>58d00cee-d4cd-417e-8964-2ad9f8707eb2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_0</value>
+         <key>BASIC</key>
+         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[9]/td[4]/a[count(. | //*[(text() = 'Select' or . = 'Select')]) = count(//*[(text() = 'Select' or . = 'Select')])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[2]/td[4]/a[count(. | //*[@id = 'uModDRole_ctl00_gvRoles_lbSelectRole_0' and @href = concat('javascript:__doPostBack(' , &quot;'&quot; , 'uModDRole$ctl00$gvRoles$ctl02$lbSelectRole' , &quot;'&quot; , ',' , &quot;'&quot; , '' , &quot;'&quot; , ')') and (text() = 'Select' or . = 'Select')]) = count(//*[@id = 'uModDRole_ctl00_gvRoles_lbSelectRole_0' and @href = concat('javascript:__doPostBack(' , &quot;'&quot; , 'uModDRole$ctl00$gvRoles$ctl02$lbSelectRole' , &quot;'&quot; , ',' , &quot;'&quot; , '' , &quot;'&quot; , ')') and (text() = 'Select' or . = 'Select')])]</value>
+         <key>CSS</key>
+         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_0</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -35,14 +35,14 @@
       <value>overlay('roleOverlay');</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>uModDRole_ctl00_gvRoles_lbSelectRole_0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[2]/td[4]/a</value>
+      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[9]/td[4]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

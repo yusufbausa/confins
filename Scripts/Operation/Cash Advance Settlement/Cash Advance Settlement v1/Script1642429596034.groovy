@@ -42,6 +42,10 @@ WebUI.delay(1)
 WebUI.setText(findTestObject('Object Repository/Operation/Cash Advance Settlement/field_agreement_no'), agreeNo)
 WebUI.click(findTestObject('Object Repository/Operation/Cash Advance Settlement/btn_search'))
 WebUI.delay(1)
+<<<<<<< HEAD
+
+=======
+>>>>>>> ac5b276fa67d599b76be614e013222a28a8b78a3
 WebUI.verifyElementPresent(findTestObject('Object Repository/Operation/Cash Advance Settlement/btn_action'), 0)
 WebUI.click(findTestObject('Object Repository/Operation/Cash Advance Settlement/btn_action'))
 WebUI.verifyAlertPresent(0)

@@ -102,6 +102,7 @@ WebUI.selectOptionByLabel(findTestObject('COLLECTION/Collection Expense v3/Colle
 //WebUI.setText(findTestObject('COLLECTION/Collection Expense v3/Collection Expense Request v3/field_notes_action'),
 //    notes)
 WebUI.click(findTestObject('COLLECTION/Collection Expense v3/Collection Expense Request Advance v3/check_advance_settlement'))
+WebUI.selectOptionByIndex(findTestObject('Object Repository/REMEDIAL/Remedial Expense v3/Additional Disburse To/select_disburse_to'), 1)
 WebUI.selectOptionByLabel(findTestObject('COLLECTION/Collection Expense v3/Collection Expense Request v3/select_reason'),
 	'BIAYA PENYELESAIAN', false)
 WebUI.selectOptionByLabel(findTestObject('COLLECTION/Collection Expense v3/Collection Expense Request v3/select_approved_by'),

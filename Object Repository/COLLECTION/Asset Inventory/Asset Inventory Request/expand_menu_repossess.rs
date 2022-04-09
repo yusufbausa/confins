@@ -6,12 +6,15 @@
    <elementGuidId>5060749b-131d-4fcb-af6a-badb969b68ed</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2][count(. | //*[@ref_element = 'Object Repository/COLLECTION/Asset Inventory/Asset Inventory Request/iframe_Welcome, TYAS UNTORO, Jakarta Centra_f2e925']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Asset Inventory/Asset Inventory Request/iframe_Welcome, TYAS UNTORO, Jakarta Centra_f2e925'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='rtvMenuTree']/ul/li[3]/div/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/div/span[2]</value>
+      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/div/span[2][count(. | //*[@ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
+         <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2][count(. | //*[@ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[@ref_element = 'Object Repository/COLLECTION/Change Asset Expected Date/Expected Date Req/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -39,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/div/span[2]</value>
+      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/div/span[2]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

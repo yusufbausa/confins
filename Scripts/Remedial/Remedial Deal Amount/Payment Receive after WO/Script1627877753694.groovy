@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 //open browser
 WebUI.openBrowser('')
-WebUI.navigateToUrl('http://confins-uat.taf.co.id/confins/')
+WebUI.navigateToUrl(url)
 WebUI.maximizeWindow()
 
 
 //input credential
-WebUI.setText(findTestObject('Login/username'), 'RKL1949')
-WebUI.setText(findTestObject('Login/password'), 'password')
+WebUI.setText(findTestObject('Login/username'), usernameFH)
+WebUI.setText(findTestObject('Login/password'), password)
 WebUI.click(findTestObject('Login/btn_login'))
 WebUI.delay(1)
 
@@ -33,14 +33,14 @@ WebUI.delay(1)
 //select menu payment receive after WO
 WebUI.waitForElementPresent(findTestObject('REMEDIAL/Payment Receive after WO/button_menu'), 20)
 WebUI.click(findTestObject('REMEDIAL/Payment Receive after WO/button_menu'))
-WebUI.delay(1)
+//WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('REMEDIAL/Payment Receive after WO/select_menu_remedial'), 20)
 WebUI.selectOptionByValue(findTestObject('REMEDIAL/Payment Receive after WO/select_menu_remedial'), 
     '303', false)
-WebUI.delay(1)
+//WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('REMEDIAL/Payment Receive after WO/menu_rerpossession'), 20)
 WebUI.click(findTestObject('REMEDIAL/Payment Receive after WO/menu_rerpossession'))
-WebUI.delay(1)
+//WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('REMEDIAL/Payment Receive after WO/btn_payment_receive_after_wo'), 20)
 WebUI.click(findTestObject('REMEDIAL/Payment Receive after WO/btn_payment_receive_after_wo'))
 WebUI.delay(1)
@@ -59,10 +59,10 @@ WebUI.delay(1)
 
 //input cust credential
 WebUI.waitForElementPresent(findTestObject('REMEDIAL/Payment Receive after WO/select_office_name'), 20)
-WebUI.selectOptionByValue(findTestObject('REMEDIAL/Payment Receive after WO/select_office_name'), 
-    '218', false)
+WebUI.selectOptionByLabel(findTestObject('REMEDIAL/Payment Receive after WO/select_office_name'), 
+    officeName, false)
 WebUI.setText(findTestObject('REMEDIAL/Payment Receive after WO/field_agreement_number'), 
-    '1915966798')
+    agreeNo)
 WebUI.click(findTestObject('REMEDIAL/Payment Receive after WO/button_search'))
 WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('REMEDIAL/Payment Receive after WO/button_receive'), 20)
@@ -73,19 +73,20 @@ WebUI.delay(1)
 //payment receive process
 WebUI.waitForElementPresent(findTestObject('REMEDIAL/Payment Receive after WO/field_reference_number'), 20)
 WebUI.setText(findTestObject('REMEDIAL/Payment Receive after WO/field_reference_number'), 
-    '123456789')
-WebUI.setText(findTestObject('REMEDIAL/Payment Receive after WO/field_notes'), 'notes')
+    refNo)
+WebUI.setText(findTestObject('REMEDIAL/Payment Receive after WO/field_notes'), notes)
 WebUI.sendKeys(findTestObject('REMEDIAL/Payment Receive after WO/field_receive_amount'),
 	Keys.chord(Keys.CONTROL + "a"))
 WebUI.sendKeys(findTestObject('REMEDIAL/Payment Receive after WO/field_receive_amount'),
 	Keys.chord(Keys.DELETE))
 WebUI.setText(findTestObject('REMEDIAL/Payment Receive after WO/field_receive_amount'), 
-    '200000000')
+    receiveAmount)
 WebUI.click(findTestObject('REMEDIAL/Payment Receive after WO/button_calculate'))
-WebUI.delay(3)
+WebUI.delay(1)
 WebUI.click(findTestObject('REMEDIAL/Payment Receive after WO/button_submit'))
 WebUI.delay(5)
 
 
+//close browser
 WebUI.closeBrowser()
 

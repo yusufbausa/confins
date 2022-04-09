@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Login/btn_login'))
 	
 	
 //select role
-WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval BH/select_role'))
+//WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval BH/select_role'))
 //WebUI.delay(1)
 	
 	
