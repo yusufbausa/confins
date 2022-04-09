@@ -85,6 +85,14 @@ This Repo is for Confins project at UAT & QA environment.
 **Payment SP (SQL)**
 
     1. Indomaret CDM
+    	- Current Date
+    	- Prepaid
     2. Indomaret MST
+      	- Current Date
+    	- Prepaid
     3. Artha Jasa
+      	- Current Date
+    	- Prepaid
     4. Permata
+        - Current Date
+    	- Prepaid
