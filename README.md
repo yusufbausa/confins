@@ -2,76 +2,89 @@
 
 This Repo is for Confins project at UAT & QA environment.
 
+
 ***This repo contains several modul :***
-**1. New Customer**
-    a. Personal
-    b. Under Age
-    c. Company
+
+**New Customer**
     
-**2. New Application (NAP)**
-    a. NAP Personal
+    1. Personal
+    2. Under Age
+    3. Company
+    
+**New Application (NAP)**
+
+    1. NAP Personal
         - Multi Asset
         - Single Asset
-    b. NAP Under Age
+    2. NAP Under Age
         - Multi Asset
         - Single Asset
-    c. NAP Company
+    3. NAP Company
         - Multi Asset
         - Single Asset
-    d. NAP Fleet
+    4. NAP Fleet
         - Multi Asset
         - Single Asset
-    e. NAP Siap Dana
+    5. NAP Siap Dana
         - Personal
         - Under Age
         
-**3. Edit Application**
-    a. Edit App by SO
-    b. Edit App by Return Handling
+**Edit Application**
+
+    1. Edit App by SO
+    2. Edit App by Return Handling
     
-**4. EKYC**
-    a. EKYC Personal
+**EKYC**
+
+    1. EKYC Personal
         - Multi Asset
         - Single Asset
-    b. EKYC Under Age
+    2. EKYC Under Age
         - Multi Asset
         - Single Asset
-    c. EKYC Company
+    3. EKYC Company
         - Multi Asset
         - Single Asset
         
-**5. Amendment**
-    a. Amendment Change Due Date (CDD)
-    b. Amendment Prepayment (ET)
-    c. Amendment Reschedule
-    
-**6. Account Maintenance***
-    a. Payment Receive
-    b. Payment Reversal
-    c. Waived Transaction
-    d. Write Off NA
-    
-**7. Asset Document**
-    a. Asset Document Borrow
-    b. Asset Document Release
-    c. Asset Document Transfer
+**Amendment**
 
-**8. Collection**
-    a. Coll Expense Advance
-    b. Coll Expense Non Advance
-    c. Collection
-
-**9. Remedial**
-    a. Rem Expense Advance
-    b. Rem Expense Non Advance
-    c. Remedial
+    1. Amendment Change Due Date (CDD)
+    2. Amendment Prepayment (ET)
+    3. Amendment Reschedule
     
-**10. Inventory**
-    a. Asset Appraisal
-    b. Inventory Selling
+**Account Maintenance***
 
-**11. Payment SP (SQL)**
-    a. Indomaret CDM
-    b. Indomaret MST
-    c. Artha Jasa
-    d. Permata
+    1. Payment Receive
+    2. Payment Reversal
+    3. Waived Transaction
+    4. Write Off NA
+    
+**Asset Document**
+
+    1. Asset Document Borrow
+    2. Asset Document Release
+    3. Asset Document Transfer
+
+**Collection**
+
+    1. Coll Expense Advance
+    2. Coll Expense Non Advance
+    3. Collection
+
+**Remedial**
+
+    1. Rem Expense Advance
+    2. Rem Expense Non Advance
+    3. Remedial
+    
+**Inventory**
+
+    1. Asset Appraisal
+    2. Inventory Selling
+
+**Payment SP (SQL)**
+
+    1. Indomaret CDM
+    2. Indomaret MST
+    3. Artha Jasa
+    4. Permata
