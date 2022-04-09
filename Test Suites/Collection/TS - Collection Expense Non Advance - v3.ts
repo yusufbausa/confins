@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>31a8daef-bfad-4bd1-a0f1-ecb4f8d8c1f8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Collection Expense/Collection Expense Request/Collection Expense Request Non-Advance - v3</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -119,7 +119,7 @@
    <testCaseLink>
       <guid>ff59fda9-8d41-402c-bfe7-81bf5d757144</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Collection Expense/Collection Expense Approval/Collection Expense Approval - v3</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -209,7 +209,7 @@
    <testCaseLink>
       <guid>84020d5c-b0de-4336-9b01-7edbd0187869</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Confirm Repossess/Confirm Repossess Coll Expense - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
