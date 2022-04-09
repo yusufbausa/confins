@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>49e1bf13-fd5d-4ae8-9055-5a0c8ff16188</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value>1-2</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Application/CR to CA Company</testDataId>
       </testDataLink>
@@ -77,8 +77,8 @@
          <combinationType>ONE</combinationType>
          <id>d8403289-d0ae-4370-a8f0-6e941ec53093</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value>1-2</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Application/CR to CA Company</testDataId>
       </testDataLink>
@@ -122,8 +122,8 @@
          <combinationType>ONE</combinationType>
          <id>78e7db2f-c554-4b23-a142-148e2af9a40b</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value>1-2</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Application/CR to CA Company</testDataId>
       </testDataLink>
@@ -167,8 +167,8 @@
          <combinationType>ONE</combinationType>
          <id>002d7560-e41c-4dbf-ad15-bc225314e3b5</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Application/CR to CA Company</testDataId>
       </testDataLink>
@@ -206,14 +206,14 @@
    <testCaseLink>
       <guid>414c6ab8-2296-4312-bdee-f16000f4fbfc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/App - Go Live/2. Credit Approval/CA Company/CA Credit Division Head/CA Credit Division Head - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>43f973a8-c3bb-4b3d-b8dc-eb5282d3f3b9</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Application/CR to CA Company</testDataId>
       </testDataLink>
@@ -257,8 +257,8 @@
          <combinationType>ONE</combinationType>
          <id>bb1492ff-dce5-4985-8b60-940baf0b5b34</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Application/CR to CA Company</testDataId>
       </testDataLink>

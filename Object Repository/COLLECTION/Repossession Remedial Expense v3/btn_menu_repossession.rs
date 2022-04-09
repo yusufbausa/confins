@@ -10,6 +10,10 @@
          <value>div.rtTop.rtHover > a.rtIn</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/ul/li[1]/div/a[count(. | //*[(text() = 'Repossess' or . = 'Repossess') and @ref_element = 'Object Repository/COLLECTION/Repossession Remedial Expense v3/iframe_Welcome, RULLY INDRA PERMANA, REMEDI_5bdf12']) = count(//*[(text() = 'Repossess' or . = 'Repossess') and @ref_element = 'Object Repository/COLLECTION/Repossession Remedial Expense v3/iframe_Welcome, RULLY INDRA PERMANA, REMEDI_5bdf12'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//a[@onclick='return false'])[2]</value>
       </entry>
@@ -56,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/ul/li[1]/div/a</value>
+      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/ul/li[1]/div/a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

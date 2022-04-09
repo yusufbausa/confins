@@ -51,6 +51,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Amendment/Request/CD
 	'PRP', false)
 WebUI.setText(findTestObject('Object Repository/Amendment/Request/CDD/input_Agreement No_ucSearchtxtAgrmntNo_ltlA_96f6b8'), agreeNo)
 WebUI.click(findTestObject('Object Repository/Amendment/Request/CDD/input_Address_ucSearchbtnSearch'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/Amendment/Request/CDD/input_No_gvAgrmntctl02imbEdit'), 30)
 WebUI.click(findTestObject('Object Repository/Amendment/Request/CDD/input_No_gvAgrmntctl02imbEdit'))
 WebUI.delay(1)
 
@@ -61,6 +62,8 @@ WebUI.sendKeys(findTestObject('Object Repository/Amendment/Request/ET/input_Effe
 WebUI.setText(findTestObject('Object Repository/Amendment/Request/ET/input_Effective Date_ucDpEffectiveDttxtDatePicker'), effDate)
 WebUI.sendKeys(findTestObject('Object Repository/Amendment/Request/ET/input_Effective Date_ucDpEffectiveDttxtDatePicker'), Keys.chord(Keys.ENTER))
 
+WebUI.click(findTestObject('Object Repository/Amendment/Request/ET/input_This field is required_lbCalPrepaymet'))
+WebUI.delay(2)
 
 //WebUI.acceptAlert()WebUI.click(findTestObject('Object Repository/Amendment/Request/ET/input_This field is required_lbCalPrepaymet'))
 WebUI.scrollToElement(findTestObject('Object Repository/Amendment/Request/ET/select_Select OneKONDISI KEUANGAN MEMUNGKIN_0c6d50'), 10)

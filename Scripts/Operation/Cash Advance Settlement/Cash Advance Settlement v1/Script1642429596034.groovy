@@ -41,10 +41,10 @@ WebUI.delay(1)
 //input cust credential & CAS process
 WebUI.setText(findTestObject('Object Repository/Operation/Cash Advance Settlement/field_agreement_no'), agreeNo)
 WebUI.click(findTestObject('Object Repository/Operation/Cash Advance Settlement/btn_search'))
-//WebUI.delay(1)
+WebUI.delay(1)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Operation/Cash Advance Settlement/btn_action'), 0)
 WebUI.click(findTestObject('Object Repository/Operation/Cash Advance Settlement/btn_action'))
-//WebUI.delay(1)
-	
 WebUI.verifyAlertPresent(0)
 WebUI.acceptAlert()
 WebUI.delay(10)

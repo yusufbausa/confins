@@ -48,7 +48,8 @@ WebUI.delay(30)
 //INPUT CUST CREDENTIAL
 WebUI.setText(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/field_agree_no'), agreeNo)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/btn_search'))
-//WebUI.delay(1)
+WebUI.delay(1)
+WebUI.waitForElementPresent(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/btn_repossess'), 30)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/btn_repossess'))
 WebUI.delay(1)
 
@@ -60,11 +61,11 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/COLLECTION/Repossess
 WebUI.setText(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/field_asset_condition'), assetCondition)
 WebUI.setText(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/field_license_owner'), licenseOwner)
 WebUI.setText(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/field_license_exp_date'), licenseExpDate)
+
 WebUI.click(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/img_search_zipCode'))
 WebUI.delay(1)
 WebUI.setText(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/field_kelurahan'), kelurahan)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/btn_search_zipCode'))
-//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/btn_select_zipCode'))
 WebUI.delay(1)
 
@@ -190,6 +191,7 @@ WebUI.click(findTestObject('REMEDIAL/Repossession/check_yes_karoseri_dump'))
 WebUI.click(findTestObject('REMEDIAL/Repossession/check_yes_tanggal_STNK'))
 WebUI.click(findTestObject('REMEDIAL/Repossession/check_yes_angka_kilometer'))
 WebUI.click(findTestObject('REMEDIAL/Repossession/check_yes_ditarik_pihak_ketiga'))
+WebUI.delay(1)
 
 
 //EXECUTOR INFO
@@ -200,7 +202,7 @@ WebUI.setText(findTestObject('Object Repository/COLLECTION/Repossession Remedial
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/COLLECTION/Repossession Remedial Expense v3/btn_submit'))
-WebUI.delay(3)
+WebUI.delay(5)
 
 
 //close browser

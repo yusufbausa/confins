@@ -40,12 +40,13 @@ WebUI.click(findTestObject('Delivery Order/select_role'))
 WebUI.click(findTestObject('Delivery Order Siap Dana/button_menu'))
 //WebUI.delay(1)
 WebUI.click(findTestObject('Delivery Order Siap Dana/btn_menu_delivery_orderr'))
-//WebUI.delay(1)
+WebUI.delay(1)
 	
 	
 //input cust credential (app number)
 WebUI.setText(findTestObject('Delivery Order Siap Dana/field_app_number'), appNo)	
 WebUI.click(findTestObject('Delivery Order Siap Dana/button_search'))
+WebUI.delay(1)
 WebUI.click(findTestObject('Delivery Order Siap Dana/button_entry'))
 WebUI.delay(1)
 	

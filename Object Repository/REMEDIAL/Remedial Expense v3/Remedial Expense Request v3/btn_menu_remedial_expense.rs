@@ -10,12 +10,12 @@
          <value>#rModuleList_lbModuleList_4</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[5]/div/div[5]/a[count(. | //*[(text() = 'Remedial Expense' or . = 'Remedial Expense') and @ref_element = 'Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/iframe_Welcome, TYAS UNTORO, REMEDIAL AREA _a9ac27']) = count(//*[(text() = 'Remedial Expense' or . = 'Remedial Expense') and @ref_element = 'Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/iframe_Welcome, TYAS UNTORO, REMEDIAL AREA _a9ac27'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='rModuleList_lbModuleList_4']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/form/div[5]/div/div[5]/a[count(. | //*[(text() = 'Remedial Expense' or . = 'Remedial Expense') and @ref_element = 'Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/iframe_Welcome, TYAS UNTORO, REMEDIAL AREA _a9ac27']) = count(//*[(text() = 'Remedial Expense' or . = 'Remedial Expense') and @ref_element = 'Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/iframe_Welcome, TYAS UNTORO, REMEDIAL AREA _a9ac27'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

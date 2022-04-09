@@ -703,6 +703,12 @@
          <value>url</value>
          <variableId>e5788dbc-4c09-4e47-a20d-e867c3a44a7b</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4d592332-d4f6-44ec-b26a-7c211a9befc6</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>5ed479bb-5f54-4676-938f-ddaecd982fc3</guid>

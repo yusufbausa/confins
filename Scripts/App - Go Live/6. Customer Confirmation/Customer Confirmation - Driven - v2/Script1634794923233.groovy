@@ -39,15 +39,18 @@ WebUI.click(findTestObject('Delivery Order/select_role'))
 WebUI.click(findTestObject('Object Repository/Customer Confirmation/img_Welcome, AMAN ASTARI, TANGERANG, Sales _473e4a'))
 //WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Customer Confirmation/a_Customer Confirmation'))
-//WebUI.delay(1)
+WebUI.delay(1)
 
 
 //INPUT CUSTOMER APP NUMBER
 WebUI.setText(findTestObject('Object Repository/Customer Confirmation/input_Application No_ucSearchtxtAppNo_ltlAgrmntAppNo'), 
     appNumber)
 WebUI.click(findTestObject('Object Repository/Customer Confirmation/input_Task Claim By_ucSearchbtnSearch'))
+WebUI.delay(1)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Customer Confirmation/input_MULTIGUNA NON PAKET_gvCustConfirmatio_98963a'), 30)
 WebUI.click(findTestObject('Object Repository/Customer Confirmation/input_MULTIGUNA NON PAKET_gvCustConfirmatio_98963a'))
-//WebUI.delay(1)
+WebUI.delay(1)
 
 
 //CUSTOMER CONFIRMATION PROCESS

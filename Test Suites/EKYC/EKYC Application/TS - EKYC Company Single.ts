@@ -21,7 +21,7 @@
          <id>84234f3b-dc0a-4020-a7f4-a5e4edb57555</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>6</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Company/Single/Credit Simulation Company Single</testDataId>
       </testDataLink>
@@ -126,7 +126,7 @@
          <id>1d7f393b-3bb0-410b-84f1-c7646cd86121</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>6</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Company/Single/CDE Company</testDataId>
       </testDataLink>
@@ -165,7 +165,7 @@
          <id>a93782d6-45d1-4f0b-ad14-4ea1ddafa222</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>6</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Company/Single/CDE Completion Company Single</testDataId>
       </testDataLink>
@@ -288,7 +288,7 @@
          <id>9cc883c3-26a4-441d-a306-b302dbbfe0f5</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>6</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Company/Single/NAP DE Company Single</testDataId>
       </testDataLink>

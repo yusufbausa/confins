@@ -50,6 +50,7 @@ WebUI.delay(60)
 WebUI.selectOptionByValue(findTestObject('COLLECTION/Send Asset to Pool/select_collection_group'), '1', false)
 WebUI.setText(findTestObject('COLLECTION/Send Asset to Pool/field_agreement_number'), agreeNo)
 WebUI.click(findTestObject('COLLECTION/Send Asset to Pool/button_search'))
+WebUI.delay(1)
 WebUI.click(findTestObject('COLLECTION/Send Asset to Pool/button_edit_data'))
 WebUI.delay(1)
 	

@@ -45,12 +45,13 @@ WebUI.click(findTestObject('REMEDIAL/Repossession/menu_repossession'))
 WebUI.click(findTestObject('REMEDIAL/Repossession/expand_menu_repossess'))
 //WebUI.delay(1)
 WebUI.click(findTestObject('REMEDIAL/Change Asset Expected Date Req/button_menu_change_inv_expected_date'))
-//WebUI.delay(1)
+WebUI.delay(1)
 
 
 //input cust credential (agreement number)
 WebUI.setText(findTestObject('REMEDIAL/Change Asset Expected Date Req/field_agreement_number'), agreeNo)
 WebUI.click(findTestObject('REMEDIAL/Change Asset Expected Date Req/button_search'))
+WebUI.delay(1)
 WebUI.click(findTestObject('REMEDIAL/Change Asset Expected Date Req/button_change'))
 WebUI.delay(1)
 

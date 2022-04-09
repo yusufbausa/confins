@@ -404,12 +404,12 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/N
 WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/NAP DE Company/btn_submit'), 30)
 WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/NAP DE Company/btn_submit'))
 WebUI.click(findTestObject('Object Repository/EKYC/Application/NAP DE Company/btn_submit'))
-WebUI.delay(1)
-WebUI.waitForAlert(30)
+//WebUI.delay(1)
+//WebUI.waitForAlert(30)
+WebUI.verifyAlertPresent(0)
 WebUI.acceptAlert()
 WebUI.delay(5)
 
 
 //CLOSE BROWSER
 WebUI.closeBrowser()
-

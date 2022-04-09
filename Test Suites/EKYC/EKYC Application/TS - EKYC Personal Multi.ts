@@ -14,14 +14,14 @@
    <testCaseLink>
       <guid>c0b9d42f-6b45-4c30-984e-badbd71922ec</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EKYC/Application/1. Credit Simulation/Personal/Credit SImulation Personal Multi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8836d407-a898-43d1-b2a0-521c94a74458</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>2</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Personal/Multi/Credit Simulation Personal Multi</testDataId>
       </testDataLink>
@@ -143,14 +143,14 @@
    <testCaseLink>
       <guid>5bcc68e1-1261-4f4e-82d2-2b69b5828c24</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EKYC/Application/2. CDE/Personal/CDE Personal</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ec7b6361-9dec-4d79-ac4c-ae45f23939df</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>2</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Personal/Multi/CDE Personal Multi</testDataId>
       </testDataLink>
@@ -200,14 +200,14 @@
    <testCaseLink>
       <guid>08030ee7-f935-4408-be24-6169edc3b94b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EKYC/Application/3. CDE Completion/Personal/CDE Completion Personal Multi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>dcfbe62b-fb8f-46a8-9254-669f5b2786c5</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>2</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Personal/Multi/CDE Completion Personal Multi</testDataId>
       </testDataLink>
@@ -336,7 +336,7 @@
          <id>8ce3ae0f-744b-40cb-9071-c1e6ce70aebe</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>2</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/EKYC/Application/Personal/Multi/NAP DE Personal Multi</testDataId>
       </testDataLink>

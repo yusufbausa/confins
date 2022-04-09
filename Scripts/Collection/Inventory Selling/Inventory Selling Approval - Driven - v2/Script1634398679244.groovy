@@ -34,7 +34,7 @@ WebUI.maximizeWindow()
 WebUI.setText(findTestObject('Login/username'), usernameARH)
 WebUI.setText(findTestObject('Login/password'), password)
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
+//WebUI.delay(1)
 
 
 //select role
@@ -51,9 +51,9 @@ WebUI.delay(1)
 
 //input cust credential (agreement number)
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/field_agreement_number'), 20)
-WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/field_agreement_number'), 
-    agreeNo)
+WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/field_agreement_number'), agreeNo)
 WebUI.click(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/button_search'))
+
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/button_process'), 20)
 WebUI.click(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/button_process'))
 WebUI.delay(1)
@@ -61,11 +61,11 @@ WebUI.delay(1)
 
 //inventory selling approval process
 WebUI.waitForElementPresent(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/select_action'), 20)
-WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/select_action'), 
-    'Approve', false)
+WebUI.selectOptionByValue(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/select_action'), 'Approve', false)
 WebUI.delay(1)
-WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/field_notes'), 
-    notes)
+
+WebUI.setText(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/field_notes'), notes)
+
 WebUI.click(findTestObject('COLLECTION/Inventory Selling/Inventory Selling Approval/button_submit'))
 WebUI.delay(5)
 

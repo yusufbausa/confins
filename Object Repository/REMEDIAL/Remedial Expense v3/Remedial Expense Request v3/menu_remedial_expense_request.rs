@@ -10,12 +10,12 @@
          <value>div.rtMid.rtHover > a.rtIn</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[2]/div/ul/li[6]/div/a[count(. | //*[(text() = 'Remedial Expense Request' or . = 'Remedial Expense Request') and @ref_element = 'Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/iframe_Welcome, TYAS UNTORO, REMEDIAL AREA _a9ac27']) = count(//*[(text() = 'Remedial Expense Request' or . = 'Remedial Expense Request') and @ref_element = 'Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/iframe_Welcome, TYAS UNTORO, REMEDIAL AREA _a9ac27'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//a[@onclick='return false'])[6]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Remedial Expense Request' or . = 'Remedial Expense Request') and @ref_element = 'Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/iframe_Welcome, TYAS UNTORO, REMEDIAL AREA _a9ac27']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -56,7 +56,7 @@
       <value>Remedial Expense Request</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

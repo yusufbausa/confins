@@ -37,14 +37,14 @@ WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset I
 
 //select menu asset inventory approval from things to do
 WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval/btn_menu_rem_asset_inv_approval'))
-//WebUI.delay(1)
+WebUI.delay(1)
 
 
 //input cust credential (agree no)
 WebUI.setText(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval/field_agreement_number'),
 	agreeNo)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval/btn_search'))
-//WebUI.delay(1)
+WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval/btn_process'))
 WebUI.delay(1)
 
@@ -57,7 +57,7 @@ WebUI.setText(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval/btn_submit'))
-WebUI.delay(3)
+WebUI.delay(5)
 
 
 //close browser

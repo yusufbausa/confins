@@ -33,9 +33,10 @@ WebUI.click(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Disbursement/DIsbursement Selection/btn_menu'))
 WebUI.selectOptionByValue(findTestObject('Disbursement/DIsbursement Selection/select_menu_disbursement'), '83', false)
 WebUI.click(findTestObject('Disbursement/DIsbursement Selection/menu_disbursement_selection'))
-//WebUI.delay(1)
+WebUI.delay(1)
 	
 //input cust credential
+WebUI.waitForElementPresent(findTestObject('Disbursement/DIsbursement Selection/select_AP_type_name'), 30)
 WebUI.selectOptionByLabel(findTestObject('Disbursement/DIsbursement Selection/select_AP_type_name'), apTypeName, false)
 WebUI.setText(findTestObject('Disbursement/DIsbursement Selection/field_AP_due_date'), date)
 WebUI.selectOptionByLabel(findTestObject('Disbursement/DIsbursement Selection/select_bank_name'), bankName, false)
@@ -43,7 +44,8 @@ WebUI.setText(findTestObject('Disbursement/DIsbursement Selection/field_AP_desti
 WebUI.delay(1)
 	
 WebUI.click(findTestObject('Disbursement/DIsbursement Selection/btn_search'))
-//WebUI.delay(1)
+WebUI.delay(1)
+WebUI.waitForElementPresent(findTestObject('Disbursement/DIsbursement Selection/check_selected_data'), 30)
 WebUI.click(findTestObject('Disbursement/DIsbursement Selection/check_selected_data'))
 WebUI.click(findTestObject('Disbursement/DIsbursement Selection/btn_add_to_temp'))
 WebUI.delay(1)
@@ -57,6 +59,8 @@ WebUI.selectOptionByLabel(findTestObject('Disbursement/DIsbursement Selection/se
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Disbursement/DIsbursement Selection/btn_request_for_approval'))
+WebUI.verifyAlertPresent(0)
+WebUI.acceptAlert()
 WebUI.delay(3)
 	
 	

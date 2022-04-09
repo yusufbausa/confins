@@ -6,12 +6,12 @@
    <elementGuidId>0d0f83fe-53c4-479e-9b48-c4ecb7a95333</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.rtTop.rtHover > a.rtIn</value>
+         <key>BASIC</key>
+         <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/ul/li[1]/div/a[count(. | //*[(text() = 'Repossess' or . = 'Repossess') and @ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[(text() = 'Repossess' or . = 'Repossess') and @ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/ul/li[1]/div/a[count(. | //*[(text() = 'Repossess' or . = 'Repossess') and @ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c']) = count(//*[(text() = 'Repossess' or . = 'Repossess') and @ref_element = 'Object Repository/COLLECTION/Confirm Repossess/iframe_Welcome, INDARTO TEGUH WARTONO, Jaka_97930c'])]</value>
+         <key>CSS</key>
+         <value>div.rtTop.rtHover > a.rtIn</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div[2]/div/ul/li[3]/ul/li[1]/div/a</value>
+      <value>/html/body/form/div[4]/div[2]/div/ul/li[4]/ul/li[1]/div/a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

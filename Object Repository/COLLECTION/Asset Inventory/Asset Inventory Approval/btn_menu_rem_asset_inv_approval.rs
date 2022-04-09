@@ -6,16 +6,16 @@
    <elementGuidId>5669efa6-8698-442a-ba30-9498c4097d2f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#12_C_uc12_rptApproval_lbApproval0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='12_C_uc12_rptApproval_lbApproval0']</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>#12_C_uc12_rptApproval_lbApproval0</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'linkToDo' and (text() = 'Remedial Asset Inventory Approval' or . = 'Remedial Asset Inventory Approval') and @ref_element = 'Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval/iframe_Welcome, IMAN SATRIA SIDABUTAR, Jaka_ccde7f']</value>
+         <value>//*[(text() = 'Remedial Asset Inventory Approval' or . = 'Remedial Asset Inventory Approval') and @ref_element = 'Object Repository/COLLECTION/Asset Inventory/Asset Inventory Approval/iframe_Welcome, IMAN SATRIA SIDABUTAR, Jaka_ccde7f']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <value>12_C_uc12_rptApproval_lbApproval0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

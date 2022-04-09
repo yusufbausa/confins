@@ -10,12 +10,12 @@
          <value>#rModuleList_lbModuleList_4</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/form/div[5]/div/div[5]/a[count(. | //*[(text() = 'Remedial Expense' or . = 'Remedial Expense') and @ref_element = 'Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Approval v3/iframe_Welcome, RULLY INDRA PERMANA, REMEDI_5bdf12']) = count(//*[(text() = 'Remedial Expense' or . = 'Remedial Expense') and @ref_element = 'Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Approval v3/iframe_Welcome, RULLY INDRA PERMANA, REMEDI_5bdf12'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='rModuleList_lbModuleList_4']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Remedial Expense' or . = 'Remedial Expense') and @ref_element = 'Object Repository/REMEDIAL/Remedial Expense v3/Remedial Expense Approval v3/iframe_Welcome, RULLY INDRA PERMANA, REMEDI_5bdf12']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,7 +49,7 @@
       <value>Remedial Expense</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

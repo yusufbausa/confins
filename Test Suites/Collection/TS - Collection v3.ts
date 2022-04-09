@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>bdf1c3fe-ec69-431c-a772-d577465692f2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Doc Memo Pending/Doc Memo Pending</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>71771e26-e023-494e-b3dd-8f0dfd3b7b1d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Change Asset Expected Date/Change Asset Inventory Expected Date Request - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -122,7 +122,7 @@
    <testCaseLink>
       <guid>bc93e577-b9fa-4b0d-80b1-714884857460</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Change Asset Expected Date/Change Asset Inventory Expected Date Approval - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -167,7 +167,7 @@
    <testCaseLink>
       <guid>5183694a-a466-47c5-b1d1-f1477139883f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Change Asset Expected Date/Change Inventory Expected Date Approval - OPR - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -212,7 +212,7 @@
    <testCaseLink>
       <guid>406a3cfe-a351-44f3-b533-0c947b07f1d9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Change Asset Expected Date/Change Inventory Expected Date Approval - OPR - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -257,7 +257,7 @@
    <testCaseLink>
       <guid>a05ef0f3-76d0-40b6-99ac-f5e7982e6927</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Change Asset Expected Date/Change Asset Inventory Expected Date Approval ARDH - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -302,7 +302,7 @@
    <testCaseLink>
       <guid>79e0fa46-be03-42f1-b58f-cfbf5e1c101c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Change Asset Expected Date/Change Asset Inventory Expected Date Approval ARDH - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -316,7 +316,7 @@
       <variableLink>
          <testDataLinkId>d37c4a5b-db17-4e36-a262-bfb5989a6d84</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>usernameARDH</value>
+         <value>usernameColaDeptHead</value>
          <variableId>6380be5d-6d5d-4c11-afae-eaf450c42ec8</variableId>
       </variableLink>
       <variableLink>
@@ -347,7 +347,7 @@
    <testCaseLink>
       <guid>564d8acd-00ff-4fa8-9cd5-b4687da79b4d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Send Asset to Pool/Send Asset to Pool - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -404,7 +404,7 @@
    <testCaseLink>
       <guid>b1a9dcfe-1e22-4ada-ae24-a60c3784f050</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Asset Inventory/Asset Inventory Request</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -424,7 +424,7 @@
       <variableLink>
          <testDataLinkId>da8e5dbb-e798-4205-9187-6186f8413af7</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>usernameAR</value>
+         <value>usernameCollector</value>
          <variableId>948bcd3b-8071-45f6-bb89-8a851d941af2</variableId>
       </variableLink>
       <variableLink>
@@ -455,7 +455,7 @@
    <testCaseLink>
       <guid>2704820b-d701-4960-aec2-0e29d2eb9778</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Asset Inventory/Asset Inventory Approval FH</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

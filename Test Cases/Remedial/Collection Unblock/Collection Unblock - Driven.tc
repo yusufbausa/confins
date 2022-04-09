@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>0dee679e-d70e-4e1a-a34e-36da5a31b50d</testCaseGuid>
    <variable>
-      <defaultValue>'http://confins-uat.taf.co.id/confins/'</defaultValue>
+      <defaultValue>'http://confins-qa.taf.co.id/confins/'</defaultValue>
       <description></description>
       <id>1c455345-e973-47a9-987b-7e93d881f89a</id>
       <masked>false</masked>
       <name>url</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'TUN0391'</defaultValue>
       <description></description>
       <id>362fb2a1-8ff3-40df-a9cb-bb3c709ba887</id>
       <masked>false</masked>
@@ -27,14 +27,14 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'2119904851'</defaultValue>
       <description></description>
       <id>5ad6d57f-cfe4-4b18-b1e3-043636c0504a</id>
       <masked>false</masked>
       <name>agreeNo</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'notes'</defaultValue>
       <description></description>
       <id>ed2151c0-6dd0-4c5a-9255-d34f425025ae</id>
       <masked>false</masked>

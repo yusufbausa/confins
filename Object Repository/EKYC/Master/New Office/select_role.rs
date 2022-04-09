@@ -6,12 +6,16 @@
    <elementGuidId>15352eae-a576-4269-87ac-4d6b3f0eb4d9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_24</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='uModDRole_ctl00_gvRoles_lbSelectRole_24']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#uModDRole_ctl00_gvRoles_lbSelectRole_24</value>
+         <key>BASIC</key>
+         <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[28]/td[4]/a[count(. | //*[(text() = 'Select' or . = 'Select')]) = count(//*[(text() = 'Select' or . = 'Select')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -56,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[26]/td[4]/a</value>
+      <value>/html/body/form/div[4]/div/div/div/table/tbody/tr[28]/td[4]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

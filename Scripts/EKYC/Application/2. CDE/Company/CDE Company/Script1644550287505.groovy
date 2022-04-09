@@ -106,4 +106,3 @@ WebUI.delay(5)
 
 //CLOSE BROWSER
 WebUI.closeBrowser()
-

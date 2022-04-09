@@ -16,102 +16,58 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+	
 // CREDIT SIMULATION
-
-
+	
+	
 //OPENING BROWSER
 WebUI.openBrowser('')
 WebUI.navigateToUrl(url)
 WebUI.maximizeWindow()
-
-
+	
+	
 //INPUT CREDENTIAL-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-WebUI.waitForElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/username'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/username'))
 WebUI.setText(findTestObject('Login/username'), usernameCDE)
-
-WebUI.waitForElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/password'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/password'))
 WebUI.setText(findTestObject('Login/password'), password)
-
-WebUI.waitForElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementPresent(findTestObject('Login/btn_login'), 30)
-WebUI.verifyElementClickable(findTestObject('Login/btn_login'))
 WebUI.click(findTestObject('Login/btn_login'))
-WebUI.delay(1)
-
-
+//WebUI.delay(1)
+	
+	
 //SELECT ROLE
-WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/select_role'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/select_role'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Personal/select_role'))
 WebUI.click(findTestObject('Object Repository/EKYC/Application/CDE Personal/select_role'))
-WebUI.delay(2)
-
-
+//WebUI.delay(2)
+	
+	
 //SELECT MENU MARKETING
-WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_menu'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_menu'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_menu'))
 WebUI.click(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_menu'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/select_menu_marketing'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/select_menu_marketing'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Personal/select_menu_marketing'))
 WebUI.selectOptionByLabel(findTestObject('Object Repository/EKYC/Application/CDE Personal/select_menu_marketing'), 'MARKETING', false)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/menu_centralized_data_entry'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/menu_centralized_data_entry'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Personal/menu_centralized_data_entry'))
 WebUI.click(findTestObject('Object Repository/EKYC/Application/CDE Personal/menu_centralized_data_entry'))
-WebUI.delay(60)
-
-
+WebUI.delay(70)
+	
+	
 //INPUT CUST CREDENTIAL (CUST NAME)
-WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_cust_name'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_cust_name'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_cust_name'))
 WebUI.setText(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_cust_name'), custName)
-
 WebUI.click(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_search'))
 WebUI.delay(1)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_action'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_action'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_action'))
 WebUI.click(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_action'))
-WebUI.delay(2)
-
-
+WebUI.delay(1)
+	
+	
 //CDE PROCESS
-WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_birth_place'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_birth_place'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_birth_place'))
 WebUI.setText(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_birth_place'), birthPlace)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_birth_date'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_birth_date'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_birth_date'))
+//WebUI.delay(1)
 WebUI.setText(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_birth_date'), birthDate)
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_ktp'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_ktp'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_ktp'))
+//WebUI.delay(1)
 WebUI.setText(findTestObject('Object Repository/EKYC/Application/CDE Personal/field_ktp'), ktp)
-WebUI.delay(1)
+//WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_matching_customer'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_matching_customer'), 30)
-WebUI.verifyElementClickable(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_matching_customer'))
 WebUI.click(findTestObject('Object Repository/EKYC/Application/CDE Personal/btn_matching_customer'))
-WebUI.delay(5)
-
-
+WebUI.delay(3)
+	
+	
 //CLOSE BROWSER
 WebUI.closeBrowser()
-
+	
+	

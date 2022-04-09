@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>31a8daef-bfad-4bd1-a0f1-ecb4f8d8c1f8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Collection Expense/Collection Expense Request/Collection Expense Request Advance - v3</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -101,7 +101,7 @@
    <testCaseLink>
       <guid>ff59fda9-8d41-402c-bfe7-81bf5d757144</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Collection Expense/Collection Expense Approval/Collection Expense Approval - v3</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -146,7 +146,7 @@
    <testCaseLink>
       <guid>4acec125-5e14-4bd0-ac72-bfa9de233be8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Collection/Collection Expense/Collection Expense Approval/Collection Expense Approval - v3</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -191,7 +191,7 @@
    <testCaseLink>
       <guid>b86d6e1e-5628-45ec-83ad-c3d9d7d317b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Disbursement/Disbursement Selection/Disbursement Selection v1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -260,7 +260,7 @@
    <testCaseLink>
       <guid>ed6bf7cb-99cb-4206-bc88-6c3ce905a664</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Disbursement/Disbursement Approval/Disbursement Approval v1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -317,7 +317,7 @@
    <testCaseLink>
       <guid>6432e867-1159-4611-8914-3d3f2ff66072</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Disbursement/Disbursement Execution/Disbursement Execution v1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

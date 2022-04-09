@@ -41,14 +41,14 @@ WebUI.selectOptionByLabel(findTestObject('REMEDIAL/Remedial Expense v3/Remedial 
 	'REMEDIAL', false)
 WebUI.click(findTestObject('REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/btn_menu_remedial_expense'))
 WebUI.click(findTestObject('REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/menu_remedial_expense_request'))
-//WebUI.delay(1)
+WebUI.delay(1)
 												
 												
 //input cust credential
 WebUI.setText(findTestObject('REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/field_agreement_no'), agreeNo)
 WebUI.selectOptionByLabel(findTestObject('REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/select_coll_bucket_name'), collBucketName, false)
 WebUI.click(findTestObject('REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/btn_search'))
-//WebUI.delay(1)
+WebUI.delay(1)
 WebUI.click(findTestObject('REMEDIAL/Remedial Expense v3/Remedial Expense Request v3/btn_action'))
 WebUI.delay(1)
 												

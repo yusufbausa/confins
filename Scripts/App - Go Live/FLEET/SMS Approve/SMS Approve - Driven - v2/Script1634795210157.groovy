@@ -41,6 +41,8 @@ WebUI.delay(1)
 //INPUT CUST CREDENTIAL======================================================================================================================================================================================
 WebUI.setText(findTestObject('Object Repository/FLEET/SMS Approve/input_Transaction No._ucSearchtxtTransactionCode_ltlWfTaskListsTransactionCode'), appNo)
 WebUI.click(findTestObject('Object Repository/FLEET/SMS Approve/input_Instance GUID_ucSearchbtnSearch'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/FLEET/SMS Approve/input_SYSTEM_gvUserTaskctl02lb_ResumeTask'), 30)
 WebUI.click(findTestObject('Object Repository/FLEET/SMS Approve/input_SYSTEM_gvUserTaskctl02lb_ResumeTask'))
 WebUI.delay(1)
 	

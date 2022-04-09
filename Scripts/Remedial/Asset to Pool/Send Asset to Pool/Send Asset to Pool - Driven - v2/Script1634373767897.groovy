@@ -43,13 +43,14 @@ WebUI.selectOptionByValue(findTestObject('REMEDIAL/Asset to Pool/Send Asset to P
 WebUI.click(findTestObject('REMEDIAL/Asset to Pool/Send Asset to Pool/expand_menu_send_asset_to_pool'))
 //WebUI.delay(1)
 WebUI.click(findTestObject('REMEDIAL/Asset to Pool/Send Asset to Pool/button_menu_send_asset_to_pool'))
-WebUI.delay(45)
+WebUI.delay(70)
 
 
 //input cust credential (agreement number)
 WebUI.selectOptionByValue(findTestObject('REMEDIAL/Asset to Pool/Send Asset to Pool/select_collection_group'), '31', false)
 WebUI.setText(findTestObject('REMEDIAL/Asset to Pool/Send Asset to Pool/field_agreement_number'), agreeNo)
 WebUI.click(findTestObject('REMEDIAL/Asset to Pool/Send Asset to Pool/button_search'))
+WebUI.delay(1)
 WebUI.click(findTestObject('REMEDIAL/Asset to Pool/Send Asset to Pool/button_send'))
 WebUI.delay(1)
 
@@ -65,7 +66,7 @@ WebUI.setText(findTestObject('REMEDIAL/Asset to Pool/Send Asset to Pool/field_no
 WebUI.delay(1)
 
 WebUI.click(findTestObject('REMEDIAL/Asset to Pool/Send Asset to Pool/button_submit'))
-WebUI.delay(3)
+WebUI.delay(5)
 
 
 //close browser

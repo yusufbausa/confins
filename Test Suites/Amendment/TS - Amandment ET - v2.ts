@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>4cf0919c-5119-4192-a33e-d345d23ee969</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Amendment/Request/Request ET - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>5c5f2350-5b58-4a08-bbca-bf8c46928551</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Amendment/Approval/Approval ET - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -104,7 +104,7 @@
    <testCaseLink>
       <guid>6b9341b2-2c12-4966-a5e6-d2f171fc48cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Account Maintenance/Payment Receive/Payment Receive - Driven - v2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
