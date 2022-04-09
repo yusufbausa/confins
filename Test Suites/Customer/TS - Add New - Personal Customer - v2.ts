@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>9a318366-6cca-468f-89e2-a4cd074c727a</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-3</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Customer/Data New Customer Personal</testDataId>
       </testDataLink>
